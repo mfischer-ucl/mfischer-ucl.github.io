@@ -63,7 +63,7 @@ author:
   bio    : "I am a first-year PhD student in AI and Computer Graphics at University College London."
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin-in"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/michael-fischer-32b43b1a4"
     - label: "UCL Webpage"
       icon: "fas fa-fw fa-university"
