@@ -1,6 +1,10 @@
 ---
 permalink: /
-title: "About"
+title: "Welcome"
+author_profile: true
+classes: wide
+header:
+  image: /assets/images/network-crop.jpg
 ---
 
 Hi, I'm Michael Fischer, a first-year PhD student in AI and Computer Graphics at [University College London](https://www.ucl.ac.uk).
