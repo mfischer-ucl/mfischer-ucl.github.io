@@ -3,6 +3,14 @@ permalink: /about/
 title: "About"
 ---
 
-Test. This is a test. Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hi, I'm Michael Fischer, a first-year PhD student in AI and Computer Graphics at [University College London](https://www.ucl.ac.uk).
+I am working with [Tobias Ritschel](http://www.homepages.ucl.ac.uk/~ucactri/) and [Niloy Mitra](http://www0.cs.ucl.ac.uk/staff/n.mitra/)
+to research deep and efficient representations of high-fidelity graphic assets. 
+Currently, my research focuses on appearance decompositions and meta-learning.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+I received my B.Sc. in Aerospace Information Technology from the [University of Wuerzburg](https://www.uni-wuerzburg.de/startseite)
+, under the supervision of [Sergio Montenegro](https://www.informatik.uni-wuerzburg.de/aerospaceinfo/mitarbeiter/montenegro).
+Subsequently, I completed my M.Sc. in Computer Science with focus on intelligent systems under the supervision, and have 
+been working with [Konstantin Kobs](https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs) and [Andreas Hotho](https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho). 
+I spent a summer at MBDA Germany, where I researched the potential of reinforcement learning for 
+automated swarm control.
