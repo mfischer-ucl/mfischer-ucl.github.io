@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Michael Fischer"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile-image.jpg"
   bio    : "I am a first-year PhD student in AI and Computer Graphics at University College London."
   links:
     - label: "LinkedIn"
