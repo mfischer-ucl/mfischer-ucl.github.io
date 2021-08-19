@@ -8,4 +8,7 @@ header:
 
 ---
 
-Test. This is a test. 
+* ## UCL - Comp0027 - Computer Graphics <br> 
+  teaching, student support, coursework correction and grading
+* ### JMU - Hardware Lab "Internet Technologies"
+  student tutoring, lecture support, student examination and grading 

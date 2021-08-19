@@ -51,9 +51,8 @@ Subsequently, I completed my M.Sc. in Computer Science with focus on intelligent
 
 been working with <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a> and <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a>. 
 
-I spent a summer at <a href="https://www.mbda-deutschland.de">MBDA Germany</a>, where I researched the potential of reinforcement learning for 
-
-automated swarm control. <br/> 
+I spent a summer at <a href="https://www.mbda-deutschland.de">MBDA Germany</a>, where I worked on reinforcement-learning 
+based swarm control. Moreover, I spent a semester abroad at <a href="https://www.udg.mx">UDG</a> in Guadalajara, Mexico. <br/> 
 
 <br/>
 
