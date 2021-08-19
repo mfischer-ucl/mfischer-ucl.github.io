@@ -7,6 +7,8 @@ header:
   image: /assets/images/network_crop.jpg
 ---
 
+<div style="text-align: justify"> 
+
 Hi! I'm Michael, a first-year PhD student in AI and Computer Graphics at [University College London](https://www.ucl.ac.uk).
 I am working with [Tobias Ritschel](http://www.homepages.ucl.ac.uk/~ucactri/) and [Niloy Mitra](http://www0.cs.ucl.ac.uk/staff/n.mitra/)
 to research deep and efficient representations of high-fidelity graphic assets. 
@@ -20,3 +22,5 @@ I spent a summer at [MBDA Germany](https://www.mbda-deutschland.de), where I res
 automated swarm control.
 
 My hobbies include travelling, cooking and making music! Feel free to check out my social media - links are provided to the left of this page. 
+
+</div>
