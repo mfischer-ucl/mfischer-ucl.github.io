@@ -4,7 +4,7 @@ title: "Teaching Experience"
 classes: wide
 
 header:
-  image: /assets/images/network_crop.jpg
+  image: /assets/images/board_crop.jpg
 
 ---
 
