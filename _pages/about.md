@@ -9,7 +9,7 @@ header:
 
 <div style="text-align: justify"> 
 
-Hi! I'm Michael, a first-year PhD student in AI and Computer Graphics at [University College London](https://www.ucl.ac.uk).
+Hi! I'm Michael, <a href="http://www.homepages.ucl.ac.uk/~ucactri/">TestLink</a> a first-year PhD student in AI and Computer Graphics at [University College London](https://www.ucl.ac.uk).
 I am working with [Tobias Ritschel](http://www.homepages.ucl.ac.uk/~ucactri/) and [Niloy Mitra](http://www0.cs.ucl.ac.uk/staff/n.mitra/)
 to research deep and efficient representations of high-fidelity graphic assets. 
 Currently, my research focuses on appearance decompositions and meta-learning.
