@@ -22,7 +22,7 @@ header:
 </ul>
 
 <ul>
-   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -37px;">
+   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -37px;">
       <img src='/assets/images/thumb.jpg' style=""/>
       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;">Pub1</span> <br> 
                                       <span style="font-size: 15px;">Appeared in XYZ Journal</span> <br> 
@@ -31,7 +31,7 @@ header:
 </ul>
 
 <ul>
-   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -37px;">
+   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -37px;">
       <img src='/assets/images/thumb.jpg' style=""/>
       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;">Pub1</span> <br> 
                                       <span style="font-size: 15px;">Appeared in XYZ Journal</span> <br> 
