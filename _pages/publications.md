@@ -13,19 +13,31 @@ header:
 [comment]: <> (https://techforluddites.com/replacing-list-bullets-with-images-using-css/)
 
 <ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-left: 20px;">
-<li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
+<li>I’m writing a long list item 1 so you can see what happens when the text wraps across multiple lines</li>
+</ul>
+
+<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-left: 100px;">
+<li>I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
+</ul>
+
+<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-right: 20px;">
+<li>I’m writing a long list item 3 so you can see what happens when the text wraps across multiple lines</li>
+</ul>
+
+<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-right: 50px;">
+<li>I’m writing a long list item 4 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 <ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-right: 100px;">
-<li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
+<li>I’m writing a long list item 5 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 <ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-top: 20px;">
-<li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
+<li>I’m writing a long list item 6 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 <ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-bottom: 20px;">
-<li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
+<li>I’m writing a long list item 7 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 <ul style="list-style-type: none; padding: 0; margin: 0;">
