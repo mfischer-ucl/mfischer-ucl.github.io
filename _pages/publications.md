@@ -17,26 +17,22 @@ header:
 </ul>
 
 <ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 220px">
-<li style="background: url('/assets/images/thumb.jpg') no-repeat left top right; height: 54px; padding-left: 44px;">
+<li style="background: url('/assets/images/thumb.jpg') no-repeat left top right bottom; height: 154px; padding-left: 44px;">
 I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
-<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 220px">
-<li style="background: url('/assets/images/thumb.jpg'); height: 54px; padding-left: 44px;">
-I’m writing a long list item 3 so you can see what happens when the text wraps across multiple lines</li>
-</ul>
 
 
 <ul style="list-style-type: none; padding: 0; margin: 0;">
-<li style="padding-bottom: 20px;">I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
+<li style="padding-bottom: 20px;">I’m writing a long list item 3 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 <ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
-<li>I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
+<li>I’m writing a long list item 4 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 <ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 220px;">
-<li>I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
+<li>I’m writing a long list item 5 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 
