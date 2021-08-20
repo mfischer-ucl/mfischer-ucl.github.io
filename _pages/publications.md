@@ -12,16 +12,20 @@ header:
 
 [comment]: <> (https://techforluddites.com/replacing-list-bullets-with-images-using-css/)
 
-<ul style="list-style-image: url('/assets/images/leaf_icon.jpg');">
-<li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
-</ul>
-
-<ul style="list-style-image: url('/assets/images/leaf_icon15.jpg');">
+<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg');">
 <li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 <ul style="list-style-image: url('/assets/images/leaf_icon2.jpg');">
 <li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
+</ul>
+
+<ul style="list-style-type: none; padding: 0; margin: 0;">
+<li >I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
+</ul>
+
+<ul style="list-style-type: none; padding: 0; margin: 0;">
+<li style="background: url('/assets/images/leaf_icon2.jpg') no-repeat left top;">I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 
