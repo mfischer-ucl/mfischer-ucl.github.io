@@ -12,11 +12,11 @@ header:
 [comment]: <> (https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/)
 [comment]: <> (https://techforluddites.com/replacing-list-bullets-with-images-using-css/)
 
-<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
+<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px; line-height: 100px">
 <li>I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
-<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
+<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px; vertical-align: middle">
 <li style="padding-bottom: 10px;">I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
@@ -28,7 +28,7 @@ header:
 <li>I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
-<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
+<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 220px;">
 <li>I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
