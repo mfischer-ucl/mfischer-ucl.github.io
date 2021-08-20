@@ -6,7 +6,10 @@ classes: wide
 header:
   image: /assets/images/network_crop.jpg
 
-<link rel="stylesheet" href="/assets/css/bulletpts.css">
+output: 
+  html_document:
+     css: /assets/css/bulletpts.css
+     self_contained: no
 
 ---
 
@@ -19,3 +22,6 @@ header:
 <li>List item 2</li>
 <li>List item 3</li>
 </ul>
+
+
+[comment]: <> (TODO: nicer, nicer slides, master thesis, bachelor thesis, all with thumbnails, link to git, download)
