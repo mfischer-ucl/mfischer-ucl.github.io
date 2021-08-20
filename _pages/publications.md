@@ -15,8 +15,9 @@ header:
 <ul>
    <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -37px;">
       <img src='/assets/images/thumb.jpg' style=""/>
-      <p style="margin: 0 0 0 20px;"> Pub3 <br/> <br/></p>
-      <p style="margin: 0 0 0 20px;"> Appeared in XYZ </p>
+      <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;">Pub1</span> <br> 
+                                      <span style="font-size: 15px;">Appeared in XYZ Journal</span> <br> 
+                                      <span style="font-size: 8px;">link1 link2 link3 </span> </p>
    </li>
 </ul>
 
