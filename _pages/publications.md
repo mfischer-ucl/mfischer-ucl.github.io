@@ -13,7 +13,7 @@ header:
 [comment]: <> (https://techforluddites.com/replacing-list-bullets-with-images-using-css/)
 
 <ul>
-   <li style="display: flex; justify-content: center; align-items: center">
+   <li style="display: flex; justify-content: center; align-items: center, padding-left:120px; padding-right:40px;">
       <img src='/assets/images/thumb.jpg' style=""/>
       <p style="padding left: 10px;"> I’m writing a long list item 2123 so you can see what happens when the text wraps across multiple lines </p>
    </li>
