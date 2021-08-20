@@ -10,5 +10,5 @@ header:
 
 * ### UCL - Comp0027 - Computer Graphics 
   teaching, student support, coursework correction and grading
-* ### JMU - Hardware Lab "Internet Technologies"
+* ### JMU - Hardware Lab: "Internet Technologies"
   student tutoring, lecture support, student examination and grading 
