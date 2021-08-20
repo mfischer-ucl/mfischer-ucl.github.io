@@ -25,7 +25,3 @@ $base0f: #d33682 !default;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-ul.leaf {
-list-style-image: url('/images/leaf_icon.jpg');
-}
-
