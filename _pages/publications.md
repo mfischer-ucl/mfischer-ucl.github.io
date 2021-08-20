@@ -13,7 +13,7 @@ header:
 [comment]: <> (https://techforluddites.com/replacing-list-bullets-with-images-using-css/)
 
 <ul>
-   <li style="display: flex; justify-content: center; align-items: center; margin: 0 -100px 0 0;">
+   <li style="display: flex; justify-content: left; align-items: center;">
       <img src='/assets/images/thumb.jpg' style=""/>
       <p style="margin: 0 0 0 20px;"> Pub3 </p>
       <p style="margin: 0 0 0 20px;"> Appeared in XYZ </p>
