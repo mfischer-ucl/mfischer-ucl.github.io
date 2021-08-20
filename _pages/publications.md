@@ -12,6 +12,14 @@ header:
 [comment]: <> (https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/)
 [comment]: <> (https://techforluddites.com/replacing-list-bullets-with-images-using-css/)
 
+<ul>
+   <li style="display: flex; justify-content: center; align-items: center">
+      <img src='/assets/images/thumb.jpg' style=""/>
+      <p> I’m writing a long list item 1 so you can see what happens when the text wraps across multiple lines </p>
+   </li>
+</ul>
+
+
 <ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
 <li>I’m writing a long list item 1 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
