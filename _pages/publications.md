@@ -8,40 +8,28 @@ header:
 
 ---
 
+[comment]: <> (recommended format for thumbnails: 220 x 140 )
 [comment]: <> (https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/)
-
 [comment]: <> (https://techforluddites.com/replacing-list-bullets-with-images-using-css/)
 
-<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 100px;">
-<li>I’m writing a long list item 1 so you can see what happens when the text wraps across multiple lines</li>
+<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
+<li>I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
+</ul>
+
+<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
+<li style="padding-bottom: 10px;">I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
+</ul>
+
+<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
+<li style="padding-bottom: 20px;">I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 <ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
 <li>I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
-<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-right: 20px;">
-<li>I’m writing a long list item 3 so you can see what happens when the text wraps across multiple lines</li>
-</ul>
-
-<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-right: 50px;">
-<li>I’m writing a long list item 4 so you can see what happens when the text wraps across multiple lines</li>
-</ul>
-
-<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-right: 100px;">
-<li>I’m writing a long list item 5 so you can see what happens when the text wraps across multiple lines</li>
-</ul>
-
-<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-top: 20px;">
-<li>I’m writing a long list item 6 so you can see what happens when the text wraps across multiple lines</li>
-</ul>
-
-<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg'); padding-bottom: 20px;">
-<li>I’m writing a long list item 7 so you can see what happens when the text wraps across multiple lines</li>
-</ul>
-
-<ul style="list-style-type: none; padding: 0; margin: 0;">
-<li style="background: url('/assets/images/leaf_icon2.jpg') no-repeat left top;">I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
+<ul style="list-style-image: url('/assets/images/thumb.jpg'); padding-left: 120px;">
+<li>I’m writing a long list item 2 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 
