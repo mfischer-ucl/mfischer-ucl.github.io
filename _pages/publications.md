@@ -15,7 +15,7 @@ header:
 <ul>
    <li style="display: flex; justify-content: center; align-items: center, padding-left:420px; padding-right:40px; padding-top: 40px; padding-bottom: 40px;">
       <img src='/assets/images/thumb.jpg' style=""/>
-      <p style="padding left: 10px;"> I’m writing a long list item 2123 so you can see what happens when the text wraps across multiple lines </p>
+      <p style="padding left: 420px;"> I’m writing a long list item 2123 so you can see what happens when the text wraps across multiple lines </p>
    </li>
 </ul>
 
