@@ -15,7 +15,13 @@ header:
 <ul>
    <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -37px;">
       <img src='/assets/images/thumb.jpg' style=""/>
-      <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;">Pub1</span> <br> 
+      <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>NICER: Aesthetic Image Enhancement with Humans in the Loop</b></span> <br> 
+                                      <span style="font-size: 15px;"><b>Michael Fischer</b>, <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>, <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a> </span> <br> 
+                                      <span style="font-size: 8px;">link1 link2 link3 </span> </p>
+   </li>
+   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -37px;">
+       <img src='/assets/images/thumb.jpg' style=""/>
+       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Using Neural Networks as a Metric Towards Optimal Automated Image Enhancement</b></span> <br> 
                                       <span style="font-size: 15px;">Appeared in XYZ Journal</span> <br> 
                                       <span style="font-size: 8px;">link1 link2 link3 </span> </p>
    </li>
@@ -24,7 +30,7 @@ header:
 <ul>
    <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -37px;">
       <img src='/assets/images/thumb.jpg' style=""/>
-      <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;">Pub1</span> <br> 
+      <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;">Using Neural Networks as a Metric Towards Optimal Automated Image Enhancement</span> <br> 
                                       <span style="font-size: 15px;">Appeared in XYZ Journal</span> <br> 
                                       <span style="font-size: 8px;">link1 link2 link3 </span> </p>
    </li>
@@ -33,7 +39,7 @@ header:
 <ul>
    <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -37px;">
       <img src='/assets/images/thumb.jpg' style=""/>
-      <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;">Pub1</span> <br> 
+      <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;">COSMOPALS - Component Simulation Model for Positron Lifetime Annihilation Spectroscopy</span> <br> 
                                       <span style="font-size: 15px;">Appeared in XYZ Journal</span> <br> 
                                       <span style="font-size: 8px;">link1 link2 link3 </span> </p>
    </li>
