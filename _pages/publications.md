@@ -6,10 +6,13 @@ classes: wide
 header:
   image: /assets/images/network_crop.jpg
 
-output: 
-  html_document:
-     css: /assets/css/bulletpts.css
-     self_contained: no
+[comment]: <> (output: )
+
+[comment]: <> (  html_document:)
+
+[comment]: <> (     css: /assets/css/bulletpts.css)
+
+[comment]: <> (     self_contained: no)
 
 ---
 
@@ -17,9 +20,9 @@ output:
 
 [comment]: <> (https://techforluddites.com/replacing-list-bullets-with-images-using-css/)
 
-<ul class="leaf">
-<li>I’m writing a long list item 666 so you can see what happens when the text wraps across multiple lines</li>
-<li>List item 2</li>
+<ul style="list-style-image:url('/assets/images/leaf_icon.jpg');">
+<li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
+<li>List item 2</li> 
 <li>List item 3</li>
 </ul>
 
