@@ -30,7 +30,7 @@ header:
 
    <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
        <img src='/assets/images/thumb.jpg' style=""/>
-       <p style="margin: 0 0 0 20px; display:inline;"> <span style="font-size: 20px;"><b>Using Neural Networks as a Metric Towards Optimal Automated Image Enhancement</b></span> <br>
+       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: 50%;"><b>Using Neural Networks as a Metric Towards Optimal Automated Image Enhancement</b></span> <br>
 <span style="font-size: 15px;"><b>Michael Fischer</b>, 
 <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>, 
 <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a>, 
@@ -44,7 +44,7 @@ header:
 
    <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
        <img src='/assets/images/thumb.jpg' style=""/>
-       <p style="margin: 0 0 0 20px; display: inline;"> <span style="font-size: 20px;"><b>COSMOPALS: Component Simulation Model for Positron Lifetime Annihilation Spectroscopy</b></span> <br>
+       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>COSMOPALS: Component Simulation Model for Positron Annihilation Lifetime Spectroscopy</b></span> <br>
 <span style="font-size: 15px;"><b>Michael Fischer</b>, 
 Danny Petschke,  
 <a style="text-decoration:none; color:inherit;" href="https://www.chemie.uni-wuerzburg.de/matsyn/mitarbeiter/wissenschaftliches-personal/dr-habil-torsten-em-staab/">Torsten Staab</a>, 
