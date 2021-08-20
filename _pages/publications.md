@@ -16,7 +16,8 @@ header:
    <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
       <img src='/assets/images/thumb.jpg' style=""/>
       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>NICER: Aesthetic Image Enhancement with Humans in the Loop</b></span> <br> 
-                                      <span style="font-size: 15px;"><b>Michael Fischer</b>, <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>, <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a> </span> <br> 
+                                      <span style="font-size: 15px;"><b>Michael Fischer</b>, 
+<a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>, <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a> </span> <br> 
                                       <span style="font-size: 8px;">link1 link2 link3 </span> </p>
    </li>
    <li style="display: flex; justify-content: left; align-items: center; margin: 20px 0 0 -38px;">
