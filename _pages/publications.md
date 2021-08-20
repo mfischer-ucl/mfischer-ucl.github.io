@@ -14,8 +14,14 @@ header:
 
 <ul style="list-style-image: url('/assets/images/leaf_icon.jpg');">
 <li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
-<li>List item 2</li> 
-<li>List item 3</li>
+</ul>
+
+<ul style="list-style-image: url('/assets/images/leaf_icon15.jpg');">
+<li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
+</ul>
+
+<ul style="list-style-image: url('/assets/images/leaf_icon2.jpg');">
+<li>I’m writing a long list item 100 so you can see what happens when the text wraps across multiple lines</li>
 </ul>
 
 
