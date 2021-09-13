@@ -44,12 +44,16 @@ header:
 
    <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
        <img src='/assets/images/thumb_bsc.png' style=""/>
-       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; line-height: 10px;"><b>COSMOPALS: Component Simulation Model for Positron Annihilation Lifetime Spectroscopy</b></span> <br>
+       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>COSMOPALS: Component Simulation Model for Positron Annihilation Lifetime Spectroscopy</b></span> 
+       <br style="display: block; margin-top: -3px">
 <span style="font-size: 15px;"><b>Michael Fischer</b>, 
 Danny Petschke,  
 <a style="text-decoration:none; color:inherit;" href="https://www.chemie.uni-wuerzburg.de/matsyn/mitarbeiter/wissenschaftliches-personal/dr-habil-torsten-em-staab/">Torsten Staab</a>, 
-<a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/aerospaceinfo/mitarbeiter/montenegro/">Sergio Montenegro</a></span> <br>
-                                      <span style="font-size: 15px;">Bachelor's Thesis in Aerospace Information Technology, JMU Wuerzburg</span> <br> 
+<a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/aerospaceinfo/mitarbeiter/montenegro/">Sergio Montenegro</a></span> 
+
+<br style="display: block; margin-top: -3px">
+                                      <span style="font-size: 15px;">Bachelor's Thesis in Aerospace Information Technology, JMU Wuerzburg</span> 
+<br style="display: block; margin-top: -3px"> 
                                       <span style="font-size: 11px;">
 <a style="color:inherit;" href="/assets/bsc_thesis.pdf" download="bsc_michaelFischer.pdf">PDF</a>
 
