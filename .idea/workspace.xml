@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/publications.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/academicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/academicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bulletpts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/deprecated-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
