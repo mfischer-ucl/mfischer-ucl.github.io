@@ -4,7 +4,7 @@ title: "Publications"
 classes: wide
 
 header:
-  image: /assets/images/network_crop.jpg
+  image: /assets/images/network_crop2.jpg
 
 ---
 
