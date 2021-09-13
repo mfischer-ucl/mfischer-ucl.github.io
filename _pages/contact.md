@@ -3,7 +3,7 @@ permalink: /contact/
 title: "Contact"
 
 header:
-  image: /assets/images/network_crop.jpg
+  image: /assets/images/network_crop3.jpg
 
 ---
 
