@@ -4,7 +4,7 @@ title: "Welcome"
 author_profile: true
 classes: wide
 header:
-  image: /assets/images/network_crop.jpg
+  image: /assets/images/network_crop3.jpg
 ---
 
 [comment]: <> (Hi! I'm Michael, a first-year PhD student in AI and Computer Graphics at [University College London]&#40;https://www.ucl.ac.uk&#41;.)
