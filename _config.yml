@@ -76,7 +76,10 @@ author:
     - label: "Google Scholar"                               # TODO - is this showing up ?? must install the ai fonts
       icon: "ai ai-google-scholar-square"
       url: "https://scholar.google.com/citations?user=CEeuDLcAAAAJ&hl=en"
-      style: "height: 16.5px; width: 20.6333px; padding-left: 4px;"
+      values:
+        height: "16.5px"
+        width: "20.6333px"
+        padding-left: "4px"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCld0Rvh03Wn6QxMfy8lEDiw"
