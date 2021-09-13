@@ -44,7 +44,7 @@ header:
 
    <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
        <img src='/assets/images/thumb_bsc.png' style=""/>
-       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: 12px;"><b>COSMOPALS: Component Simulation Model for Positron Annihilation Lifetime Spectroscopy</b></span> <br>
+       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: 2px;"><b>COSMOPALS: Component Simulation Model for Positron Annihilation Lifetime Spectroscopy</b></span> <br>
 <span style="font-size: 15px;"><b>Michael Fischer</b>, 
 Danny Petschke,  
 <a style="text-decoration:none; color:inherit;" href="https://www.chemie.uni-wuerzburg.de/matsyn/mitarbeiter/wissenschaftliches-personal/dr-habil-torsten-em-staab/">Torsten Staab</a>, 
