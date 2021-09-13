@@ -14,7 +14,7 @@ header:
 
 <ul>
    <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
-      <img src='/assets/images/thumb.jpg' style=""/>
+      <img src='/assets/images/nicer_thumb2.png' style=""/>
       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>NICER: Aesthetic Image Enhancement with Humans in the Loop</b></span> <br> 
                                       <span style="font-size: 15px;"><b>Michael Fischer</b>, 
 <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>, 
@@ -29,7 +29,7 @@ header:
    </li>
 
    <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-       <img src='/assets/images/thumb.jpg' style=""/>
+       <img src='/assets/images/thumb_jmu_white.png' style=""/>
        <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: 50%;"><b>Using Neural Networks as a Metric Towards Optimal Automated Image Enhancement</b></span> <br>
 <span style="font-size: 15px;"><b>Michael Fischer</b>, 
 <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>, 
@@ -43,7 +43,7 @@ header:
    </li>
 
    <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-       <img src='/assets/images/thumb.jpg' style=""/>
+       <img src='/assets/images/thumb_jmu_white.png' style=""/>
        <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>COSMOPALS: Component Simulation Model for Positron Annihilation Lifetime Spectroscopy</b></span> <br>
 <span style="font-size: 15px;"><b>Michael Fischer</b>, 
 Danny Petschke,  
