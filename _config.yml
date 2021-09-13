@@ -79,6 +79,9 @@ author:
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCld0Rvh03Wn6QxMfy8lEDiw"
+    - label: "Spotify"
+      icon: "fab fa-spotify"
+      url: "https://open.spotify.com/artist/2oSq95viVXgfiOFB3pFMJG"
 
 footer:
   links:
