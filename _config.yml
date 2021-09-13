@@ -74,7 +74,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/mr-mojo"
     - label: "Google Scholar"                               # TODO - is this showing up ?? must install the ai fonts
-      icon: "ai ai-google-scholar"
+      icon: "ai ai-google-scholar-square"
       url: "https://scholar.google.com/citations?user=CEeuDLcAAAAJ&hl=en"
       style: "height: 16.5px; width: 20.6333px; padding-left: 4px;"
     - label: "Youtube"
