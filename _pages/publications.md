@@ -45,7 +45,7 @@ header:
 
    <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
        <img src='/assets/images/thumb_bsc.png' style=""/>
-       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>COSMOPALS: Component Simulation Model for Positron Annihilation Lifetime Spectroscopy</b></span> 
+       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>COSMOPALS: Component Simulation Model for Pulse-Shape Analysis in Positron Annihilation Lifetime Spectroscopy</b></span> 
        <br style="display: block; margin-top: -3px">
 <span style="font-size: 15px;"><b>Michael Fischer</b>, 
 Danny Petschke,  
