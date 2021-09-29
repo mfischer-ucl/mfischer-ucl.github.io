@@ -56,6 +56,6 @@ based swarm control. Moreover, I spent a semester abroad at <a href="https://www
 
 <br/>
 
-My hobbies include travelling, cooking and making music! Feel free to check out my social media - links are provided to the left of this page. 
+My hobbies include travelling, climbing, cooking and making music! Feel free to check out my social media - links are provided to the left of this page. 
 
 </div>
