@@ -8,7 +8,7 @@ header:
 
 ---
 
-* ### UCL - Comp0167 - Machine Vision
+* ### UCL - Comp0137 - Machine Vision
   teaching, student support, coursework creation and correction, grading
 * ### UCL - Comp0027 - Computer Graphics 
   teaching, student support, coursework correction and grading
