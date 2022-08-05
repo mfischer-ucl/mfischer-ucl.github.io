@@ -25,7 +25,7 @@ header:
           <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">PDF</a>&nbsp;
           <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance#citation">Cite</a>&nbsp;
           <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance">Code</a>&nbsp;
-          <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">Project Page</a>
+          <a style="color:inherit;" href="https://mfischer-ucl.github.io/metappearance">Project Page</a>
         </span> 
       </p>
   </li>
