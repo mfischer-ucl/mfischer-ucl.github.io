@@ -17,16 +17,17 @@ header:
   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
       <img src='/assets/images/metappearance_thumb2.png' style=""/>
       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Metapparance: Meta-Learning for Visual Appearance Reproduction</b></span> <br> 
-      <span style="font-size: 15px;"><b>Michael Fischer</b>, 
-          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>, 
-      </span> <br>
-      <span style="font-size: 15px;">arXiv preprint<br></span> 
-      <span style="font-size: 11px;">
-        <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">PDF</a>
-        <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance#citation">Cite</a>
-        <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance">Code</a>
-        <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">Project Page</a>
-      </span> </p>
+        <span style="font-size: 15px;"><b>Michael Fischer</b>, 
+            <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>, 
+        </span> <br>
+        <span style="font-size: 15px;">arXiv preprint<br></span> 
+        <span style="font-size: 11px;">
+          <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">PDF</a>
+          <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance#citation">Cite</a>
+          <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance">Code</a>
+          <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">Project Page</a>
+        </span> 
+      </p>
   </li>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
@@ -34,9 +35,9 @@ header:
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>NICER: Aesthetic Image Enhancement with Humans in the Loop</b></span> <br> 
       <span style="font-size: 15px;"><b>Michael Fischer</b>, 
         <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>, 
-        <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a> </span> <br>
-        <span style="font-size: 15px;">Advances in Computer-Human Interactions (ACHI) 2020 <br>
-      </span> 
+        <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a>
+      </span> <br>
+      <span style="font-size: 15px;">Advances in Computer-Human Interactions (ACHI) 2020 <br></span> 
       <span style="font-size: 11px;">
         <a style="color:inherit;" href="https://arxiv.org/abs/2012.01778">PDF</a>
         <a style="color:inherit;" href="https://github.com/mr-Mojo/NICER#bibtex">Cite</a>
