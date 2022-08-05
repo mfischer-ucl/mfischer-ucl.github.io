@@ -18,7 +18,7 @@ header:
       <img src='/assets/images/metappearance_thumb2.png' style=""/>
       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Metapparance: Meta-Learning for Visual Appearance Reproduction</b></span> <br> 
         <span style="font-size: 15px;"><b>Michael Fischer</b>, 
-            <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>, 
+            <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a> 
         </span> <br>
         <span style="font-size: 15px;">arXiv preprint<br></span> 
         <span style="font-size: 11px;">
