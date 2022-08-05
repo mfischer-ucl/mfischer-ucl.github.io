@@ -22,9 +22,9 @@ header:
         </span> <br>
         <span style="font-size: 15px;">arXiv preprint<br></span> 
         <span style="font-size: 11px;">
-          <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">PDF&nbsp;</a>
-          <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance#citation">Cite&nbsp;</a>
-          <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance">Code&nbsp;</a>
+          <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">PDF</a>&nbsp;
+          <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance#citation">Cite</a>&nbsp;
+          <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance">Code</a>&nbsp;
           <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">Project Page</a>
         </span> 
       </p>
@@ -39,9 +39,9 @@ header:
       </span> <br>
       <span style="font-size: 15px;">Advances in Computer-Human Interactions (ACHI) 2020 <br></span> 
       <span style="font-size: 11px;">
-        <a style="color:inherit;" href="https://arxiv.org/abs/2012.01778">PDF&nbsp;</a>
-        <a style="color:inherit;" href="https://github.com/mr-Mojo/NICER#bibtex">Cite&nbsp;</a>
-        <a style="color:inherit;" href="https://github.com/mr-Mojo/NICER">Code&nbsp;</a>
+        <a style="color:inherit;" href="https://arxiv.org/abs/2012.01778">PDF</a>&nbsp;
+        <a style="color:inherit;" href="https://github.com/mr-Mojo/NICER#bibtex">Cite</a>&nbsp;
+        <a style="color:inherit;" href="https://github.com/mr-Mojo/NICER">Code</a>&nbsp;
         <a style="color:inherit;" href="https://pdfs.semanticscholar.org/cfd1/c8d27b6b2d729ff6cd06c07726c1a1adc1b9.pdf">Slides</a>
       </span> 
     </p>
@@ -57,7 +57,7 @@ header:
     </span> <br>
     <span style="font-size: 15px;">Master's Thesis in Computer Science, JMU Wuerzburg</span> <br> 
     <span style="font-size: 11px;">
-      <a style="color:inherit;" href="/assets/msc_thesis.pdf" download="msc_michaelFischer.pdf">PDF&nbsp;</a>
+      <a style="color:inherit;" href="/assets/msc_thesis.pdf" download="msc_michaelFischer.pdf">PDF</a>&nbsp;
       <a style="color:inherit;" href="https://www.youtube.com/watch?v=7DkAy7NYcu0">Video</a>
     </span> </p>
   </li>
