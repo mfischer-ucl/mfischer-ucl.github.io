@@ -1,10 +1,15 @@
 ---
 permalink: /metappearance/
-title: "Metappearance"
+title: 
 classes: wide
-autor_profile: false
+author_profile: false
 
 ---
+
+
+<body style="font-size: 12px">      
+
+
 <p style="margin: 0 auto; text-align: center">
 <span style="font-size: 24px;">Metappearance: Meta-Learning for Visual Appearance Reproduction</span> <br>
 <span style="font-size: 17px; color: grey">arXiv preprint</span><br>
@@ -13,6 +18,7 @@ autor_profile: false
 </p>
 
 todo: insert image 
+
 
 <b>Abstract</b><br>
 There currently exist two main approaches to reproducing visual appearance 
@@ -54,3 +60,6 @@ Paper, Code, Supplemental, Video, Slides
 We thank the reviewers for their constructive comments. We also thank Philipp Henzler, Alejandro Sztrajman, 
 Valentin Deschaintre, Gilles Rainer and Markus Worchel for open-sourcing their code and insightful discussions.
 This work was supported by TODO. 
+
+
+</body>
