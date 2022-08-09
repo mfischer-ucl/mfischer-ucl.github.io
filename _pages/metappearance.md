@@ -20,8 +20,8 @@ h4, .h4, h5, .h5, h6, .h6 {
 
 .horizItem {
     display: inline-block; 
-    margin-left: 5%; 
-    margin-right: 5%;
+    margin-left: 3%; 
+    margin-right: 3%;
 }
 
 </style>
@@ -42,25 +42,25 @@ h4, .h4, h5, .h5, h6, .h6 {
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
                 <a href="https://arxiv.org/abs/2204.08993">
-                <img src="/assets/images/metappearance/paperfront.png" height="120px"><br>
+                <img src="/assets/images/metappearance/paperfront.png" style="height: 110px"><br>
                     <h4><strong>Paper</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="https://youtu.be/LY6MgDUzS2M">
-                <img src="/assets/images/youtube_icon.png" height="120px"><br>
+                <img src="/assets/images/youtube_icon.png" style="height: 110px"><br>
                     <h4><strong>Video</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="https://github.com/mfischer-ucl/metappearance.">
-                <img src="/assets/images/gh_icon.png" height="120px"><br>
+                <img src="/assets/images/gh_icon.png" style="height: 110px"><br>
                     <h4><strong>Code</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
-                <a href="https://arxiv.org/abs/2204.08993">
-                <img src="/assets/images/paperclip.png" height="120px"><br>
+                <a href="https://arxiv.org/abs/21204.08993">
+                <img src="/assets/images/paperclip.png" style="height: 110px"><br>
                     <h4><strong>Supplemental</strong></h4>
                 </a>
             </li>
@@ -68,6 +68,13 @@ h4, .h4, h5, .h5, h6, .h6 {
     </div>
 </div>
 
+<b>Paucis Verbis</b><br>
+<p style="text-align: justify">
+We use meta-learning to encode visual appearance. Metappearance can be trained in less than a second, while providing 
+similar quality to conventionally trained networks that train orders of magnitude longer. We show results on a wide  
+variety of applications and analyze important properties, such as convergence & efficiency.  </p> 
+
+<img src="/assets/images/metappearance/Teaser_Large.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 75%"> <br><br>
 
 <b>Abstract</b><br>
 <p style="text-align: justify">
@@ -88,11 +95,25 @@ effects of meta-learning parameters on several different aspects of visual
 appearance are analyzed in our framework, and specific guidance for different tasks is provided. 
 Metapperance enables visual quality that is similar
 to over-fit approaches in only a fraction of their runtime while keeping the
-adaptivity of general models. </p>
+adaptivity of general models. </p> <br>
 
 <b>Exemplary Results</b><br>
-todo, insert convergence images  <br><br>
 
+<figure>
+  <picture>
+    <img src="/assets/images/metappearance/MetaIters_Large_noBorder.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 50%">
+  </picture>
+  <figcaption style="font: inherit; font-size: 15px; display: block; margin-left: auto; margin-right: auto; max-width: 70%; text-align: justify">  
+        Metappearance learns a model initialization (leftmost column) and a per-parameter learning rate that allows 
+        quick over-fitting onto <b> new, unseen </b> tasks in only a few gradient steps. We report wall-clock
+        time for approx. 25%, 50% and 75% (columns 2-5) of the gradient descent steps used for inference. Note how after less than 
+        a second of optimization, Metappearance achieves quality that is very close to the reference across all applications
+        (from top to bottom: textures, BRDFs, stationary svBRDFs, non-stationary svBRDFs, illumination, light transport).    
+    </figcaption>
+</figure>
+ 
+
+<br>
 
 <b>BibTeX</b><br>
 <p style="background-color: #f7f7f7; line-height: 110%; margin: 5px 0 0 0">
