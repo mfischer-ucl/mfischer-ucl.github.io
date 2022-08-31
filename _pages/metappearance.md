@@ -24,6 +24,10 @@ h4, .h4, h5, .h5, h6, .h6 {
     margin-right: 3%;
 }
 
+figure{
+display: inline-block;
+}
+
 </style>
 
 <body>
@@ -72,7 +76,7 @@ h4, .h4, h5, .h5, h6, .h6 {
 <p style="text-align: justify">
 We use meta-learning to encode visual appearance. Metappearance can be trained in less than a second, while providing 
 similar quality to conventionally trained networks that train orders of magnitude longer. We show results on a wide  
-variety of applications and analyze important properties, such as convergence & efficiency.  </p> 
+variety of applications and analyze important properties, such as convergence & efficiency.  </p> <br>
 
 <img src="/assets/images/metappearance/Teaser_Large.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 75%"> <br><br>
 
@@ -111,11 +115,11 @@ adaptivity of general models. </p> <br>
         (from top to bottom: textures, BRDFs, stationary svBRDFs, non-stationary svBRDFs, illumination, light transport).    
     </figcaption>
 </figure>
- 
 
 <br>
 
 <b>BibTeX</b><br>
+If you find our work useful and use parts or ideas of our paper or code, please cite: <br> 
 <p style="background-color: #f7f7f7; line-height: 110%; margin: 5px 0 0 0">
     <span style="font-family: Lucida Console, Courier New, monospace"> 
         @article{fischer2022metappearance, <br>
