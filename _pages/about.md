@@ -4,7 +4,7 @@ title: "Welcome"
 author_profile: true
 classes: wide
 header:
-  image: /assets/images/network_crop3.jpg
+  image: /assets/images/network_crop4.jpg
 ---
 
 [comment]: <> (Hi! I'm Michael, a first-year PhD student in AI and Computer Graphics at [University College London]&#40;https://www.ucl.ac.uk&#41;.)
@@ -39,7 +39,7 @@ I am working with <a href="http://www.homepages.ucl.ac.uk/~ucactri">Tobias Ritsc
 
 to research deep and efficient representations of high-fidelity graphic assets. 
 
-Currently, my research focuses on appearance decompositions and meta-learning. <br/> 
+Currently, my research focuses on intelligent optimization, appearance decompositions and meta-learning. <br/> 
 
 <br/>
 
