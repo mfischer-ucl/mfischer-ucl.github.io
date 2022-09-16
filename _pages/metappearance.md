@@ -45,7 +45,7 @@ display: inline-block;
     <div style="display: inline">
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
-                <a href="/assets/metappearance_main.pdf" download="Metappearance_supplemental.pdf">
+                <a href="/assets/metappearance_main.pdf" download="Metappearance_main.pdf">
                 <img src="/assets/images/metappearance/paperfront.png" style="height: 110px"><br>
                     <h4><strong>Paper</strong></h4>
                 </a>
