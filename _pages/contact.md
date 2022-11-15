@@ -14,6 +14,6 @@ If you're looking to get in touch, feel free to <a href="mailto:m.fischer@cs.ucl
 my YouTube and social media platforms by clicking the icons on the left sidebar. <br /> 
 <br/>
 
-If you are looking for my CV, please click <a href="/assets/cv.txt" download="Testfile.txt">here</a>.
+If you are looking for my CV, please click <a href="/assets/CV.pdf" download="CV.pdf">here</a>.
 
 </div>
