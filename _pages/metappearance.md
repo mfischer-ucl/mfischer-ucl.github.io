@@ -72,6 +72,11 @@ display: inline-block;
     </div>
 </div>
 
+<b>News</b><br>
+<p style="text-align: justify">
+Our work has been featured in the <a href="https://link.growkudos.com/1pxz4w4nuv4">ACM Showcase</a>.  
+</p>
+
 <b>Paucis Verbis</b><br>
 <p style="text-align: justify">
 We use meta-learning to encode visual appearance. Metappearance can be trained in less than a second, while providing 
