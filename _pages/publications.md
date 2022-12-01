@@ -23,7 +23,8 @@ header:
       </span> <br>
       <span style="font-size: 15px;">arXiv preprint<br></span> 
       <span style="font-size: 11px;">
-        <a style="color:inherit;" href="https://mfischer-ucl.github.io">PDF</a>&nbsp;
+        <a style="color:inherit;" href="https://arxiv.org/abs/2211.17263">PDF</a>&nbsp;
+        <a style="color:inherit;" href="https://mfischer-ucl.github.io/">Cite</a>&nbsp;
       </span> 
     </p>
   </li>
@@ -37,6 +38,7 @@ header:
       <span style="font-size: 15px;">arXiv preprint<br></span> 
       <span style="font-size: 11px;">
         <a style="color:inherit;" href="https://arxiv.org/pdf/2210.03510.pdf">PDF</a>&nbsp;
+        <a style="color:inherit;" href="https://bit.ly/3XNEO2d">Cite</a>&nbsp;
       </span> 
     </p>
   </li>

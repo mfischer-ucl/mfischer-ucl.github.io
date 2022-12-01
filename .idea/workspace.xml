@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/CV.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/TBA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pfpt/ThumbPFPT.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/contact.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/publications.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/cv.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/cv.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +36,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets"
+    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io"
   }
 }]]></component>
   <component name="RecentsManager">
