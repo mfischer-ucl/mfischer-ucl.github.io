@@ -8,6 +8,45 @@ header:
 
 ---
 
+
+<style>
+
+.mybutton {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 5px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", sans-serif;
+  font-size: 10.5px;
+  line-height: 18px;
+  padding: 0 10px 0 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: width: fit-content;
+}
+
+.mybutton:hover {
+  background-color: #f7fafa;
+}
+
+.mybutton:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+</style>
+
+
 [comment]: <> (recommended format for thumbnails: 220 x 140 )
 [comment]: <> (https://mmistakes.github.io/minimal-mistakes/docs/utility-classes/)
 [comment]: <> (https://techforluddites.com/replacing-list-bullets-with-images-using-css/)
@@ -21,10 +60,10 @@ header:
       <span style="font-size: 15px;"><b>Michael Fischer</b>, 
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a> 
       </span> <br>
-      <span style="font-size: 15px;">arXiv preprint<br></span> 
+      <span style="font-size: 15px;">arXiv preprint (under submission)<br></span> 
       <span style="font-size: 11px;">
-        <a style="color:inherit;" href="https://arxiv.org/abs/2211.17263">PDF</a>&nbsp;
-        <a style="color:inherit;" href="https://mfischer-ucl.github.io/">Cite</a>&nbsp;
+        <a class="mybutton" href="https://arxiv.org/abs/2211.17263">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2211.17263&btnG=">Cite</a>&nbsp;
       </span> 
     </p>
   </li>
@@ -35,10 +74,10 @@ header:
       <span style="font-size: 15px;">Chen Liu, <b>Michael Fischer</b>, 
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a> 
       </span> <br>
-      <span style="font-size: 15px;">arXiv preprint<br></span> 
+      <span style="font-size: 15px;">arXiv preprint (under submission)<br></span> 
       <span style="font-size: 11px;">
-        <a style="color:inherit;" href="https://arxiv.org/pdf/2210.03510.pdf">PDF</a>&nbsp;
-        <a style="color:inherit;" href="https://bit.ly/3XNEO2d">Cite</a>&nbsp;
+        <a class="mybutton" href="https://arxiv.org/abs/2210.03510">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2210.03510&btnG=">Cite</a>&nbsp;
       </span> 
     </p>
   </li>
@@ -51,10 +90,11 @@ header:
         </span> <br>
         <span style="font-size: 15px;">SIGGRAPH Asia 2022, Journal Track<br></span> 
         <span style="font-size: 11px;">
-          <a style="color:inherit;" href="https://arxiv.org/abs/2204.08993">PDF</a>&nbsp;
-          <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance#citation">Cite</a>&nbsp;
-          <a style="color:inherit;" href="https://github.com/mfischer-ucl/metappearance">Code</a>&nbsp;
-          <a style="color:inherit;" href="/metappearance">Project Page</a>
+          <a class="mybutton" href="https://arxiv.org/abs/2204.08993">PDF</a>&nbsp;
+          <a class="mybutton" href="https://github.com/mfischer-ucl/metappearance">Code</a>&nbsp;
+          <a class="mybutton" href="https://youtu.be/biCRtitdWfs">Video</a>&nbsp;
+          <a class="mybutton" href="https://github.com/mfischer-ucl/metappearance#citation">Cite</a>&nbsp;
+          <a class="mybutton" href="/metappearance">Project Page</a>
         </span> 
       </p>
   </li>
@@ -68,10 +108,10 @@ header:
       </span> <br>
       <span style="font-size: 15px;">Advances in Computer-Human Interactions (ACHI) 2020 <br></span> 
       <span style="font-size: 11px;">
-        <a style="color:inherit;" href="https://arxiv.org/abs/2012.01778">PDF</a>&nbsp;
-        <a style="color:inherit;" href="https://github.com/mr-Mojo/NICER#bibtex">Cite</a>&nbsp;
-        <a style="color:inherit;" href="https://github.com/mr-Mojo/NICER">Code</a>&nbsp;
-        <a style="color:inherit;" href="https://pdfs.semanticscholar.org/cfd1/c8d27b6b2d729ff6cd06c07726c1a1adc1b9.pdf">Slides</a>
+        <a class="mybutton" href="https://arxiv.org/abs/2012.01778">PDF</a>&nbsp;
+        <a class="mybutton" href="https://github.com/mr-Mojo/NICER">Code</a>&nbsp;
+        <a class="mybutton" href="https://github.com/mr-Mojo/NICER#bibtex">Cite</a>&nbsp;
+        <a class="mybutton" href="https://pdfs.semanticscholar.org/cfd1/c8d27b6b2d729ff6cd06c07726c1a1adc1b9.pdf">Slides</a>
       </span> 
     </p>
   </li>
@@ -86,8 +126,8 @@ header:
     </span> <br>
     <span style="font-size: 15px;">Master's Thesis in Computer Science, JMU Wuerzburg</span> <br> 
     <span style="font-size: 11px;">
-      <a style="color:inherit;" href="/assets/msc_thesis.pdf" download="msc_michaelFischer.pdf">PDF</a>&nbsp;
-      <a style="color:inherit;" href="https://www.youtube.com/watch?v=7DkAy7NYcu0">Video</a>
+      <a class="mybutton" href="/assets/msc_thesis.pdf" download="msc_michaelFischer.pdf">PDF</a>&nbsp;
+      <a class="mybutton" href="https://www.youtube.com/watch?v=7DkAy7NYcu0">Video</a>
     </span> </p>
   </li>
 
@@ -103,7 +143,7 @@ header:
     <span style="font-size: 15px;">Bachelor's Thesis in Aerospace Information Technology, JMU Wuerzburg</span> 
     <br style="display: block; margin-top: -3px"> 
     <span style="font-size: 11px;">
-      <a style="color:inherit;" href="/assets/bsc_thesis.pdf" download="bsc_michaelFischer.pdf">PDF</a>
+      <a class="mybutton" href="/assets/bsc_thesis.pdf" download="bsc_michaelFischer.pdf">PDF</a>
     </span> </p>
   </li>
 </ul>
