@@ -51,7 +51,7 @@ display: inline-block;
                 </a>
             </li>
             <li class="horizItem">
-                <a href="https://youtu.be/biCRtitdWfs">
+                <a href="https://youtu.be/6wTf9vAbfTM">
                 <img src="/assets/images/youtube_icon.png" style="height: 110px"><br>
                     <h4><strong>Video</strong></h4>
                 </a>

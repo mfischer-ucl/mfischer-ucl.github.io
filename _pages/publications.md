@@ -55,7 +55,7 @@ header:
 <ul>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
-    <img src='/assets/images/pfpt/ThumbPFPT.png' style=""/>
+    <img src='/assets/images/pfpt/thumbnail.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Plateau-Free Differentiable Path Tracing</b></span> <br> 
       <span style="font-size: 15px;"><b>Michael Fischer</b>, 
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a> 
@@ -69,7 +69,7 @@ header:
   </li>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/LearningToLearnBRDFs_thumb.png' style=""/>
+    <img src='/assets/images/learning2learn/thumbnail.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Learning to Learn and Sample BRDFs</b></span> <br> 
       <span style="font-size: 15px;">Chen Liu, <b>Michael Fischer</b>, 
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a> 
@@ -83,7 +83,7 @@ header:
   </li>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-      <img src='/assets/images/metappearance_thumb2.png' style=""/>
+      <img src='/assets/images/metappearance/thumbnail.png' style="height: 140px; width: 220px;"/>
       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Metappearance: Meta-Learning for Visual Appearance Reproduction</b></span> <br> 
         <span style="font-size: 15px;"><b>Michael Fischer</b>, 
             <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a> 
@@ -92,7 +92,7 @@ header:
         <span style="font-size: 11px;">
           <a class="mybutton" href="https://arxiv.org/abs/2204.08993">PDF</a>&nbsp;
           <a class="mybutton" href="https://github.com/mfischer-ucl/metappearance">Code</a>&nbsp;
-          <a class="mybutton" href="https://youtu.be/biCRtitdWfs">Video</a>&nbsp;
+          <a class="mybutton" href="https://youtu.be/6wTf9vAbfTM">Video</a>&nbsp;
           <a class="mybutton" href="https://github.com/mfischer-ucl/metappearance#citation">Cite</a>&nbsp;
           <a class="mybutton" href="/metappearance">Project Page</a>
         </span> 
