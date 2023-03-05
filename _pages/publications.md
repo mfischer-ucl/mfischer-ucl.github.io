@@ -60,11 +60,11 @@ header:
       <span style="font-size: 15px;"><b>Michael Fischer</b>, 
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a> 
       </span> <br>
-      <span style="font-size: 15px;">arXiv preprint (under submission)<br></span> 
+      <span style="font-size: 15px;">CVPR 2023<br></span> 
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2211.17263">PDF</a>&nbsp;
         <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2211.17263&btnG=">Cite</a>&nbsp;
-      </span> 
+      </span>   
     </p>
   </li>
 
@@ -74,7 +74,7 @@ header:
       <span style="font-size: 15px;">Chen Liu, <b>Michael Fischer</b>, 
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a> 
       </span> <br>
-      <span style="font-size: 15px;">arXiv preprint (under submission)<br></span> 
+      <span style="font-size: 15px;">Eurographics 2023<br></span> 
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2210.03510">PDF</a>&nbsp;
         <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2210.03510&btnG=">Cite</a>&nbsp;
