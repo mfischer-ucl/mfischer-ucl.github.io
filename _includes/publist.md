@@ -18,7 +18,7 @@
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/learning2learn/thumbnail.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Learning to Learn and Sample BRDFs</b></span> <br>
-      <span style="font-size: 15px;">Chen Liu, <b>Michael Fischer</b>,
+      <span style="font-size: 15px;"><a style="text-decoration:none; color:inherit;" href="https://ryushinn.github.io/">Chen Liu</a>, <b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
       </span> <br>
       <span style="font-size: 15px;">Eurographics 2023<br></span>
