@@ -6,39 +6,21 @@ author_profile: false
 
 ---
 
-<style>
-
-.row {
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
-h4, .h4, h5, .h5, h6, .h6 {
-  margin-top: 10.5px;
-  margin-bottom: 10.5px;
-}
-
-.horizItem {
-    display: inline-block; 
-    margin-left: 3%; 
-    margin-right: 3%;
-}
-
-figure{
-display: inline-block;
-}
-
-</style>
+{% include stylefile.md %}
 
 <body>
 <div style="margin-left: -25%; font-size:16px">
 
+<div class="grey-box">
+<br>
 <p style="margin: 0 auto; text-align: center;">
 <span style="font-size: 24px;"><b>Metappearance: Meta-Learning for Visual Appearance Reproduction</b></span> <br><br>
-<span style="font-size: 17px; color: grey">SIGGRAPH Asia 2022, Journal Track</span><br><br>
+<span style="font-size: 17px; color: black">SIGGRAPH Asia 2022, Journal Track</span><br><br>
 <span style="font-size: 17px;"><a href="https://mfischer-ucl.github.io/">Michael Fischer</a>, <a href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a></span><br>
 <a style="font-size: 14px;" href="https://www.ucl.ac.uk/">University College London</a>
 </p>
+<br>
+</div>
 
 
 <div class="row" style="margin: 50px 0 50px 0">
@@ -46,25 +28,25 @@ display: inline-block;
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
                 <a href="/assets/metappearance_main.pdf" download="Metappearance_main.pdf">
-                <img src="/assets/images/metappearance/paperfront.png" style="height: 110px"><br>
+                <img src="/assets/images/metappearance/paperfront.png" style="height: 100px"><br>
                     <h4><strong>Paper</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="https://youtu.be/6wTf9vAbfTM">
-                <img src="/assets/images/youtube_icon.png" style="height: 110px"><br>
+                <img src="/assets/images/youtube_icon.png" style="height: 100px"><br>
                     <h4><strong>Video</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="https://github.com/mfischer-ucl/metappearance">
-                <img src="/assets/images/gh_icon.png" style="height: 110px"><br>
+                <img src="/assets/images/gh_icon.png" style="height: 100px"><br>
                     <h4><strong>Code</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="/assets/metappearance_suppl.pdf" download="Metappearance_supplemental.pdf">
-                <img src="/assets/images/paperclip.png" style="height: 110px"><br>
+                <img src="/assets/images/paperclip.png" style="height: 100px"><br>
                     <h4><strong>Supplemental</strong></h4>
                 </a>
             </li>
@@ -77,7 +59,7 @@ display: inline-block;
 Our work has been featured in the <a href="https://link.growkudos.com/1pxz4w4nuv4">ACM Showcase</a>.  
 </p>
 
-<b>Paucis Verbis</b><br>
+<b>TL;DR</b><br>
 <p style="text-align: justify">
 We use meta-learning to encode visual appearance. Metappearance can be trained in less than a second, while providing 
 similar quality to conventionally trained networks that train orders of magnitude longer. We show results on a wide  
@@ -121,24 +103,30 @@ adaptivity of general models. </p> <br>
 
 <b>Exemplary Results</b><br>
 
-<figure>
-  <picture>
-    <img src="/assets/images/metappearance/MetaIters_Large_noBorder.png" style="display: block; margin-left: auto; margin-right: auto; max-width: 50%">
-  </picture>
-  <figcaption style="font: inherit; font-size: 15px; display: block; margin-left: auto; margin-right: auto; max-width: 70%; text-align: justify">  
-        Metappearance learns a model initialization (leftmost column) and a per-parameter learning rate that allows 
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <figure style="display:inline-block; width:45%; margin-right: 20px;">
+    <img src="/assets/images/metappearance/MetaIters_Large_noBorder.png">
+    <figcaption style="text-align: justify; font-size: 90%; font-family: inherit;"><b>Metappearance</b> learns a model initialization (leftmost column) and a per-parameter learning rate that allows 
         quick over-fitting onto <b> new, unseen </b> tasks in only a few gradient steps. We report wall-clock
         time for approx. 25%, 50% and 75% (columns 2-5) of the gradient descent steps used for inference. Note how after less than 
         a second of optimization, Metappearance achieves quality that is very close to the reference across all applications
-        (from top to bottom: textures, BRDFs, stationary svBRDFs, non-stationary svBRDFs, illumination, light transport).    
-    </figcaption>
-</figure>
+        (from top to bottom: textures, BRDFs, stationary svBRDFs</figcaption>
+  </figure>
+  <figure style="display:inline-block; width:45%; margin-left: 20px;">
+    <img src="/assets/images/metappearance/EqualTime.png">
+    <figcaption style="text-align: justify; font-size: 90%; font-family: inherit;">Equal-time comparisons on unseen test data for each application
+(top to bottom row: Texture, BRDF, svBRDF, svBRDFnonstat, Illumination, Transport). Overfit and Finetune are ran with the same amount of gradient steps Meta uses,
+i.e., the same wall-clock time. Metappearance encodes the reference best across all applications.</figcaption>
+  </figure>
+</div>
+
 
 <br>
 
 <b>BibTeX</b><br>
-If you find our work useful and use parts or ideas of our paper or code, please cite: <br> 
-<p style="background-color: #f7f7f7; line-height: 110%; margin: 5px 0 0 0">
+If you find our work useful and use parts or ideas of our paper or code, please cite: <br><br>
+<p class="cite-box">
     <span style="font-family: Lucida Console, Courier New, monospace"> 
         @article{fischer2022metappearance, <br>
             &nbsp;&nbsp;title={Metappearance: Meta-Learning for Visual Appearance Reproduction}, <br> 

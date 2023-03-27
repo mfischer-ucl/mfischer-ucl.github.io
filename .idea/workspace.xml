@@ -5,8 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_includes/jsapplet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/stylefile.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/news.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/prdpt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/test.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/metappearance/EqualTime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/news/200x200/eurographics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/make_gaussian.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/author-profile-custom-links.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/author-profile-custom-links.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/publist.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/publist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/contact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/metappearance.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/metappearance.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/Artboard1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/TBA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/metappearance/paperfront.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/images/metappearance/paperfront.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/pfpt/ThumbPFPT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/pfpt/thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/thumb_msc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/tmp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-chat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-link/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-link/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-modified/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-modified/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-notice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-notice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-quote/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-quote/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-standard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-standard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/metappearance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/metappearance/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/posts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/teaching/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/Artboard1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/TBA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/metappearance/paperfront.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/metappearance/paperfront.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pfpt/ThumbPFPT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/pfpt/thumbnail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/thumb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/thumb_msc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/tmp.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +85,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/michael/private/mfischer-ucl.github.io/_includes&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/michael/private/mfischer-ucl.github.io&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -49,10 +97,11 @@
       <recent name="D:\GitHub_Pages\mfischer-ucl.github.io\_includes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/scripts" />
+      <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
       <recent name="$PROJECT_DIR$/assets/images/learning2learn" />
       <recent name="$PROJECT_DIR$/assets/images/pfpt" />
       <recent name="$PROJECT_DIR$/assets/images/metappearance" />
-      <recent name="$PROJECT_DIR$/assets/images" />
     </key>
   </component>
   <component name="RunManager">

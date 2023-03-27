@@ -70,15 +70,17 @@ header:
 
 
 
-<div style="text-align: justify"> 
+<div style="text-align: justify; font-size: 90%;"> 
 
-Hi! I'm Michael, a second-year PhD student in AI and Computer Graphics in the <a href="http://vecg.cs.ucl.ac.uk/">VECG Group</a> at <a href="https://www.ucl.ac.uk">University College London</a>.
+Hi! I'm Michael, a third-year PhD student in AI and Computer Graphics in the <a href="http://vecg.cs.ucl.ac.uk/">VECG Group</a> at <a href="https://www.ucl.ac.uk">University College London</a>.
 
 I am working with <a href="http://www.homepages.ucl.ac.uk/~ucactri">Tobias Ritschel</a> and <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra">Niloy Mitra</a>
 
 to research deep and efficient representations of high-fidelity graphic assets. 
 
-Currently, my research focuses on intelligent optimization, appearance decompositions and meta-learning. <br/> 
+Currently, my research focuses on intelligent optimization, appearance decompositions and meta-learning.
+<br/> 
+
 
 <br/>
 
@@ -86,12 +88,15 @@ I received my B.Sc. in Aerospace Information Technology from the <a href="https:
 
 under the supervision of <a href="https://www.informatik.uni-wuerzburg.de/aerospaceinfo/mitarbeiter/montenegro">Sergio Montenegro</a>.
 
-Subsequently, I completed my M.Sc. in Computer Science with focus on intelligent systems and have 
+Subsequently, I completed my M.Sc. in Computer Science with focus on intelligent systems as a honors student and have 
 
 been working with <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a> and <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a>. 
 
 I spent a summer at <a href="https://www.mbda-deutschland.de">MBDA Germany</a>, where I worked on reinforcement-learning 
-based swarm control. Moreover, I spent a semester abroad at <a href="https://www.udg.mx">UDG</a> in Guadalajara, Mexico. <br/> 
+based swarm control, and a semester abroad at <a href="https://www.udg.mx">UDG</a> in Guadalajara, Mexico. 
+
+I will be joining the Neural / Inverse Rendering team at <a href="https://about.meta.com/uk/realitylabs">Meta Reality Labs</a> in Seattle for a summer internship in 2023 - hit me up if you're in the area! <br/> 
+
 
 <br/>
 

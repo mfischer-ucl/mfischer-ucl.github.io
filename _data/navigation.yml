@@ -1,9 +1,13 @@
 main:
   - title: "Home"
     url: /
+  - title: "News"
+    url: /news/
   - title: "Publications"
     url: /publications/
-  - title: "Teaching"
-    url: /teaching/
+#  - title: "Test"
+#    url: /test/
+#  - title: "Teaching"
+#    url: /teaching/
   - title: "Contact"
     url: /contact/

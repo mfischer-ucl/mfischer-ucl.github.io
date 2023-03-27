@@ -1,0 +1,705 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Michael Fischer</title>
+<meta name="description" content="Michael Fischer, PhD Student in AI and Computer Graphics at University College London (UCL).">
+
+
+  <meta name="author" content="Michael Fischer">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Michael Fischer">
+<meta property="og:title" content="Michael Fischer">
+<meta property="og:url" content="http://localhost:4000/prdpt/">
+
+
+  <meta property="og:description" content="Michael Fischer, PhD Student in AI and Computer Graphics at University College London (UCL).">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/prdpt/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Michael Fischer Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Michael Fischer
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/news/">News</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/">Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        
+<style>
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+
+.horizItem {
+    display: inline-block; 
+    margin-left: 3%; 
+    margin-right: 3%;
+}
+
+.grey-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+figure{
+display: inline-block;
+}
+
+.cite-box {
+  background-color: #f7f7f7; 
+  line-height: 110%; 
+  margin: 5px 0 0 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+  border-radius: 3px;
+}
+
+</style>
+
+<body>
+<div style="margin-left: -25%; font-size:16px">
+
+<div class="grey-box">
+<br />
+    <p style="margin: 0 auto; text-align: center;">
+    <span style="font-size: 24px;"><b>Plateau-Reduced Differentiable Path Tracing</b></span> <br /><br />
+    <span style="font-size: 17px; color: black">CVPR 2023</span><br /><br />
+    <span style="font-size: 17px;"><a href="https://mfischer-ucl.github.io/">Michael Fischer</a>, <a href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a></span><br />
+    <a style="font-size: 14px;" href="https://www.ucl.ac.uk/">University College London</a>
+</p>
+<br />
+</div>
+
+
+<div class="row" style="margin: 50px 0 50px 0">
+    <div style="display: inline">
+        <ul style="list-style: none; text-align: center">
+            <li class="horizItem">
+                <a href="/assets/prdpt_main.pdf" download="plateaureduced_diff_pt.pdf">
+                <img src="/assets/images/prdpt/paperfront.png" style="height: 100px" /><br />
+                    <h4><strong>Paper</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
+                <a href="/prdpt">
+                <img src="/assets/images/youtube_icon_red.png" style="height: 100px" /><br />
+                    <h4><strong>Video (coming soon)</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
+                <a href="/prdpt">
+                <img src="/assets/images/gh_icon.png" style="height: 100px" /><br />
+                    <h4><strong>Code (coming soon)</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
+                <a href="/prdpt">
+                <img src="/assets/images/colablogo.png" style="height: 100px" /><br />
+                    <h4><strong>Colab (coming soon)</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
+                <a href="/assets/prdpt_suppl.pdf" download="plateaureduced_diff_pt_suppl.pdf">
+                <img src="/assets/images/paperclip.png" style="height: 100px" /><br />
+                    <h4><strong>Supplemental</strong></h4>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<b>TL;DR</b><br />
+<p style="text-align: justify">
+We convolute the traditional rendering equation with a Gaussian smoothing kernel to reduce plateaus, i.e., regions of zero gradient, in inverse 
+rendering. Our algorithm improves convergence and works on problems with intricate light transport (e.g., caustics) that previous algorithms
+do not converge on.</p> <br />
+
+
+<b>Abstract</b><br />
+<p style="text-align: justify">
+Current differentiable renderers provide light transport
+gradients with respect to arbitrary scene parameters. However,
+the mere existence of these gradients does not guarantee
+useful update steps in an optimization. Instead, inverse
+rendering might not converge due to inherent plateaus, i.e.,
+regions of zero gradient, in the objective function. We propose
+to alleviate this by convolving the high-dimensional
+rendering function, that maps scene parameters to images,
+with an additional kernel that blurs the parameter
+space. We describe two Monte Carlo estimators to compute
+plateau-reduced gradients efficiently, i.e., with low variance,
+and show that these translate into net-gains in optimization
+error and runtime performance. Our approach
+is a straightforward extension to both black-box and differentiable
+renderers and enables optimization of problems
+with intricate light transport, such as caustics or global
+illumination, that existing differentiable renderers do not
+converge on.</p><br />
+
+<b>Examples</b><br />
+Coming soon. <br />
+
+<!-- (<style>
+  #plot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #plot {
+    width: 65%;
+  }
+  .slider {
+    width: 30%;
+  }
+</style>
+
+<div id="plot-container">
+  <div id="plot"></div>
+  <div>
+    <label for="sigma">Sigma:</label>
+    <input class="slider" type="range" min="0" max="2" step="0.01" value="1" id="sigma">
+    <label for="num-samples">Num Samples:</label>
+    <input class="slider" type="range" min="1" max="100" step="1" value="10" id="num-samples">
+    <div>
+        <input type="checkbox" id="cb_antithetic" checked style="float: left; margin-top: 14px;">
+        <div style="margin-left: 25px;">
+             Antithetic?
+        </div>
+    </div>
+    <div>
+        <input type="checkbox" id="cb_showsmoothed" style="float: left; margin-top: 14px;">
+        <div style="margin-left: 25px;">
+             Show Smooth?
+        </div>
+    </div>
+    <button style="float: left; margin-top: 14px;" onclick="optimize()">Run optimization</button>
+  </div>
+</div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+  
+function stepEdge(x) {
+	return x < 0 ? 1 : 0; 
+}
+
+function calcGradGaussian(x, sigma) {
+		// already sampling the positivized function here 
+    return (Math.abs(x) / Math.pow(sigma, 2)) * calcGaussian(x, sigma=sigma);
+}
+
+function gradGaussianKernel(x, sigma) {
+	return -(x / Math.pow(sigma, 2)) * calcGaussian(x, sigma=sigma);
+}
+
+function get_pdf(x, sigma) {
+	return 0.5 * sigma * Math.sqrt(2.0 * Math.PI) * x;
+}
+
+function calcGaussian(x, sigma) {
+  return 1.0 / (sigma * Math.sqrt(2 * Math.PI)) * Math.exp(-Math.pow(x, 2) / (2 * Math.pow(sigma, 2)));
+}
+
+// sample from a standard normal, N(0,1)
+function boxmueller() {
+  return Math.sqrt(-2 * Math.log(Math.random())) * Math.cos(2 * Math.PI * Math.random());
+}
+
+// convert standard normal samples to scaled normal 
+function sampleGaussian(sigma = 1.0) {
+  return sigma * boxmueller();
+}
+
+function mc_estimate(f_x, p_x) {
+	var N = f_x.length; 
+  var estimate = 0.0; 
+  for (var i = 0; i < N; i += 1) {
+  	estimate += f_x[i] / p_x[i];
+  }
+  return estimate / N; 
+}
+
+function convolve(theta, n_samples, samples, sigma) {
+	var outputs = []; var pdfs = [];
+  
+  for(var i = 0; i < n_samples; i+=1) {
+  	var tau = samples[i];
+    var pdf = get_pdf(tau, sigma); 
+    var w = gradGaussianKernel(tau, sigma);
+    
+    var theta_p = theta - tau; 
+    var weighted_fn_val = stepEdge(theta_p) * w; 
+    
+    outputs.push(weighted_fn_val); 
+    pdfs.push(pdf);
+  }
+  
+  return mc_estimate(outputs, pdfs);
+}
+
+function icdf(x, sigma) {
+	if (x > 0.5) {
+  	return Math.sqrt(-2.0 * Math.pow(sigma, 2) * Math.log(-2.0 * (x - 1.0)));
+  } else {
+  	return Math.sqrt(-2.0 * Math.pow(sigma, 2) * Math.log(2.0 * x));
+  }
+}
+
+function clean_random(x) {
+	var eps = 0.0001
+  if (x < eps) {x += eps;}					// too close to zero 
+  if (x - 0.5 < eps) {x -= eps;}		// too close to 0.5
+  if (0.5 - x < eps) {x += eps;}		// too close to 0.5
+  if (1.0 - x < eps) {x -= eps;}		// too close to 1
+  return x; 
+} 
+
+
+function getGradGaussianSamples(n_samples, sigma, antithetic) {
+	var samples = [] 
+  var f_x = []
+  var p_x = []
+  for (var i = 0; i < n_samples; i++) {
+  	// var rand = Math.random();
+    var rand = clean_random(Math.random());
+    var x_i = icdf(rand, sigma) * (rand < 0.5 ? -1.0 : 1.0); 
+    samples.push(x_i);
+    
+    if (antithetic) {
+    	var arand = 1.0 - rand; 
+      var x_i = icdf(rand, sigma) * (arand < 0.5 ? -1.0 : 1.0); 
+    	samples.push(x_i);
+    }
+  }  
+  
+  // calculcate sample value and pdf 
+  for (var i = 0; i<samples.length; i+=1){
+    var f_xi = Math.abs(samples[i]) / Math.pow(sigma, 2) * calcGaussian(samples[i], sigma);
+    var p_xi = 0.5 * sigma * Math.sqrt(2.0 * Math.PI) * f_xi;
+    f_x.push(f_xi);
+    p_x.push(p_xi); 
+  }
+  
+  return [samples, f_x, p_x];
+}
+
+function getGaussianSamples(n_samples, sigma, antithetic) {
+	var samples = []
+  var p_x = []
+  for (var i = 0; i < n_samples; i++) {
+    var x_i = sampleGaussian(sigma);
+    samples.push(x_i);
+    if (antithetic) {samples.push(x_i * -1.0);}
+  }
+  
+  // calc sample value 
+  for (var i = 0; i < samples.length; i+=1) {
+  	p_x.push(calcGaussian(samples[i], sigma=sigma));
+  }
+	return [samples, p_x]; 
+}
+
+// Define the data for the Gaussian distribution
+var x = [], y_gauss = [], y_gradgauss = [], y_step = [], sigma = 1;
+for (var i = -5; i < 5; i += 0.01) {
+  x.push(i);
+  y_step.push(stepEdge(i));
+  y_gauss.push(calcGaussian(i, sigma = sigma));
+  y_gradgauss.push(calcGradGaussian(i, sigma=sigma));
+}
+
+// Create the initial plot, declare all the traces 
+var gaussianTrace = {
+  x: x,
+  y: y_gauss,
+  name: 'Gaussian',
+  type: 'scatter',
+  opacity: 0.25
+};
+var gradGaussianTrace = {
+  x: x,
+  y: y_gradgauss,
+  name: 'Grad. of Gaussian',
+  type: 'scatter',
+  marker: {color: 'rgb(0, 0, 0)'}
+};
+var stepTrace = {
+  x: x,
+  y: y_step,
+  name: 'Step Function',
+  type: 'scatter'
+};
+var sampleTrace = {
+    x: [],
+    y: [],
+    name: 'Samples',
+    mode: 'markers',
+    opacity: 0.5,
+    marker: {
+      size: 7,
+      symbol: 'diamond',
+      color: 'black'
+    }
+};
+var sampleTrace_gg = {
+    x: [],
+    y: [],
+    name: 'Samples_gg',
+    mode: 'markers',
+    opacity: 0.8,
+    marker: {
+      size: 7,
+      symbol: 'diamond',
+      color: 'black'
+    }
+};  
+var smoothedFn = {
+  x: [],
+  y: [],
+  name: 'Smoothed',
+  type: 'scatter',
+  marker: {color: 'rgb(255, 0, 255)'}
+};
+var layout = {
+  title: 'Gaussian Distribution Test',
+  xaxis: {title: 'x'},
+  yaxis: {title: 'y'},
+  legend: {orientation: 'h'}
+};
+Plotly.newPlot('plot', [gaussianTrace, stepTrace, gradGaussianTrace, sampleTrace, sampleTrace_gg], layout);
+
+var sigmaSlider = document.getElementById('sigma');
+var numSamplesSlider = document.getElementById('num-samples');
+var smoothed_checkbox = document.getElementById('cb_showsmoothed');
+var antithetic_checkbox = document.getElementById('cb_antithetic');
+
+[sigmaSlider, numSamplesSlider].forEach(function(element) {
+   element.addEventListener('input', function() {
+      update_plots();
+   });
+});
+
+smoothed_checkbox.addEventListener('change', function() {
+	if (!smoothed_checkbox.checked) {Plotly.deleteTraces('plot', 5);}
+  else {
+  	Plotly.addTraces('plot', smoothedFn);
+    update_plots();
+  }
+})
+
+
+function update_plots(){
+	
+  sigma = parseFloat(sigmaSlider.value);
+  var numSamples = parseInt(numSamplesSlider.value);
+  
+  // update gaussian plots: for gradgaussian, plot pdf, to have same scale easier 
+  for (var i = 0; i < x.length; i++) {
+    y_gauss[i] = calcGaussian(x[i], sigma = sigma);
+    y_gradgauss[i] = 0.5 * sigma * Math.sqrt(2.0 * Math.PI) * calcGradGaussian(x[i], sigma=sigma);		
+  }
+  Plotly.update('plot', {y: [y_gauss]}, {}, 0,);				// {} is update for layout, 0 is selector index
+  Plotly.update('plot', {y: [y_gradgauss]}, {}, 2,);		// {} is update for layout, 0 is selector index
+  
+  // update samples: get samples and update the plots 
+  var nsamples_real = antithetic_checkbox.checked ? Math.round(numSamples / 2.0) : numSamples; 
+	const [xsampled_gauss, ysampled_gauss] = getGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
+  const [x_gradG, y_gradG, pdf_gradG] = getGradGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
+
+	Plotly.update('plot', {x: [xsampled_gauss], y: [ysampled_gauss]}, {}, 3);		
+  Plotly.update('plot', {x: [x_gradG], y: [pdf_gradG]}, {}, 4);
+  
+  if (!smoothed_checkbox.checked) {
+  	return;
+  } else {
+  
+    // go through all x's, for every x make a "smoothed" y-val by sampling N pts from the current
+    // x coordiante, and then querying and averaging their fn value
+    var smoothed = []
+    for(var i = 0; i < x.length; i+=1) {
+      var theta = x[i]		// go from -5 to 5 
+
+      const [xg, yg, pdf_g] = getGradGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
+      //const [xg, yg] = getGaussianSamples(numSamples, sigma, antithetic_checkbox.checked);
+
+      var fn_avg = 0.0
+      var fn_vals = [];
+      var pdfs = []
+      for (var j=0; j < xg.length; j+=1) {
+        var theta_perturbed = theta - xg[j]; 
+        fn_avg += stepEdge(theta_perturbed);
+        //fn_vals.push(stepEdge(theta_perturbed));
+        //pdfs.push(pdf_g[j]);
+      }
+
+      smoothed.push(fn_avg / numSamples); 
+      //smoothed.push(mc_estimate(fn_vals, pdfs)); 
+    }
+
+    Plotly.update('plot', {x: [x], y: [smoothed]}, {}, 5);
+  }
+}
+
+
+</script>) -->
+
+<br />
+
+<b>BibTeX</b><br />
+If you find our work useful and use parts or ideas of our paper or code, please cite: <br /> <br />
+<p class="cite-box">
+    <span style="font-family: Lucida Console, Courier New, monospace"> 
+        @article{fischer2022plateau, <br />
+            &nbsp;&nbsp;title={Plateau-reduced Differentiable Path Tracing}, <br /> 
+            &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br />
+            &nbsp;&nbsp;journal={arXiv preprint arXiv:2211.17263}, <br />
+            &nbsp;&nbsp;year={2022} <br />
+        }
+     </span>
+</p> <br />
+
+<b>Acknowledgements</b><br />
+We thank the Chen Liu, Valentin Deschaintre and the anonymous reviewers for their constructive comments and insightful 
+feedback. This work was supported by Meta Reality Labs. 
+
+</div>
+</body>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Michael Fischer. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
