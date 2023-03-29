@@ -207,10 +207,18 @@ display: inline-block;
 
 .cite-box {
   background-color: #f7f7f7; 
-  line-height: 110%; 
-  margin: 5px 0 0 0;
+  line-height: 110%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
   border-radius: 3px;
+  padding: 10px;
+}
+
+.vidcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 </style>
@@ -267,7 +275,7 @@ display: inline-block;
     </div>
 </div>
 
-<b>TL;DR</b><br />
+<b>TL;DR:</b><br />
 <p style="text-align: justify">
 We convolute the traditional rendering equation with a Gaussian smoothing kernel to reduce plateaus, i.e., regions of zero gradient, in inverse 
 rendering. Our algorithm improves convergence and works on problems with intricate light transport (e.g., caustics) that previous algorithms
@@ -293,12 +301,23 @@ is a straightforward extension to both black-box and differentiable
 renderers and enables optimization of problems
 with intricate light transport, such as caustics or global
 illumination, that existing differentiable renderers do not
-converge on.</p><br />
+converge on.</p>
 
-<b>Examples</b><br />
-Coming soon. <br />
-
-<!-- (<style>
+<b>Interactive Examples</b><br />
+<p style="text-align: justify">
+Below is an interactive 1D example which uses our method to differentiate through a discontinuous step function. We can smoothen the 
+plateaus left and right of the jump discontinuity by convolving the step function with a Gaussian kernel (click 'Show Smooth'). 
+We then sample this convoluted space and use the samples to drive a gradient descent that moves the initial 
+parameter (green) towards the region of zero cost (the right halfspace, blue). <br />
+</p>
+<style>
+  #plot-container-wrapper {
+    background-color: rgba(240, 240, 240, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    justify-content: space-between;
+  }
   #plot-container {
     display: flex;
     justify-content: space-between;
@@ -308,31 +327,64 @@ Coming soon. <br />
     width: 65%;
   }
   .slider {
+    margin-left: 5%;
     width: 30%;
+  }
+  .textbox {
+    border-style: solid; 
+    box-shadow: inset 0px 0px 0px 0px black; 
+    border: none; 
+    background-color: transparent;
   }
 </style>
 
-<div id="plot-container">
-  <div id="plot"></div>
-  <div>
-    <label for="sigma">Sigma:</label>
-    <input class="slider" type="range" min="0" max="2" step="0.01" value="1" id="sigma">
-    <label for="num-samples">Num Samples:</label>
-    <input class="slider" type="range" min="1" max="100" step="1" value="10" id="num-samples">
-    <div>
-        <input type="checkbox" id="cb_antithetic" checked style="float: left; margin-top: 14px;">
-        <div style="margin-left: 25px;">
-             Antithetic?
+
+<div id="plot-container-wrapper">
+    <div id="plot-container">
+      <div id="plot"></div>
+      <div>
+        <div style="display: flex">
+          <label for="sigma">Sigma:</label>
+          <input class="slider" type="range" min="0.33" max="2.5" step="0.01" value="1" id="sigma" />
         </div>
-    </div>
-    <div>
-        <input type="checkbox" id="cb_showsmoothed" style="float: left; margin-top: 14px;">
-        <div style="margin-left: 25px;">
-             Show Smooth?
+        <div style="display: flex">
+          <label for="num-samples">Num Samples:</label>
+          <input class="slider" type="range" min="2" max="100" step="2" value="10" id="num-samples" />
         </div>
+        <div style="display: flex">
+          <label for="theta">Theta:</label>
+          <input class="slider" type="range" min="-4" max="-0.5" step="0.1" value="-1.5" id="theta" />
+        </div>
+        <div style="display: flex">
+          <label for="stepsize">StepSize:</label>
+          <input class="slider" type="range" min="0.001" max="0.5" step="0.01" value="0.1" id="stepsize" />
+        </div>
+        <div style="display: flex">
+          <label for="epochs">Epochs:</label>
+          <input class="slider" type="range" min="10" max="700" step="1" value="200" id="epochs" />
+        </div>
+        <div style="display: flex">
+            <input type="checkbox" id="cb_antithetic" checked="" />
+            <div style="margin-left: 10px;">Antithetic?</div>
+        </div>
+        <div style="display: flex">
+            <input type="checkbox" id="cb_showsmoothed" />
+            <div style="margin-left: 10px;">Show Smooth?</div>
+        </div>
+        <div style="display: flex;">
+          <button style="float: left; margin-top: 14px;" onclick="optimize()">Run Optimization</button>
+          <button style="float: left; margin-left: 10px; margin-top: 14px;" onclick="stop_anim()">Stop</button>
+          <button style="float: left; margin-left: 10px; margin-top: 14px;" onclick="reset()">Reset</button>
+        </div>
+        _______________________________________
+        <div style="display: flex; margin-top: 10px">
+            <input type="text" class="textbox" id="epoch_text" value="Current Epoch: 0" />
+        </div>
+        <div style="display: flex">
+            <input type="text" class="textbox" id="cost_text" value="Current Cost: 1.0" />
+        </div>
+      </div>
     </div>
-    <button style="float: left; margin-top: 14px;" onclick="optimize()">Run optimization</button>
-  </div>
 </div>
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -369,36 +421,9 @@ function sampleGaussian(sigma = 1.0) {
   return sigma * boxmueller();
 }
 
-function mc_estimate(f_x, p_x) {
-	var N = f_x.length; 
-  var estimate = 0.0; 
-  for (var i = 0; i < N; i += 1) {
-  	estimate += f_x[i] / p_x[i];
-  }
-  return estimate / N; 
-}
-
-function convolve(theta, n_samples, samples, sigma) {
-	var outputs = []; var pdfs = [];
-  
-  for(var i = 0; i < n_samples; i+=1) {
-  	var tau = samples[i];
-    var pdf = get_pdf(tau, sigma); 
-    var w = gradGaussianKernel(tau, sigma);
-    
-    var theta_p = theta - tau; 
-    var weighted_fn_val = stepEdge(theta_p) * w; 
-    
-    outputs.push(weighted_fn_val); 
-    pdfs.push(pdf);
-  }
-  
-  return mc_estimate(outputs, pdfs);
-}
-
 function icdf(x, sigma) {
 	if (x > 0.5) {
-  	return Math.sqrt(-2.0 * Math.pow(sigma, 2) * Math.log(-2.0 * (x - 1.0)));
+  	return Math.sqrt(-2.0 * Math.pow(sigma, 2) * Math.log(2.0 * (1.0 - x)));
   } else {
   	return Math.sqrt(-2.0 * Math.pow(sigma, 2) * Math.log(2.0 * x));
   }
@@ -419,15 +444,15 @@ function getGradGaussianSamples(n_samples, sigma, antithetic) {
   var f_x = []
   var p_x = []
   for (var i = 0; i < n_samples; i++) {
-  	// var rand = Math.random();
+  	
     var rand = clean_random(Math.random());
     var x_i = icdf(rand, sigma) * (rand < 0.5 ? -1.0 : 1.0); 
     samples.push(x_i);
     
     if (antithetic) {
-    	var arand = 1.0 - rand; 
-      var x_i = icdf(rand, sigma) * (arand < 0.5 ? -1.0 : 1.0); 
-    	samples.push(x_i);
+      var arand = 1.0 - rand; 
+      var x_i = icdf(arand, sigma) * (arand < 0.5 ? -1.0 : 1.0); 
+      samples.push(x_i);
     }
   }  
   
@@ -457,6 +482,106 @@ function getGaussianSamples(n_samples, sigma, antithetic) {
   }
 	return [samples, p_x]; 
 }
+
+function mc_estimate(f_x, p_x) {
+	var N = f_x.length; 
+  var estimate = 0.0; 
+  for (var i = 0; i < N; i += 1) {
+  	estimate += (f_x[i] / p_x[i]);
+  }
+  return estimate / N; 
+}
+
+function mse(x, y) {
+	return Math.pow((x - y), 2); 
+ } 
+
+function convolve(theta, n_samples, samples, pdfs, sigma, goal) {
+	var outputs = [];
+  
+  goal = 0.0; 		// after rendering! 
+  
+  var tmp = []
+  for(var i = 0; i < n_samples; i+=1) {
+  	var tau = samples[i];
+    var w = gradGaussianKernel(tau, sigma);
+    
+    var theta_p = theta - tau; 
+    var fn = stepEdge(theta_p);
+    var weighted_fn_val = mse(fn, goal) * w; 
+    
+    outputs.push(weighted_fn_val); 
+  }
+  
+  var final_estimate = mc_estimate(outputs, pdfs);
+  return final_estimate;
+}
+
+function avg_list(vals) {
+	var average = 0.0; 
+	for (var i = 0; i < vals.length; i++) {
+  	average += vals[i];
+  }
+  return average / vals.length; 
+}
+
+
+function optimize() {
+	if (run_anim){return;}		// avoid double-running, e.g., when button is clicked while anim is running 
+  
+	sigma = parseFloat(sigmaSlider.value);
+  var theta = parseFloat(thetaSlider.value); 
+  var epochs = parseInt(epochsSlider.value);
+  var stepsize = parseFloat(stepsizeSlider.value);
+  var numSamples = parseInt(numSamplesSlider.value);
+  var nsamples_real = antithetic_checkbox.checked ? Math.round(numSamples / 2.0) : numSamples; 
+
+	run_anim = true; 
+  Plotly.update('plot', {x: [[theta]], y: [[stepEdge(theta)]]}, {}, 6);
+	Plotly.update('plot', {visible: true}, {}, 6);
+	
+  var gt_theta; gt_theta = 0.0; 
+  
+  let i = 0; 
+  const updateTrace = () => {
+    if (i < epochs && run_anim) {
+      
+      // get gradient by convolving and multiplying by kernel: 
+      const [x_i, f_xi, p_xi] = getGradGaussianSamples(numSamples, sigma, antithetic_checkbox.checked);
+    
+      var grad = convolve(theta, nsamples_real, x_i, p_xi, sigma, gt_theta);
+      
+      // grad. descent step 
+      theta -= stepsize * grad; 
+    
+    	var cost = mse(stepEdge(theta), gt_theta); 
+      update_trajectory([theta, stepEdge(theta), cost]); 
+      text_epochs.value = 'Current Epoch: ' + (i+1).toString(); 
+      text_cost.value = 'Current Cost: ' + cost.toString() + '.0'; 
+      
+      // make timeout so that display is able to react 
+      setTimeout(updateTrace, 5); 
+      i++; 
+    }
+  }
+  
+  // call function 
+  updateTrace(); 
+ }
+    
+function update_trajectory(values){
+  const traj = plot.data[6];
+  var xData = traj.x;
+	var yData = traj.y;
+  xData.push(values[0]); 
+  yData.push(values[1]);
+  
+  Plotly.update('plot', {x: [xData], y: [yData]}, {}, 6);
+  //Plotly.relayout('plot', {'annotations[0].text': 'Cost: ' + values[2].toString() + '.0'});
+}
+
+
+defaults = {'sigma': 1.0, 'nsamples': 10, 'epochs': 600, 'stepsize': 0.1, 'theta': -1.5};
 
 // Define the data for the Gaussian distribution
 var x = [], y_gauss = [], y_gradgauss = [], y_step = [], sigma = 1;
@@ -492,6 +617,7 @@ var sampleTrace = {
     x: [],
     y: [],
     name: 'Samples',
+    showlegend: false,
     mode: 'markers',
     opacity: 0.5,
     marker: {
@@ -504,6 +630,7 @@ var sampleTrace_gg = {
     x: [],
     y: [],
     name: 'Samples_gg',
+    showlegend: false,
     mode: 'markers',
     opacity: 0.8,
     marker: {
@@ -519,38 +646,116 @@ var smoothedFn = {
   type: 'scatter',
   marker: {color: 'rgb(255, 0, 255)'}
 };
-var layout = {
-  title: 'Gaussian Distribution Test',
-  xaxis: {title: 'x'},
-  yaxis: {title: 'y'},
-  legend: {orientation: 'h'}
+var trajectory = {
+	x: [defaults.theta], 
+  y: [1.0], 
+  name: 'Trajectory', 
+  type: 'scatter', 
+  mode: 'markers',
+  marker: {color: 'lime', size: 10, line: {color: 'grey', width: 1}}
 };
-Plotly.newPlot('plot', [gaussianTrace, stepTrace, gradGaussianTrace, sampleTrace, sampleTrace_gg], layout);
+var layout = {
+  title: 'Step Edge convolved with Gaussian',
+  xaxis: {title: 'x', 'range': [-5, 5]},
+  yaxis: {title: 'y', 'range': [-0.1, 1.2]},
+  legend: {orientation: 'h', y: 0.0},
+  shapes: [{type: 'rect',
+           xref: 'x',
+           yref: 'paper',
+           x0: 0,
+           y0: 0.075,
+           x1: 5,
+           y1: 0.15,
+           fillcolor: 'royalblue',
+           opacity: 0.6,
+           layer: 'below',
+           line: {width: 0}}],
+  /* annotations: [
+    {
+      x: 0.95,
+      y: 0.95,
+      xref: 'paper',
+      yref: 'paper',
+      text: 'Cost: 1.0',
+      borderpad: 5,
+      bordercolor: 'gray',
+      borderwidth: 1,
+      borderradius: 10,
+      boxshadow: '0 0 5px rgba(0, 0, 0, 0.3)',
+      showarrow: false,
+      font: {
+        size: 12,
+        color: 'black'
+      },
+      bgcolor: 'lightgrey',
+      opacity: 0.8
+    }
+  ] */
+};
+Plotly.newPlot('plot', [gaussianTrace,
+											  stepTrace, 
+                        gradGaussianTrace,
+                        sampleTrace,
+                        sampleTrace_gg,
+                        smoothedFn,
+                        trajectory], layout);
+
+function reset_textboxes() {
+  text_cost.value = 'Current Cost: 1.0'; 
+  text_epochs.value = 'Current Epoch: 0';
+}
+
+function reset(incl_plots=true) {
+	sigmaSlider.value = defaults.sigma; 
+  thetaSlider.value = defaults.theta;
+  epochsSlider.value = defaults.epochs; 
+  stepsizeSlider.value = defaults.stepsize; 
+  numSamplesSlider.value = defaults.nsamples; 
+  smoothed_checkbox.checked = false;
+  antithetic_checkbox.checked = true;
+  reset_textboxes(); 
+  if (incl_plots) update_plots();
+}
 
 var sigmaSlider = document.getElementById('sigma');
+var thetaSlider = document.getElementById('theta');
+var epochsSlider = document.getElementById('epochs');
+var stepsizeSlider = document.getElementById('stepsize');
 var numSamplesSlider = document.getElementById('num-samples');
 var smoothed_checkbox = document.getElementById('cb_showsmoothed');
 var antithetic_checkbox = document.getElementById('cb_antithetic');
 
-[sigmaSlider, numSamplesSlider].forEach(function(element) {
+var text_cost = document.getElementById('cost_text')
+var text_epochs = document.getElementById('epoch_text')
+
+reset(incl_plots=false); 		// set default values to sliders 
+
+var run_anim = false; 
+[sigmaSlider, numSamplesSlider, thetaSlider, smoothed_checkbox,
+ antithetic_checkbox, epochsSlider, stepsizeSlider].forEach(function(element) {
    element.addEventListener('input', function() {
       update_plots();
+      stop_anim(); 
+      reset_textboxes(); 
    });
 });
 
-smoothed_checkbox.addEventListener('change', function() {
-	if (!smoothed_checkbox.checked) {Plotly.deleteTraces('plot', 5);}
-  else {
-  	Plotly.addTraces('plot', smoothedFn);
-    update_plots();
-  }
-})
-
+function stop_anim() {
+	run_anim = false; 
+}
 
 function update_plots(){
 	
+  if (!smoothed_checkbox.checked) {Plotly.update('plot', {visible: false}, {}, 5);}
+  else {Plotly.update('plot', {visible: true}, {}, 5);}
+  
   sigma = parseFloat(sigmaSlider.value);
+  var theta_init = parseFloat(thetaSlider.value);
   var numSamples = parseInt(numSamplesSlider.value);
+  
+  // remove (potential) trajectory 
+  Plotly.update('plot', {visible: true}, {}, 6);
+  Plotly.update('plot', {x: [[theta_init]], y: [[stepEdge(theta_init)]]}, {}, 6); 
   
   // update gaussian plots: for gradgaussian, plot pdf, to have same scale easier 
   for (var i = 0; i < x.length; i++) {
@@ -560,8 +765,11 @@ function update_plots(){
   Plotly.update('plot', {y: [y_gauss]}, {}, 0,);				// {} is update for layout, 0 is selector index
   Plotly.update('plot', {y: [y_gradgauss]}, {}, 2,);		// {} is update for layout, 0 is selector index
   
+  // update annotation box: 
+  Plotly.relayout('plot', {'annotations[0].text': 'Cost: 1.0'});
+  
   // update samples: get samples and update the plots 
-  var nsamples_real = antithetic_checkbox.checked ? Math.round(numSamples / 2.0) : numSamples; 
+  var nsamples_real = antithetic_checkbox.checked ? Math.floor(numSamples / 2.0) : numSamples; 
 	const [xsampled_gauss, ysampled_gauss] = getGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
   const [x_gradG, y_gradG, pdf_gradG] = getGradGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
 
@@ -573,26 +781,22 @@ function update_plots(){
   } else {
   
     // go through all x's, for every x make a "smoothed" y-val by sampling N pts from the current
-    // x coordiante, and then querying and averaging their fn value
+    // x coordinate, and then query and avg their fn val 
     var smoothed = []
     for(var i = 0; i < x.length; i+=1) {
       var theta = x[i]		// go from -5 to 5 
 
-      const [xg, yg, pdf_g] = getGradGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
-      //const [xg, yg] = getGaussianSamples(numSamples, sigma, antithetic_checkbox.checked);
+			// we concolve with the Gaussian, not the grad.gaussian! 
+      //const [xg, yg, pdf_g] = getGradGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
+      const [xg, yg] = getGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
 
-      var fn_avg = 0.0
-      var fn_vals = [];
-      var pdfs = []
+      var fn_avg; fn_avg = 0.0;
       for (var j=0; j < xg.length; j+=1) {
         var theta_perturbed = theta - xg[j]; 
         fn_avg += stepEdge(theta_perturbed);
-        //fn_vals.push(stepEdge(theta_perturbed));
-        //pdfs.push(pdf_g[j]);
       }
 
       smoothed.push(fn_avg / numSamples); 
-      //smoothed.push(mc_estimate(fn_vals, pdfs)); 
     }
 
     Plotly.update('plot', {x: [x], y: [smoothed]}, {}, 5);
@@ -600,22 +804,66 @@ function update_plots(){
 }
 
 
-</script>) -->
+
+</script>
+
+<br />
+
+<p style="text-align: justify">
+We also provide a simple 2D example of our method in <a href="/prdpt">Colab</a>. Here, we optimize a square that, in the initial configuration, 
+does not overlap its reference and hence creates a plateau in the loss landscape (the 2D counterpart to the example above). This example uses a simpler renderer 
+and hence does not need all the scene config / rendering infrastructure used in the main repository.
+</p>
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%">
+  <img src="/assets/images/prdpt/2Dexample.png" style="max-width: 90%; max-height: 8=90%;" />
+</div>
+
+<br />
+
+<b>Results</b><br />
+<p style="text-align: justify">
+In the paper, we show a variety of results on different inverse rendering tasks. One such example is included here:  
+we optimize the position of the red sphere (cf. the video below) that is initially occluded by the blue sphere. This  
+leads to a jump discontinuity as soon as the red sphere moves in front of the blue one (cf. the sudden change in the image loss plot)
+with plateaus to the left and right. As in the interactive example above, our method (blue) successfully smoothes the space
+and differentiates through the plateaus, whereas a rigid optimization (orange) gets stuck on the plateau. 
+</p>
+
+<div class="vidcontainer">
+    <video id="occl-vid" style="display:inline-block; width:95%;" autoplay="" muted="" loop="" controls="">
+      <source src="/assets/images/prdpt/occl_w_graph.webm" type="video/webm" />
+      Your browser does not support the video tag.
+    </video>
+</div>
+
+<p style="text-align: justify">
+Another example of our method shows how a smoother space is easier to optimize: the rigid optimization (the orange curve in the plot) follows 
+the slight slope leading to a wrong minimum and finally pushing the sphere out of the image, where a plateau is hit, 
+and the optimizer cannot recover. Our formulation (the blue curve) allows the optimization to converge, as it is operating in a smoother space.   
+</p>
+
+<div class="vidcontainer">
+    <video id="shad-vid" style="display:inline-block; width: 95%;" autoplay="" muted="" loop="" controls="">
+      <source src="/assets/images/prdpt/shadows_w_graph.webm" type="video/webm" />
+      Your browser does not support the video tag.
+    </video>
+</div>
 
 <br />
 
 <b>BibTeX</b><br />
-If you find our work useful and use parts or ideas of our paper or code, please cite: <br /> <br />
-<p class="cite-box">
-    <span style="font-family: Lucida Console, Courier New, monospace"> 
-        @article{fischer2022plateau, <br />
-            &nbsp;&nbsp;title={Plateau-reduced Differentiable Path Tracing}, <br /> 
-            &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br />
-            &nbsp;&nbsp;journal={arXiv preprint arXiv:2211.17263}, <br />
-            &nbsp;&nbsp;year={2022} <br />
-        }
-     </span>
-</p> <br />
+If you find our work useful and use parts or ideas of our paper or code, please cite: <br />
+<p class="cite-box" style="margin-top: 5px">
+  <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px;">
+    @article{fischer2022plateau, <br />
+      &nbsp;&nbsp;title={Plateau-reduced Differentiable Path Tracing}, <br /> 
+      &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br />
+      &nbsp;&nbsp;journal={arXiv preprint arXiv:2211.17263}, <br />
+      &nbsp;&nbsp;year={2022} <br />
+    }
+  </span>
+</p>
+
 
 <b>Acknowledgements</b><br />
 We thank the Chen Liu, Valentin Deschaintre and the anonymous reviewers for their constructive comments and insightful 

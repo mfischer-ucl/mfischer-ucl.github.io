@@ -59,7 +59,7 @@ author_profile: false
 Our work has been featured in the <a href="https://link.growkudos.com/1pxz4w4nuv4">ACM Showcase</a>.  
 </p>
 
-<b>TL;DR</b><br>
+<b>TL;DR:</b><br>
 <p style="text-align: justify">
 We use meta-learning to encode visual appearance. Metappearance can be trained in less than a second, while providing 
 similar quality to conventionally trained networks that train orders of magnitude longer. We show results on a wide  
@@ -115,7 +115,7 @@ adaptivity of general models. </p> <br>
   </figure>
   <figure style="display:inline-block; width:45%; margin-left: 20px;">
     <img src="/assets/images/metappearance/EqualTime.png">
-    <figcaption style="text-align: justify; font-size: 90%; font-family: inherit;">Equal-time comparisons on unseen test data for each application
+    <figcaption style="text-align: justify; font-size: 90%; font-family: inherit;"><b>Equal-time comparisons</b> on unseen test data for each application
 (top to bottom row: Texture, BRDF, svBRDF, svBRDFnonstat, Illumination, Transport). Overfit and Finetune are ran with the same amount of gradient steps Meta uses,
 i.e., the same wall-clock time. Metappearance encodes the reference best across all applications.</figcaption>
   </figure>
@@ -125,9 +125,9 @@ i.e., the same wall-clock time. Metappearance encodes the reference best across 
 <br>
 
 <b>BibTeX</b><br>
-If you find our work useful and use parts or ideas of our paper or code, please cite: <br><br>
-<p class="cite-box">
-    <span style="font-family: Lucida Console, Courier New, monospace"> 
+If you find our work useful and use parts or ideas of our paper or code, please cite: <br>
+<p class="cite-box" style="margin-top: 5px">
+    <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px;">
         @article{fischer2022metappearance, <br>
             &nbsp;&nbsp;title={Metappearance: Meta-Learning for Visual Appearance Reproduction}, <br> 
             &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br>

@@ -1,8 +1,8 @@
 <ul>
     
-  <li style="display: flex; justify-content: left; align-items: center; margin: 0px 0 0 -38px;">
+  <!--<li style="display: flex; justify-content: left; align-items: center; margin: 0px 0 0 -38px;">
     <img src='/assets/images/zerograds/thumbnail3.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Zero Grads Ever Given: Learning Local Surrogate Losses for Differentiating Non-Differentiable Graphics</b></span>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Zero Grads Ever Given: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;"><b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
@@ -10,15 +10,12 @@
       <span style="font-size: 15px;">arXiv preprint<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="/">PDF (coming soon)</a>&nbsp;
-        <!--<a class="mybutton" href="/">Code</a>&nbsp;
-        <a class="mybutton" href="/">Cite</a>&nbsp;
-        <a class="mybutton" href="/">Project Page</a>-->
       </span> </p>
-  </li>
+  </li>-->
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/prdpt/thumbnail.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Plateau-Free Differentiable Path Tracing</b></span> <br>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Plateau-Reduced Differentiable Path Tracing</b></span> <br>
       <span style="font-size: 15px;"><b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
       </span> <br>

@@ -60,7 +60,7 @@ author_profile: false
     </div>
 </div>
 
-<b>TL;DR</b><br>
+<b>TL;DR:</b><br>
 <p style="text-align: justify">
 We convolute the traditional rendering equation with a Gaussian smoothing kernel to reduce plateaus, i.e., regions of zero gradient, in inverse 
 rendering. Our algorithm improves convergence and works on problems with intricate light transport (e.g., caustics) that previous algorithms
@@ -86,27 +86,74 @@ is a straightforward extension to both black-box and differentiable
 renderers and enables optimization of problems
 with intricate light transport, such as caustics or global
 illumination, that existing differentiable renderers do not
-converge on.</p><br>
+converge on.</p>
 
-<b>Examples</b><br>
-Coming soon. <br>
+<b>Interactive Examples</b><br>
+<p style="text-align: justify">
+Below is an interactive 1D example which uses our method to differentiate through a discontinuous step function. We can smoothen the 
+plateaus left and right of the jump discontinuity by convolving the step function with a Gaussian kernel (click 'Show Smooth'). 
+We then sample this convoluted space and use the samples to drive a gradient descent that moves the initial 
+parameter (green) towards the region of zero cost (the right halfspace, blue). <br>
+</p>
+{% include gaussianconv.md %}
 
-<!-- ({% include jsapplet.md %}) -->
+<br>
+
+<p style="text-align: justify">
+We also provide a simple 2D example of our method in <a href="/prdpt">Colab</a>. Here, we optimize a square that, in the initial configuration, 
+does not overlap its reference and hence creates a plateau in the loss landscape (the 2D counterpart to the example above). This example uses a simpler renderer 
+and hence does not need all the scene config / rendering infrastructure used in the main repository.
+</p>
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%">
+  <img src="/assets/images/prdpt/2Dexample.png" style="max-width: 90%; max-height: 8=90%;">
+</div>
+
+<br>
+
+<b>Results</b><br>
+<p style="text-align: justify">
+In the paper, we show a variety of results on different inverse rendering tasks. One such example is included here:  
+we optimize the position of the red sphere (cf. the video below) that is initially occluded by the blue sphere. This  
+leads to a jump discontinuity as soon as the red sphere moves in front of the blue one (cf. the sudden change in the image loss plot)
+with plateaus to the left and right. As in the interactive example above, our method (blue) successfully smoothes the space
+and differentiates through the plateaus, whereas a rigid optimization (orange) gets stuck on the plateau. 
+</p>
+
+<div class="vidcontainer">
+    <video id ="occl-vid" style="display:inline-block; width:95%;" autoplay muted loop controls>
+      <source src="/assets/images/prdpt/occl_w_graph.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+</div>
+
+<p style="text-align: justify">
+Another example of our method shows how a smoother space is easier to optimize: the rigid optimization (the orange curve in the plot) follows 
+the slight slope leading to a wrong minimum and finally pushing the sphere out of the image, where a plateau is hit, 
+and the optimizer cannot recover. Our formulation (the blue curve) allows the optimization to converge, as it is operating in a smoother space.   
+</p>
+
+<div class="vidcontainer">
+    <video id="shad-vid" style="display:inline-block; width: 95%;" autoplay muted loop controls>
+      <source src="/assets/images/prdpt/shadows_w_graph.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+</div>
 
 <br>
 
 <b>BibTeX</b><br>
-If you find our work useful and use parts or ideas of our paper or code, please cite: <br> <br>
-<p class="cite-box">
-    <span style="font-family: Lucida Console, Courier New, monospace"> 
-        @article{fischer2022plateau, <br>
-            &nbsp;&nbsp;title={Plateau-reduced Differentiable Path Tracing}, <br> 
-            &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br>
-            &nbsp;&nbsp;journal={arXiv preprint arXiv:2211.17263}, <br>
-            &nbsp;&nbsp;year={2022} <br>
-        }
-     </span>
-</p> <br>
+If you find our work useful and use parts or ideas of our paper or code, please cite: <br>
+<p class="cite-box" style="margin-top: 5px">
+  <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px;">
+    @article{fischer2022plateau, <br>
+      &nbsp;&nbsp;title={Plateau-reduced Differentiable Path Tracing}, <br> 
+      &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br>
+      &nbsp;&nbsp;journal={arXiv preprint arXiv:2211.17263}, <br>
+      &nbsp;&nbsp;year={2022} <br>
+    }
+  </span>
+</p>
+
 
 <b>Acknowledgements</b><br>
 We thank the Chen Liu, Valentin Deschaintre and the anonymous reviewers for their constructive comments and insightful 

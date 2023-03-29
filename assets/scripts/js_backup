@@ -1,0 +1,452 @@
+<style>
+  #plot-container-wrapper {
+    background-color: rgba(240, 240, 240, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    justify-content: space-between;
+  }
+  #plot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #plot {
+    width: 65%;
+  }
+  .slider {
+    margin-left: 5%;
+    width: 30%;
+  }
+</style>
+
+
+<div id="plot-container-wrapper">
+    <div id="plot-container">
+      <div id="plot"></div>
+      <div>
+        <div style="display: flex">
+          <label for="sigma">Sigma:</label>
+          <input class="slider" type="range" min="0.33" max="2.5" step="0.01" value="1" id="sigma">
+        </div>
+        <div style="display: flex">
+          <label for="num-samples">Num Samples:</label>
+          <input class="slider" type="range" min="2" max="100" step="2" value="10" id="num-samples">
+        </div>
+        <div style="display: flex">
+          <label for="theta">Theta:</label>
+          <input class="slider" type="range" min="-4" max="-0.5" step="0.1" value="-1.5" id="theta">
+        </div>
+        <div style="display: flex">
+          <label for="stepsize">StepSize:</label>
+          <input class="slider" type="range" min="0.001" max="0.5" step="0.01" value="0.1" id="stepsize">
+        </div>
+        <div style="display: flex">
+          <label for="epochs">Epochs:</label>
+          <input class="slider" type="range" min="10" max="1000" step="1" value="200" id="epochs">
+        </div>
+        <div style="display: flex">
+            <input type="checkbox" id="cb_antithetic" checked>
+            <div style="margin-left: 10px;">Antithetic?</div>
+        </div>
+        <div style="display: flex">
+            <input type="checkbox" id="cb_showsmoothed">
+            <div style="margin-left: 10px;">Show Smooth?</div>
+        </div>
+        <button style="float: left; margin-top: 14px;" onclick="optimize()">Run Optimization</button>
+        <button style="float: left; margin-left: 10px; margin-top: 14px;" onclick="stop_anim()">Stop</button>
+        <button style="float: left; margin-left: 10px; margin-top: 14px;" onclick="reset()">Reset</button>
+      </div>
+    </div>
+</div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+  
+function stepEdge(x) {
+	return x < 0 ? 1 : 0; 
+}
+
+function calcGradGaussian(x, sigma) {
+		// already sampling the positivized function here 
+    return (Math.abs(x) / Math.pow(sigma, 2)) * calcGaussian(x, sigma=sigma);
+}
+
+function gradGaussianKernel(x, sigma) {
+	return -(x / Math.pow(sigma, 2)) * calcGaussian(x, sigma=sigma);
+}
+
+function get_pdf(x, sigma) {
+	return 0.5 * sigma * Math.sqrt(2.0 * Math.PI) * x;
+}
+
+function calcGaussian(x, sigma) {
+  return 1.0 / (sigma * Math.sqrt(2 * Math.PI)) * Math.exp(-Math.pow(x, 2) / (2 * Math.pow(sigma, 2)));
+}
+
+// sample from a standard normal, N(0,1)
+function boxmueller() {
+  return Math.sqrt(-2 * Math.log(Math.random())) * Math.cos(2 * Math.PI * Math.random());
+}
+
+// convert standard normal samples to scaled normal 
+function sampleGaussian(sigma = 1.0) {
+  return sigma * boxmueller();
+}
+
+function icdf(x, sigma) {
+	if (x > 0.5) {
+  	return Math.sqrt(-2.0 * Math.pow(sigma, 2) * Math.log(2.0 * (1.0 - x)));
+  } else {
+  	return Math.sqrt(-2.0 * Math.pow(sigma, 2) * Math.log(2.0 * x));
+  }
+}
+
+function clean_random(x) {
+	var eps = 0.0001
+  if (x < eps) {x += eps;}					// too close to zero 
+  if (x - 0.5 < eps) {x -= eps;}		// too close to 0.5
+  if (0.5 - x < eps) {x += eps;}		// too close to 0.5
+  if (1.0 - x < eps) {x -= eps;}		// too close to 1
+  return x; 
+} 
+
+
+function getGradGaussianSamples(n_samples, sigma, antithetic) {
+	var samples = [] 
+  var f_x = []
+  var p_x = []
+  for (var i = 0; i < n_samples; i++) {
+  	
+    var rand = clean_random(Math.random());
+    var x_i = icdf(rand, sigma) * (rand < 0.5 ? -1.0 : 1.0); 
+    samples.push(x_i);
+    
+    if (antithetic) {
+      var arand = 1.0 - rand; 
+      var x_i = icdf(arand, sigma) * (arand < 0.5 ? -1.0 : 1.0); 
+      samples.push(x_i);
+    }
+  }  
+  
+  // calculcate sample value and pdf 
+  for (var i = 0; i<samples.length; i+=1){
+    var f_xi = Math.abs(samples[i]) / Math.pow(sigma, 2) * calcGaussian(samples[i], sigma);
+    var p_xi = 0.5 * sigma * Math.sqrt(2.0 * Math.PI) * f_xi;
+    f_x.push(f_xi);
+    p_x.push(p_xi); 
+  }
+  
+  return [samples, f_x, p_x];
+}
+
+function getGaussianSamples(n_samples, sigma, antithetic) {
+	var samples = []
+  var p_x = []
+  for (var i = 0; i < n_samples; i++) {
+    var x_i = sampleGaussian(sigma);
+    samples.push(x_i);
+    if (antithetic) {samples.push(x_i * -1.0);}
+  }
+  
+  // calc sample value 
+  for (var i = 0; i < samples.length; i+=1) {
+  	p_x.push(calcGaussian(samples[i], sigma=sigma));
+  }
+	return [samples, p_x]; 
+}
+
+function mc_estimate(f_x, p_x) {
+	var N = f_x.length; 
+  var estimate = 0.0; 
+  for (var i = 0; i < N; i += 1) {
+  	estimate += (f_x[i] / p_x[i]);
+  }
+  return estimate / N; 
+}
+
+function mse(x, y) {
+	return Math.pow((x - y), 2); 
+ } 
+
+function convolve(theta, n_samples, samples, pdfs, sigma, goal) {
+	var outputs = [];
+  
+  goal = 0.0; 		// after rendering! 
+  
+  var tmp = []
+  for(var i = 0; i < n_samples; i+=1) {
+  	var tau = samples[i];
+    var w = gradGaussianKernel(tau, sigma);
+    
+    var theta_p = theta - tau; 
+    var fn = stepEdge(theta_p);
+    var weighted_fn_val = mse(fn, goal) * w; 
+    
+    outputs.push(weighted_fn_val); 
+  }
+  
+  var final_estimate = mc_estimate(outputs, pdfs);
+  return final_estimate;
+}
+
+function avg_list(vals) {
+	var average = 0.0; 
+	for (var i = 0; i < vals.length; i++) {
+  	average += vals[i];
+  }
+  return average / vals.length; 
+}
+
+
+function optimize() {
+	if (run_anim){return;}		// avoid double-running, e.g., when button is clicked while anim is running 
+  
+	sigma = parseFloat(sigmaSlider.value);
+  var theta = parseFloat(thetaSlider.value); 
+  var epochs = parseInt(epochsSlider.value);
+  var stepsize = parseFloat(stepsizeSlider.value);
+  var numSamples = parseInt(numSamplesSlider.value);
+  var nsamples_real = antithetic_checkbox.checked ? Math.round(numSamples / 2.0) : numSamples; 
+
+	run_anim = true; 
+  Plotly.update('plot', {x: [[theta]], y: [[stepEdge(theta)]]}, {}, 6);
+	Plotly.update('plot', {visible: true}, {}, 6);
+	
+  var gt_theta; gt_theta = 0.0; 
+  
+  let i = 0; 
+  const updateTrace = () => {
+    if (i < epochs && run_anim) {
+      
+      // get gradient by convolving and multiplying by kernel: 
+      const [x_i, f_xi, p_xi] = getGradGaussianSamples(numSamples, sigma, antithetic_checkbox.checked);
+    
+      var grad = convolve(theta, nsamples_real, x_i, p_xi, sigma, gt_theta);
+      
+      // grad. descent step 
+      theta -= stepsize * grad; 
+    
+      update_trajectory([theta, stepEdge(theta), mse(stepEdge(theta), gt_theta)]); 
+      
+      // make timeout so that display is able to react 
+      setTimeout(updateTrace, 5); 
+      i++; 
+    }
+  }
+  
+  // call function 
+  updateTrace(); 
+ }
+    
+function update_trajectory(values){
+  const traj = plot.data[6];
+  var xData = traj.x;
+	var yData = traj.y;
+  xData.push(values[0]); 
+  yData.push(values[1]);
+  Plotly.update('plot', {x: [xData], y: [yData]}, {}, 6);
+  Plotly.relayout('plot', {'annotations[0].text': 'Cost: ' + values[2].toString() + '.0'});
+}
+
+// Define the data for the Gaussian distribution
+var x = [], y_gauss = [], y_gradgauss = [], y_step = [], sigma = 1;
+for (var i = -5; i < 5; i += 0.01) {
+  x.push(i);
+  y_step.push(stepEdge(i));
+  y_gauss.push(calcGaussian(i, sigma = sigma));
+  y_gradgauss.push(calcGradGaussian(i, sigma=sigma));
+}
+
+defaults = {'sigma': 1.0, 'nsamples': 10, 'epochs': 200, 'stepsize': 0.1, 'theta': -1.5};
+
+// Create the initial plot, declare all the traces 
+var gaussianTrace = {
+  x: x,
+  y: y_gauss,
+  name: 'Gaussian',
+  type: 'scatter',
+  opacity: 0.25
+};
+var gradGaussianTrace = {
+  x: x,
+  y: y_gradgauss,
+  name: 'Grad.Gaussian',
+  type: 'scatter',
+  marker: {color: 'rgb(0, 0, 0)'}
+};
+var stepTrace = {
+  x: x,
+  y: y_step,
+  name: 'Step Fn.',
+  type: 'scatter'
+};
+var sampleTrace = {
+    x: [],
+    y: [],
+    name: 'Samples',
+    mode: 'markers',
+    showlegend: false,
+    opacity: 0.5,
+    marker: {
+      size: 7,
+      symbol: 'diamond',
+      color: 'black'
+    }
+};
+var sampleTrace_gg = {
+    x: [],
+    y: [],
+    name: 'Samples_gg',
+    showlegend: false,
+    mode: 'markers',
+    opacity: 0.8,
+    marker: {
+      size: 7,
+      symbol: 'diamond',
+      color: 'black'
+    }
+};  
+var smoothedFn = {
+  x: [],
+  y: [],
+  name: 'Smoothed',
+  type: 'scatter',
+  marker: {color: 'rgb(255, 0, 255)'}
+};
+var trajectory = {
+  x: [defaults.theta], 
+  y: [1.0], 
+  name: 'Trajectory', 
+  type: 'scatter', 
+  mode: 'markers',
+  marker: {color: 'lime', size: 10, line: {color: 'grey', width: 1}}
+};
+var layout = {
+  title: 'Step Edge convolved w/ Gaussian - 1D Example',
+  xaxis: {title: 'x', 'range': [-5, 5]},
+  yaxis: {title: 'y', 'range': [-0.1, 1.2]},
+  legend: {orientation: 'h', y: 0.0},
+  annotations: [
+    {
+      x: 0.95,
+      y: 0.95,
+      xref: 'paper',
+      yref: 'paper',
+      text: 'Cost: 1.0',
+      borderpad: 5,
+    	bordercolor: 'gray',
+    	borderwidth: 1,
+    	borderradius: 10,
+      boxshadow: '0 0 5px rgba(0, 0, 0, 0.3)',
+      showarrow: false,
+      font: {
+        size: 12,
+        color: 'black'
+      },
+      bgcolor: 'lightgrey',
+      opacity: 0.8
+    }
+  ]
+};
+Plotly.newPlot('plot', [gaussianTrace,
+						stepTrace, 
+                        gradGaussianTrace,
+                        sampleTrace,
+                        sampleTrace_gg,
+                        smoothedFn,
+                        trajectory], layout);
+
+function reset() {
+	sigmaSlider.value = defaults.sigma; 
+  thetaSlider.value = defaults.theta;
+  epochsSlider.value = defaults.epochs; 
+  stepsizeSlider.value = defaults.stepsize; 
+  numSamplesSlider.value = defaults.nsamples; 
+  smoothed_checkbox.checked = false;
+  antithetic_checkbox.checked = true;
+  update_plots();
+}
+
+var sigmaSlider = document.getElementById('sigma');
+var thetaSlider = document.getElementById('theta');
+var epochsSlider = document.getElementById('epochs');
+var stepsizeSlider = document.getElementById('stepsize');
+var numSamplesSlider = document.getElementById('num-samples');
+var smoothed_checkbox = document.getElementById('cb_showsmoothed');
+var antithetic_checkbox = document.getElementById('cb_antithetic');
+
+var run_anim = false; 
+[sigmaSlider, numSamplesSlider, thetaSlider, smoothed_checkbox,
+ antithetic_checkbox, epochsSlider, stepsizeSlider].forEach(function(element) {
+   element.addEventListener('input', function() {
+      update_plots();
+      stop_anim(); 
+   });
+});
+
+function stop_anim() {
+	run_anim = false; 
+}
+
+function update_plots(){
+	
+  if (!smoothed_checkbox.checked) {Plotly.update('plot', {visible: false}, {}, 5);}
+  else {Plotly.update('plot', {visible: true}, {}, 5);}
+  
+  sigma = parseFloat(sigmaSlider.value);
+  var theta_init = parseFloat(thetaSlider.value);
+  var numSamples = parseInt(numSamplesSlider.value);
+  
+  // remove (potential) trajectory 
+  Plotly.update('plot', {visible: true}, {}, 6);
+  Plotly.update('plot', {x: [[theta_init]], y: [[stepEdge(theta_init)]]}, {}, 6); 
+  
+  // update gaussian plots: for gradgaussian, plot pdf, to have same scale easier 
+  for (var i = 0; i < x.length; i++) {
+    y_gauss[i] = calcGaussian(x[i], sigma = sigma);
+    y_gradgauss[i] = 0.5 * sigma * Math.sqrt(2.0 * Math.PI) * calcGradGaussian(x[i], sigma=sigma);		
+  }
+  Plotly.update('plot', {y: [y_gauss]}, {}, 0,);				// {} is update for layout, 0 is selector index
+  Plotly.update('plot', {y: [y_gradgauss]}, {}, 2,);		// {} is update for layout, 0 is selector index
+  
+  // update annotation box: 
+  Plotly.relayout('plot', {'annotations[0].text': 'Cost: 1.0'});
+  
+  // update samples: get samples and update the plots 
+  var nsamples_real = antithetic_checkbox.checked ? Math.floor(numSamples / 2.0) : numSamples; 
+	const [xsampled_gauss, ysampled_gauss] = getGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
+  const [x_gradG, y_gradG, pdf_gradG] = getGradGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
+
+	Plotly.update('plot', {x: [xsampled_gauss], y: [ysampled_gauss]}, {}, 3);		
+  Plotly.update('plot', {x: [x_gradG], y: [pdf_gradG]}, {}, 4);
+  
+  if (!smoothed_checkbox.checked) {
+  	return;
+  } else {
+  
+    // go through all x's, for every x make a "smoothed" y-val by sampling N pts from the current
+    // x coordinate, and then query and avg their fn val 
+    var smoothed = []
+    for(var i = 0; i < x.length; i+=1) {
+      var theta = x[i]		// go from -5 to 5 
+
+      const [xg, yg, pdf_g] = getGradGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
+      //const [xg, yg] = getGaussianSamples(numSamples, sigma, antithetic_checkbox.checked);
+
+      var fn_avg; fn_avg = 0.0;
+      for (var j=0; j < xg.length; j+=1) {
+        var theta_perturbed = theta - xg[j]; 
+        fn_avg += stepEdge(theta_perturbed);
+      }
+
+      smoothed.push(fn_avg / numSamples); 
+    }
+
+    Plotly.update('plot', {x: [x], y: [smoothed]}, {}, 5);
+  }
+}
+
+
+
+</script>
