@@ -5,14 +5,33 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
     padding: 20px;
     justify-content: space-between;
+    height: 640px;
+    display: flex; 
   }
   #plot-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+  }
+  #plot-container2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #plot-container3 {
+    display: flex;
+    justify-content: space-between;
   }
   #plot {
-    width: 65%;
+    width: 100%;
+    height: 485px;
+  }
+  #plot2 {
+    width: 100%;
+    height: 220px;
+  }
+  #plot3 {
+    width: 100%;
+    height: 100px;
   }
   .slider {
     margin-left: 5%;
@@ -26,11 +45,13 @@
   }
 </style>
 
-
 <div id="plot-container-wrapper">
     <div id="plot-container">
       <div id="plot"></div>
-      <div>
+      <div id="plot3"></div>
+    </div>
+    <div id="plot-container">
+      <div style="width: 400px;">       <!-- the slider container-->
         <div style="display: flex">
           <label for="sigma">Sigma:</label>
           <input class="slider" type="range" min="0.33" max="2.5" step="0.01" value="1" id="sigma">
@@ -41,7 +62,7 @@
         </div>
         <div style="display: flex">
           <label for="theta">Theta:</label>
-          <input class="slider" type="range" min="-4" max="-0.5" step="0.1" value="-1.5" id="theta">
+          <input class="slider" type="range" min="-4" max="4.0" step="0.1" value="-1.8" id="theta">
         </div>
         <div style="display: flex">
           <label for="stepsize">StepSize:</label>
@@ -71,6 +92,7 @@
         <div style="display: flex">
             <input type="text" class="textbox" id="cost_text" value="Current Cost: 1.0">
         </div>
+        <div id="plot2" style="width: 100%;"></div>
       </div>
     </div>
 </div>
@@ -79,7 +101,7 @@
 <script>
   
 function stepEdge(x) {
-	return x < 0 ? 1 : 0; 
+	return x < -0.5 ? 1 : (x > 2.5 ? 1 : 0); 
 }
 
 function calcGradGaussian(x, sigma) {
@@ -225,8 +247,8 @@ function optimize() {
   var nsamples_real = antithetic_checkbox.checked ? Math.round(numSamples / 2.0) : numSamples; 
 
 	run_anim = true; 
-  Plotly.update('plot', {x: [[theta]], y: [[stepEdge(theta)]]}, {}, 6);
-	Plotly.update('plot', {visible: true}, {}, 6);
+  Plotly.update('plot', {x: [[theta]], y: [[stepEdge(theta)]]}, {}, 2);
+	Plotly.update('plot', {visible: true}, {}, 2);
 	
   var gt_theta; gt_theta = 0.0; 
   
@@ -258,18 +280,17 @@ function optimize() {
  }
     
 function update_trajectory(values){
-  const traj = plot.data[6];
+  const traj = plot.data[2];
   var xData = traj.x;
 	var yData = traj.y;
   xData.push(values[0]); 
   yData.push(values[1]);
-  
-  Plotly.update('plot', {x: [xData], y: [yData]}, {}, 6);
-  //Plotly.relayout('plot', {'annotations[0].text': 'Cost: ' + values[2].toString() + '.0'});
+  Plotly.update('plot', {x: [xData], y: [yData]}, {}, 2);
+  update_triangle(values[0]); 
 }
 
 
-defaults = {'sigma': 1.0, 'nsamples': 10, 'epochs': 600, 'stepsize': 0.1, 'theta': -1.5};
+defaults = {'sigma': 1.0, 'nsamples': 10, 'epochs': 600, 'stepsize': 0.1, 'theta': -2.0};
 
 // Define the data for the Gaussian distribution
 var x = [], y_gauss = [], y_gradgauss = [], y_step = [], sigma = 1;
@@ -298,8 +319,9 @@ var gradGaussianTrace = {
 var stepTrace = {
   x: x,
   y: y_step,
-  name: 'Step Function',
-  type: 'scatter'
+  name: 'Cost Function',
+  type: 'scatter',
+  marker: {color: 'orange'}
 };
 var sampleTrace = {
     x: [],
@@ -334,62 +356,92 @@ var smoothedFn = {
   type: 'scatter',
   marker: {color: 'rgb(255, 0, 255)'}
 };
+var verticalZero = {
+  x: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
+  y: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+  name: '',
+  showlegend: false,
+  type: 'scatter',
+  opacity: 0.75,
+  line: {color: 'black', 'width': 0.5},
+};
+var pxTrace = {
+  x: [-5.0, -4.0, -3.0, -2.0, -1.0, 0.0, 1, 2, 3, 4, 5, -5.0, -4.0, -3.0, -2.0, -1.0, 0.0, 1, 2, 3, 4, 5],
+  y: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  name: '',
+  showlegend: false,
+  type: 'scatter',
+  opacity: 0.75,
+  marker: {color: 'black', size: 2, line: {color: 'black', width: 2}}
+};
 var trajectory = {
 	x: [defaults.theta], 
   y: [1.0], 
-  name: 'Trajectory', 
+  name: 'Triangle Center', 
   type: 'scatter', 
   mode: 'markers',
   marker: {color: 'lime', size: 10, line: {color: 'grey', width: 1}}
 };
 var layout = {
-  title: 'Step Edge convolved with Gaussian',
-  xaxis: {title: 'x', 'range': [-5, 5]},
+  title: '1D Example: Differentiating Through Plateaus',
+  xaxis: {title: 'x', 'range': [-5, 5], zeroline: false},
   yaxis: {title: 'y', 'range': [-0.1, 1.2]},
-  legend: {orientation: 'h', y: 0.0},
-  shapes: [{type: 'rect',
+  legend: {orientation: 'h', y: 0.0, xanchor: 'center', x: 0.5},
+  /*shapes: [{type: 'rect',
            xref: 'x',
            yref: 'paper',
-           x0: 0,
+           x0: -1.5,
            y0: 0.075,
-           x1: 5,
+           x1: 1.5,
            y1: 0.15,
            fillcolor: 'royalblue',
            opacity: 0.6,
            layer: 'below',
-           line: {width: 0}}],
-  /* annotations: [
-    {
-      x: 0.95,
-      y: 0.95,
-      xref: 'paper',
-      yref: 'paper',
-      text: 'Cost: 1.0',
-      borderpad: 5,
-      bordercolor: 'gray',
-      borderwidth: 1,
-      borderradius: 10,
-      boxshadow: '0 0 5px rgba(0, 0, 0, 0.3)',
-      showarrow: false,
-      font: {
-        size: 12,
-        color: 'black'
-      },
-      bgcolor: 'lightgrey',
-      opacity: 0.8
-    }
-  ] */
+           line: {width: 0}}],*/
 };
-Plotly.newPlot('plot', [gaussianTrace,
-											  stepTrace, 
-                        gradGaussianTrace,
-                        sampleTrace,
-                        sampleTrace_gg,
+var layoutLower = {
+  xaxis: {title: '', 'range': [-5, 5]},
+  yaxis: {title: '', 'range': [-0.1, 1.2]},
+  legend: {orientation: 'h', y: 0.0, xanchor: 'center', x: 0.5},
+  margin: {t: 10, b: 10, l: 25, r: 10},
+  autosize: true
+};
+var layoutPxPlot = {
+  xaxis: {title: '', 'range': [-5, 5], zeroline: false, showgrid: false},
+  yaxis: {title: '', 'range': [-0.2, 0.7], showgrid: false, tickmode: 'array', tickvals: [0],
+    showticklabels: false},
+  legend: {orientation: 'h', y: 0.0, xanchor: 'center', x: 0.5},
+  margin: {t: 2, b: 2, l: 80, r: 80},
+  shapes: [{type: 'path',
+      			path: 'M 0 0 L 1 0.4 L 2 0 Z',
+      			xref: 'x',
+      			yref: 'y',
+      			fillcolor: 'red',
+      			opacity: 0.6,
+      			line: {width: 1}}, 
+      		 {type: 'rect',
+            xref: 'x',
+            yref: 'y',
+            x0: 0.80,
+            y0: 0.0,
+            x1: 1.2,
+            y1: 0.2,
+            fillcolor: 'grey',
+            opacity: 0.6,
+            line: {width: 1}}],
+};
+
+Plotly.newPlot('plot', [stepTrace, 
                         smoothedFn,
                         trajectory], layout);
-
+Plotly.newPlot('plot2', [gaussianTrace,
+                         gradGaussianTrace,
+                         sampleTrace,
+                         sampleTrace_gg,verticalZero], layoutLower);
+Plotly.newPlot('plot3', [pxTrace], layoutPxPlot);
+                        
 function reset_textboxes() {
-  text_cost.value = 'Current Cost: 1.0'; 
+	text_cost.value = 'Current Cost: 1.0'; 
   text_epochs.value = 'Current Epoch: 0';
 }
 
@@ -402,6 +454,7 @@ function reset(incl_plots=true) {
   smoothed_checkbox.checked = false;
   antithetic_checkbox.checked = true;
   reset_textboxes(); 
+  update_triangle();
   if (incl_plots) update_plots();
 }
 
@@ -419,10 +472,25 @@ var text_epochs = document.getElementById('epoch_text')
 reset(incl_plots=false); 		// set default values to sliders 
 
 var run_anim = false; 
-[sigmaSlider, numSamplesSlider, thetaSlider, smoothed_checkbox,
- antithetic_checkbox, epochsSlider, stepsizeSlider].forEach(function(element) {
+
+thetaSlider.addEventListener('input', function() {
+	update_triangle()
+  update_plots(resample=false);
+  stop_anim(); 
+  reset_textboxes(); 
+});
+
+[epochsSlider, stepsizeSlider].forEach(function(element) {
    element.addEventListener('input', function() {
-      update_plots();
+      update_plots(resample=false);
+      stop_anim(); 
+      reset_textboxes(); 
+   });
+});
+
+[sigmaSlider, numSamplesSlider,antithetic_checkbox, smoothed_checkbox].forEach(function(element) {
+   element.addEventListener('input', function() {
+      update_plots(resample=true);
       stop_anim(); 
       reset_textboxes(); 
    });
@@ -432,41 +500,60 @@ function stop_anim() {
 	run_anim = false; 
 }
 
-function update_plots(){
+function theta_to_triPath(th) {
+	// expects a single theta parameter, returns a triangle path that is used to update the layout 
+  var w = 1.4; 		// tri width 
+  var y = 0.0; 
+  var h = 0.5; 
+  var tripath = 'M ' + (th-w).toString() + ' ' + y.toString() + ' L ' + th.toString() + ' ' + (y+h).toString() + ' L ' + (th+w).toString() + ' '+ y.toString() +' Z';
+  return tripath; 
+}
+
+function update_triangle(theta=999) {
+	if (theta==999) {
+		theta = parseFloat(thetaSlider.value); 		// default value, never passed, read from slider 
+  }
+  var tripath = theta_to_triPath(theta); 
+  var update = {'shapes[0].path': tripath};
+  Plotly.relayout('plot3', update);
+}
+
+function update_plots(resample=true){
 	
-  if (!smoothed_checkbox.checked) {Plotly.update('plot', {visible: false}, {}, 5);}
-  else {Plotly.update('plot', {visible: true}, {}, 5);}
+  if (!smoothed_checkbox.checked) {Plotly.update('plot', {visible: false}, {}, 1);}
+  else {Plotly.update('plot', {visible: true}, {}, 1);}
   
   sigma = parseFloat(sigmaSlider.value);
   var theta_init = parseFloat(thetaSlider.value);
   var numSamples = parseInt(numSamplesSlider.value);
   
   // remove (potential) trajectory 
-  Plotly.update('plot', {visible: true}, {}, 6);
-  Plotly.update('plot', {x: [[theta_init]], y: [[stepEdge(theta_init)]]}, {}, 6); 
+  Plotly.update('plot', {visible: true}, {}, 2);
+  Plotly.update('plot', {x: [[theta_init]], y: [[stepEdge(theta_init)]]}, {}, 2); 
   
   // update gaussian plots: for gradgaussian, plot pdf, to have same scale easier 
   for (var i = 0; i < x.length; i++) {
     y_gauss[i] = calcGaussian(x[i], sigma = sigma);
     y_gradgauss[i] = 0.5 * sigma * Math.sqrt(2.0 * Math.PI) * calcGradGaussian(x[i], sigma=sigma);		
   }
-  Plotly.update('plot', {y: [y_gauss]}, {}, 0,);				// {} is update for layout, 0 is selector index
-  Plotly.update('plot', {y: [y_gradgauss]}, {}, 2,);		// {} is update for layout, 0 is selector index
+  Plotly.update('plot2', {y: [y_gauss]}, {}, 0,);				// {} is update for layout, 0 is selector index
+  Plotly.update('plot2', {y: [y_gradgauss]}, {}, 1,);		// {} is update for layout, 0 is selector index
   
-  // update annotation box: 
-  Plotly.relayout('plot', {'annotations[0].text': 'Cost: 1.0'});
   
-  // update samples: get samples and update the plots 
-  var nsamples_real = antithetic_checkbox.checked ? Math.floor(numSamples / 2.0) : numSamples; 
-	const [xsampled_gauss, ysampled_gauss] = getGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
-  const [x_gradG, y_gradG, pdf_gradG] = getGradGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
-
-	Plotly.update('plot', {x: [xsampled_gauss], y: [ysampled_gauss]}, {}, 3);		
-  Plotly.update('plot', {x: [x_gradG], y: [pdf_gradG]}, {}, 4);
+    // update samples: get samples and update the plots 
+    var nsamples_real = antithetic_checkbox.checked ? Math.floor(numSamples / 2.0) : numSamples; 
+    if (resample) {
+    const [xsampled_gauss, ysampled_gauss] = getGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
+    const [x_gradG, y_gradG, pdf_gradG] = getGradGaussianSamples(nsamples_real, sigma, antithetic_checkbox.checked);
+  
+    Plotly.update('plot2', {x: [xsampled_gauss], y: [ysampled_gauss]}, {}, 2);		
+    Plotly.update('plot2', {x: [x_gradG], y: [pdf_gradG]}, {}, 3);
+  }
   
   if (!smoothed_checkbox.checked) {
   	return;
   } else {
+  	if (!resample) {return;}
   
     // go through all x's, for every x make a "smoothed" y-val by sampling N pts from the current
     // x coordinate, and then query and avg their fn val 
@@ -487,10 +574,9 @@ function update_plots(){
       smoothed.push(fn_avg / numSamples); 
     }
 
-    Plotly.update('plot', {x: [x], y: [smoothed]}, {}, 5);
+    Plotly.update('plot', {x: [x], y: [smoothed]}, {}, 1);
   }
 }
-
 
 
 </script>

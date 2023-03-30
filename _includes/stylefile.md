@@ -44,4 +44,8 @@ display: inline-block;
   margin-bottom: 15px;
 }
 
+.teaserbutton {
+  height: 80px;
+}
+
 </style>

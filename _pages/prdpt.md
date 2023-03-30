@@ -22,37 +22,40 @@ author_profile: false
 <br>
 </div>
 
+<!--<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%">
+  <img src="/assets/images/prdpt/teaserImg1.png" style="width: 100%">
+</div>-->
 
 <div class="row" style="margin: 50px 0 50px 0">
     <div style="display: inline">
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
                 <a href="/assets/prdpt_main.pdf" download="plateaureduced_diff_pt.pdf">
-                <img src="/assets/images/prdpt/paperfront.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/prdpt/paperfront.png" ><br>
                     <h4><strong>Paper</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="/prdpt">
-                <img src="/assets/images/youtube_icon_red.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/youtube_icon_red.png" ><br>
                     <h4><strong>Video (coming soon)</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="/prdpt">
-                <img src="/assets/images/gh_icon.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/gh_icon.png" ><br>
                     <h4><strong>Code (coming soon)</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="/prdpt">
-                <img src="/assets/images/colablogo.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/colablogo.png"><br>
                     <h4><strong>Colab (coming soon)</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="/assets/prdpt_suppl.pdf" download="plateaureduced_diff_pt_suppl.pdf">
-                <img src="/assets/images/paperclip.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/paperclip.png" ><br>
                     <h4><strong>Supplemental</strong></h4>
                 </a>
             </li>
@@ -64,8 +67,7 @@ author_profile: false
 <p style="text-align: justify">
 We convolute the traditional rendering equation with a Gaussian smoothing kernel to reduce plateaus, i.e., regions of zero gradient, in inverse 
 rendering. Our algorithm improves convergence and works on problems with intricate light transport (e.g., caustics) that previous algorithms
-do not converge on.</p> <br>
-
+do not converge on.</p>
 
 <b>Abstract</b><br>
 <p style="text-align: justify">
@@ -90,10 +92,12 @@ converge on.</p>
 
 <b>Interactive Examples</b><br>
 <p style="text-align: justify">
-Below is an interactive 1D example which uses our method to differentiate through a discontinuous step function. We can smoothen the 
-plateaus left and right of the jump discontinuity by convolving the step function with a Gaussian kernel (click 'Show Smooth'). 
+Below is an interactive 1D example which uses our method to differentiate through a discontinuous step function. The task here 
+is to move the triangle center (parameterized by theta), such that it covers the black pixel at the bottom. The plateaus in the cost landscape 
+come from the fact that the error between the pixel's desired and its current color does not take into account how "far away" the triangle is 
+when it's not overlapping the pixel. We can smoothen these plateaus by our proposed convolution with a Gaussian kernel (displayed in plot in the right bottom corner, click 'Show Smooth' to see the convolved function). 
 We then sample this convoluted space and use the samples to drive a gradient descent that moves the initial 
-parameter (green) towards the region of zero cost (the right halfspace, blue). <br>
+parameter (green) towards the region of zero cost, i.e., such that the triangle overlaps the pixel. <br>
 </p>
 {% include gaussianconv.md %}
 
@@ -105,7 +109,7 @@ does not overlap its reference and hence creates a plateau in the loss landscape
 and hence does not need all the scene config / rendering infrastructure used in the main repository.
 </p>
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 2%">
-  <img src="/assets/images/prdpt/2Dexample.png" style="max-width: 90%; max-height: 8=90%;">
+  <img src="/assets/images/prdpt/2Dexample.png" style="max-width: 90%;">
 </div>
 
 <br>
@@ -138,6 +142,20 @@ and the optimizer cannot recover. Our formulation (the blue curve) allows the op
       Your browser does not support the video tag.
     </video>
 </div>
+
+<p style="text-align: justify">
+In the below example the task is to optimize the light's position such that a reference caustic is matched. 
+As in the shadow example, the rigid optimization operates in non-smooth space, and pushes the light source far out, 
+where a plateau (the grey image) is reached. Our method operates in smooth space and finds the correct position.
+</p>
+
+<div class="vidcontainer">
+    <video id="caust-vid" style="display:inline-block; width: 95%;" autoplay muted loop controls>
+      <source src="/assets/images/prdpt/caustic_w_graph.webm" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+</div>
+
 
 <br>
 
