@@ -166,7 +166,7 @@ If you find our work useful and use parts or ideas of our paper or code, please 
     @article{fischer2022plateau, <br>
       &nbsp;&nbsp;title={Plateau-reduced Differentiable Path Tracing}, <br> 
       &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br>
-      &nbsp;&nbsp;journal={arXiv preprint arXiv:2211.17263}, <br>
+      &nbsp;&nbsp;journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, <br>
       &nbsp;&nbsp;year={2022} <br>
     }
   </span>
