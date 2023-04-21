@@ -111,7 +111,7 @@ adaptivity of general models. </p> <br>
         quick over-fitting onto <b> new, unseen </b> tasks in only a few gradient steps. We report wall-clock
         time for approx. 25%, 50% and 75% (columns 2-5) of the gradient descent steps used for inference. Note how after less than 
         a second of optimization, Metappearance achieves quality that is very close to the reference across all applications
-        (from top to bottom: textures, BRDFs, stationary svBRDFs</figcaption>
+        (from top to bottom: textures, BRDFs, stationary svBRDFs, nonstationary svBRDFs, envmap illumination, light transport).</figcaption>
   </figure>
   <figure style="display:inline-block; width:45%; margin-left: 20px;">
     <img src="/assets/images/metappearance/EqualTime.png">
