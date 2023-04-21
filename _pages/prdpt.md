@@ -42,15 +42,15 @@ author_profile: false
                 </a>
             </li>
             <li class="horizItem">
-                <a href="/prdpt">
+                <a href="https://github.com/mfischer-ucl/prdpt">
                 <img class="teaserbutton" src="/assets/images/gh_icon.png" ><br>
-                    <h4><strong>Code (coming soon)</strong></h4>
+                    <h4><strong>Code</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
-                <a href="/prdpt">
+                <a href="https://colab.research.google.com/github/mfischer-ucl/prdpt/blob/main/examples/box_example.ipynb">
                 <img class="teaserbutton" src="/assets/images/colablogo.png"><br>
-                    <h4><strong>Colab (coming soon)</strong></h4>
+                    <h4><strong>Colab</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
