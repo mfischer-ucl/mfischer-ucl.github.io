@@ -39,6 +39,7 @@
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2210.03510">PDF</a>&nbsp;
         <a class="mybutton" href="https://github.com/ryushinn/meta-sampling">Code</a>&nbsp;
+        <a class="mybutton" href="https://ryushinn.github.io/assets/publications/metasampling/slide_metasampling.pdf">Slides</a>&nbsp;
         <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2210.03510&btnG=">Cite</a>&nbsp;
         <a class="mybutton" href="https://ryushinn.github.io/metasampling">Project Page</a>&nbsp;
       </span>
