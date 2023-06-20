@@ -414,6 +414,7 @@ var trajectory = {
   marker: {color: 'lime', size: 10, line: {color: 'grey', width: 1}}
 };
 var layout = {
+  responsive: true,
   title: '1D Example: Differentiating Through Plateaus',
   xaxis: {title: 'x', 'range': [-5, 5], zeroline: false},
   yaxis: {title: 'y', 'range': [-0.1, 1.2]},
@@ -431,6 +432,7 @@ var layout = {
            line: {width: 0}}],*/
 };
 var layoutLower = {
+  responsive: true,
   xaxis: {title: '', 'range': [-5, 5]},
   yaxis: {title: '', 'range': [-0.1, 1.2]},
   legend: {orientation: 'h', y: 0.0, xanchor: 'center', x: 0.5},
@@ -438,6 +440,7 @@ var layoutLower = {
   autosize: true
 };
 var layoutPxPlot = {
+  responsive: true,
   xaxis: {title: '', 'range': [-5, 5], zeroline: false, showgrid: false},
   yaxis: {title: '', 'range': [-0.2, 0.7], showgrid: false, tickmode: 'array', tickvals: [0],
     showticklabels: false},
