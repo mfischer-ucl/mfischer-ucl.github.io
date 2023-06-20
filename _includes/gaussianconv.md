@@ -59,12 +59,15 @@
     }
     #plot {
         max-width: 100%;
+        max-height: auto;
     }
     #plot2 {
         max-width: 100%;
+        max-height: auto;
     }
     #plot3 {
         max-width: 100%;
+        max-height: auto;
     }
 }
 
