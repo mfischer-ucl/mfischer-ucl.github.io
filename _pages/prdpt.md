@@ -63,7 +63,7 @@ author_profile: false
     </div>
 </div>
 
-<b>TL;DR:</b><br>
+<b>TLDR:</b><br>
 <p style="text-align: justify">
 We convolute the traditional rendering equation with a Gaussian smoothing kernel to reduce plateaus, i.e., regions of zero gradient, in inverse 
 rendering. Our algorithm improves convergence and works on problems with intricate light transport (e.g., caustics) that previous algorithms

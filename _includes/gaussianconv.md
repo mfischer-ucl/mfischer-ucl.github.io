@@ -37,6 +37,9 @@
     margin-left: 5%;
     width: 30%;
   }
+  .slider-container{
+    width: 400px;
+  }
   .textbox {
     border-style: solid; 
     box-shadow: inset 0px 0px 0px 0px black; 
@@ -66,6 +69,9 @@
     #plot3 {
         max-width: 100%;
     }
+    .slider-container {
+        max-width: 100%;
+    }
 }
 
 </style>
@@ -76,7 +82,7 @@
       <div id="plot3"></div>
     </div>
     <div id="plot-container">
-      <div style="width: 400px;">       <!-- the slider container-->
+      <div class="slider-container">       <!-- the slider container-->
         <div style="display: flex">
           <label for="sigma">Sigma:</label>
           <input class="slider" type="range" min="0.33" max="2.5" step="0.01" value="1" id="sigma">
