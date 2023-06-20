@@ -414,7 +414,6 @@ var trajectory = {
   marker: {color: 'lime', size: 10, line: {color: 'grey', width: 1}}
 };
 var layout = {
-  responsive: true,
   title: '1D Example: Differentiating Through Plateaus',
   xaxis: {title: 'x', 'range': [-5, 5], zeroline: false},
   yaxis: {title: 'y', 'range': [-0.1, 1.2]},
@@ -432,7 +431,6 @@ var layout = {
            line: {width: 0}}],*/
 };
 var layoutLower = {
-  responsive: true,
   xaxis: {title: '', 'range': [-5, 5]},
   yaxis: {title: '', 'range': [-0.1, 1.2]},
   legend: {orientation: 'h', y: 0.0, xanchor: 'center', x: 0.5},
@@ -440,7 +438,6 @@ var layoutLower = {
   autosize: true
 };
 var layoutPxPlot = {
-  responsive: true,
   xaxis: {title: '', 'range': [-5, 5], zeroline: false, showgrid: false},
   yaxis: {title: '', 'range': [-0.2, 0.7], showgrid: false, tickmode: 'array', tickvals: [0],
     showticklabels: false},
@@ -464,15 +461,16 @@ var layoutPxPlot = {
             opacity: 0.6,
             line: {width: 1}}],
 };
+var config = {responsive: true}
 
 Plotly.newPlot('plot', [stepTrace, 
                         smoothedFn,
-                        trajectory], layout);
+                        trajectory], layout, config);
 Plotly.newPlot('plot2', [gaussianTrace,
                          gradGaussianTrace,
                          sampleTrace,
-                         sampleTrace_gg,verticalZero], layoutLower);
-Plotly.newPlot('plot3', [pxTrace], layoutPxPlot);
+                         sampleTrace_gg,verticalZero], layoutLower, config);
+Plotly.newPlot('plot3', [pxTrace], layoutPxPlot, config);
                         
 function reset_textboxes() {
 	text_cost.value = 'Current Cost: 1.0'; 
