@@ -48,4 +48,20 @@ display: inline-block;
   height: 80px;
 }
 
+
+@media screen and (max-width: 768px) {
+    
+    .grey-box {
+        max-width: 100%;
+    }
+
+    .cite-box {
+        max-width: 100%;
+    }    
+
+    .vidcontainer {
+        max-width: 100%;
+    }
+}
+
 </style>
