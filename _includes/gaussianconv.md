@@ -48,6 +48,24 @@
     #plot-container-wrapper {
         max-width: 100%;
     }
+    #plot-container {
+        max-width: 100%;
+    }
+    #plot-container2 {
+        max-width: 100%;
+    }
+    #plot-container3 {
+        max-width: 100%;
+    }
+    #plot {
+        width: auto;
+    }
+    #plot2 {
+        width: auto;
+    }
+    #plot3 {
+        width: auto;
+    }
 }
 
 </style>

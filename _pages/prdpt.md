@@ -1,15 +1,15 @@
 ---
 permalink: /prdpt/
-title: 
+title:
 classes: wide
 author_profile: false
 
 ---
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 {% include stylefile.md %}
 
 <body>
-<div style="margin-left: -25%; font-size:16px">
+<div class="globaldiv">
 
 <div class="grey-box">
 <br>
@@ -108,8 +108,8 @@ when it's not overlapping the pixel. We can smoothen these plateaus by our propo
 We then sample this convoluted space and use the samples to drive a gradient descent that moves the initial 
 parameter (green) towards the region of zero cost, i.e., such that the triangle overlaps the pixel. <br>
 </p>
-{% include gaussianconv.md %}
 
+{% include gaussianconv.md %}
 <br>
 
 <p style="text-align: justify">
@@ -117,7 +117,7 @@ We also provide a simple 2D example of our method in <a href="https://colab.rese
 does not overlap its reference and hence creates a plateau in the loss landscape (the 2D counterpart to the example above). This example uses a simpler renderer 
 and hence does not need all the scene config / rendering infrastructure used in the main repository.
 </p>
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%">
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%; max-width: 100%">
   <img src="/assets/images/prdpt/2Dexample.png" style="max-width: 90%;">
 </div>
 

@@ -48,6 +48,10 @@ display: inline-block;
   height: 80px;
 }
 
+.globaldiv {
+    font-size: 16px; 
+    margin-left: -25%;
+}
 
 @media screen and (max-width: 768px) {
     
@@ -61,6 +65,11 @@ display: inline-block;
 
     .vidcontainer {
         max-width: 100%;
+    }
+
+    .globaldiv {
+        max-width: 100%;
+        margin-left: 0%;
     }
 }
 

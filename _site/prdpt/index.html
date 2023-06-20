@@ -225,6 +225,10 @@ display: inline-block;
   height: 80px;
 }
 
+.globaldiv {
+    font-size: 16px; 
+    margin-left: -25%;
+}
 
 @media screen and (max-width: 768px) {
     
@@ -239,12 +243,17 @@ display: inline-block;
     .vidcontainer {
         max-width: 100%;
     }
+
+    .globaldiv {
+        max-width: 100%;
+        margin-left: 0%;
+    }
 }
 
 </style>
 
 <body>
-<div style="margin-left: -25%; font-size:16px">
+<div class="globaldiv">
 
 <div class="grey-box">
 <br />
@@ -298,7 +307,7 @@ display: inline-block;
     </div>
 </div>
 
-<b>TL;DR:</b><br />
+<b>TLDR:</b><br />
 <p style="text-align: justify">
 We convolute the traditional rendering equation with a Gaussian smoothing kernel to reduce plateaus, i.e., regions of zero gradient, in inverse 
 rendering. Our algorithm improves convergence and works on problems with intricate light transport (e.g., caustics) that previous algorithms
@@ -340,6 +349,7 @@ when it's not overlapping the pixel. We can smoothen these plateaus by our propo
 We then sample this convoluted space and use the samples to drive a gradient descent that moves the initial 
 parameter (green) towards the region of zero cost, i.e., such that the triangle overlaps the pixel. <br />
 </p>
+
 <style>
   #plot-container-wrapper {
     background-color: rgba(240, 240, 240, 0.5);
@@ -389,6 +399,24 @@ parameter (green) towards the region of zero cost, i.e., such that the triangle 
 @media screen and (max-width: 768px) {
     #plot-container-wrapper {
         max-width: 100%;
+    }
+    #plot-container {
+        max-width: 100%;
+    }
+    #plot-container2 {
+        max-width: 100%;
+    }
+    #plot-container3 {
+        max-width: 100%;
+    }
+    #plot {
+        width: auto;
+    }
+    #plot2 {
+        width: auto;
+    }
+    #plot3 {
+        width: auto;
     }
 }
 
@@ -929,7 +957,6 @@ function update_plots(resample=true){
 
 
 </script>
-
 <br />
 
 <p style="text-align: justify">
@@ -937,7 +964,7 @@ We also provide a simple 2D example of our method in <a href="https://colab.rese
 does not overlap its reference and hence creates a plateau in the loss landscape (the 2D counterpart to the example above). This example uses a simpler renderer 
 and hence does not need all the scene config / rendering infrastructure used in the main repository.
 </p>
-<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%">
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%; max-width: 100%">
   <img src="/assets/images/prdpt/2Dexample.png" style="max-width: 90%;" />
 </div>
 
