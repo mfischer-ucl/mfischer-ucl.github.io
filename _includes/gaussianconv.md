@@ -23,15 +23,15 @@
   }
   #plot {
     width: 100%;
-    height: 485px;
+    height: 80%;
   }
   #plot2 {
     width: 100%;
-    height: 220px;
+    aspect-ratio: 2 / 1.09;
   }
   #plot3 {
     width: 100%;
-    height: 100px;
+    height: 18%;
   }
   .slider {
     margin-left: 5%;
