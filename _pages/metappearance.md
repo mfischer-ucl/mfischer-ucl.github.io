@@ -1,6 +1,6 @@
 ---
 permalink: /metappearance/
-title: 
+title:
 classes: wide
 author_profile: false
 
@@ -9,7 +9,7 @@ author_profile: false
 {% include stylefile.md %}
 
 <body>
-<div style="margin-left: -25%; font-size:16px">
+<div class="globaldiv">
 
 <div class="grey-box">
 <br>

@@ -58,13 +58,13 @@
         max-width: 100%;
     }
     #plot {
-        width: auto;
+        max-width: 100%;
     }
     #plot2 {
-        width: auto;
+        max-width: 100%;
     }
     #plot3 {
-        width: auto;
+        max-width: 100%;
     }
 }
 
