@@ -43,6 +43,13 @@
     border: none; 
     background-color: transparent;
   }
+
+@media screen and (max-width: 768px) {
+    #plot-container-wrapper {
+        max-width: 100%;
+    }
+}
+
 </style>
 
 <div id="plot-container-wrapper">
