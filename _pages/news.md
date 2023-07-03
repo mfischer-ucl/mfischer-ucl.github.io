@@ -41,6 +41,14 @@ li {
 </style>
 
 <ul>
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/icml.png">
+      <div class="item-text">
+        <p><b>07/23:</b> I was invited to present a short version of our work on <a href="/prdpt">plateau-reduced differentiable path tracing</a> at the <a href="https://differentiable.xyz/">Differentiable Almost Everything</a> workshop at <a href="https://icml.cc/Conferences/2023">ICML 2023</a> in Honolulu.</p>
+      </div>
+    </div>
+  </li>
 
   <li>
     <div class="item-wrapper">
@@ -55,7 +63,7 @@ li {
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/ubc.png">
       <div class="item-text">
-        <p><b>06/23:</b> I will give a talk at <a href="https://www.ubc.ca/">UBC Vancouver</a>, Canada.</p>
+        <p><b>06/23:</b> I gave an invited talk at <a href="https://www.ubc.ca/">UBC Vancouver</a>, Canada.</p>
       </div>
     </div>
   </li>
@@ -64,7 +72,7 @@ li {
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/complightlab.png">
       <div class="item-text">
-        <p><b>05/23:</b> I will give a talk about Advanced Machine Learning for Rendering at the <a href="https://complightlab.com/seminars/">High Beams</a> seminar.</p>
+        <p><b>05/23:</b> I gave a talk about Advanced Machine Learning for Rendering at the <a href="https://complightlab.com/seminars/">High Beams</a> seminar.</p>
       </div>
     </div>
   </li>
