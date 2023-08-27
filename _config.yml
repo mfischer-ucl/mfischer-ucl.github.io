@@ -64,7 +64,7 @@ plugins:
 author:
   name   : "Michael Fischer"
   avatar : "/assets/images/profile-image.jpg"
-  bio    : "Currently based in: <br> London, UK"
+  bio    : "Currently based in: <br> Redmond, USA"
 
   # all the links are in author-profile-custom-links.html, just add there
 
