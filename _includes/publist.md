@@ -1,6 +1,22 @@
 <ul>
     
   <li style="display: flex; justify-content: left; align-items: center; margin: 0px 0 0 -38px;">
+    <img src='/assets/images/neuralbounding/neuralbounding.png' style="height: 140px; width: 220px;"/>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Neural Bounding</b></span>
+    <br style="display: block; margin-top: -3px">
+    <span style="font-size: 15px;">
+          <a style="text-decoration:none; color:inherit;" href="https://www.linkedin.com/in/wenxin-liu-02623351/?originalSubdomain=uk">Wenxin Liu</a>,
+          <b>Michael Fischer</b>,
+          <a style="text-decoration:none; color:inherit;" href="https://www.bbk.ac.uk/our-staff/profile/9207488/paul-yoo">Paul D. Yoo</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
+      </span> <br>
+      <span style="font-size: 15px;">arXiv preprint<br></span>
+      <span style="font-size: 11px;">
+        <a class="mybutton" href="https://arxiv.org/abs/2310.06822">PDF</a>&nbsp;
+      </span> </p>
+  </li>
+
+  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/zerograds/thumbnail3.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Zero Grads Ever Given: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span>
     <br style="display: block; margin-top: -3px">
