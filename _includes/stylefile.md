@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center; /* Center the images horizontally */
     align-items: center; /* Center the images vertically */
-    margin-bottom: 20px; /* Spacing between the images and the video containers */
+    margin-bottom: 0px; /* Spacing between the images and the video containers */
     width: 100%; /* Ensuring the container takes full width */
 }
 

@@ -11,7 +11,19 @@ author_profile: false
 <body>
 
 <h2 style="font-size: larger; font-weight: bold; padding-top: 10px; padding-bottom: 10px;">
-    1) Transfer
+    Please read carefully: 
+</h2>
+
+The goal of our project is to combine two things: the shape of a target object, and the appearance 
+(i.e., the color or look) of a source object. In the following, you will be shown a variety of images and 
+videos and will be asked to choose your favourite option. Please read the instructions carefully and in the end, do
+not forget to click 'submit'. 
+The study should not take more than 5 minutes  of your time - thank you for participating!
+
+<br>
+
+<h2 style="font-size: larger; font-weight: bold; padding-top: 10px; padding-bottom: 10px;">
+    1) Transfer     
 </h2>
 
 <br> 
@@ -21,8 +33,8 @@ and source appearance (right). Please select the result that best combines the t
 A.1/5: Which of the following images best combines the target shape and the source appearance? 
 <form id="NAvideoForm">
 <div class="top-image-container">
-    <img src="/assets/images/nerf_analogies/greenhouse_ours_0110.png" alt="Top Image 1">
-    <img src="/assets/images/nerf_analogies/greenhouse_ours_0110.png" alt="Top Image 2">
+    <img src="/assets/images/nerf_analogies/birdhouse_target.png">
+    <img src="/assets/images/nerf_analogies/birdhouse_source.png">
 </div>
     <div class="NAvideo-container">
         <img src="/assets/images/nerf_analogies/greenhouse_ours_0110.png">
@@ -608,6 +620,12 @@ document.getElementById('submit').addEventListener('click', function() {
         return;
     }
 
+    //var participantName = document.getElementById('participantName').value;
+    //if (!participantName) {
+    //    alert("Please enter your name.");
+    //    return;
+    //}
+
     var transfV1 = transfRadio1.value;
     var transfV2 = transfRadio2.value;
     var transfV3 = transfRadio3.value;
@@ -640,10 +658,12 @@ document.getElementById('submit').addEventListener('click', function() {
                       `qual4=${encodeURIComponent(qualV4)}&` +
                       `qual5=${encodeURIComponent(qualV5)}`;
 
-    fetch(`https://script.google.com/macros/s/AKfycbzkeYMOXHvIXhsW9CvAzXUrwHCUJgZJhRZNoTtPNc5_A-qWlS4IPeBnUjTLLmFYYMyW/exec?${queryString}`)
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error('Error:', error));
+    // queryString = `name=${encodeURIComponent(participantName)}&${queryString}`;
+
+    fetch(`https://script.google.com/macros/s/AKfycbwl5Llk5PgfIQvNsdUJCFNJgOzzXf0pxlxp_8xnp-OQQcoVz-nE-KuaXSzBLbrXcGg/exec?${queryString}`)
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
 });
 
 </script>
