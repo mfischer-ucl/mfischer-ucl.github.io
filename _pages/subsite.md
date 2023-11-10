@@ -661,9 +661,20 @@ document.getElementById('submit').addEventListener('click', function() {
     // queryString = `name=${encodeURIComponent(participantName)}&${queryString}`;
 
     fetch(`https://script.google.com/macros/s/AKfycbwl5Llk5PgfIQvNsdUJCFNJgOzzXf0pxlxp_8xnp-OQQcoVz-nE-KuaXSzBLbrXcGg/exec?${queryString}`)
-            .then(response => response.json())
-            .then(data => console.log(data))
-            .catch(error => console.error('Error:', error));
+           .then(response => response.json())
+        .then(data => {
+            if (data && data.result === "success") {
+                // Displaying a thank you message
+                alert("Thank you for your submission!");
+            } else {
+                // Handle other responses or errors
+                alert("There was an issue with your submission.");
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert("An error occurred while submitting your response.");
+        });
 });
 
 </script>
