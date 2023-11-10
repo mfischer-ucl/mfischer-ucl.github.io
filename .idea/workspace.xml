@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_pages/subsite.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/video/dia_new2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/scripts/send.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/nerf_analogies/dia_video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/nerf_analogies/ours_video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/nerf_analogies/snerf_video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/nerf_analogies/st_video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/video/nerf_analogies/wct_video.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/subsite.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/subsite.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +46,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets/video"
+    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets/video/nerf_analogies"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/video/nerf_analogies" />
       <recent name="$PROJECT_DIR$/assets/video" />
       <recent name="$PROJECT_DIR$/_pages" />
       <recent name="$PROJECT_DIR$/assets/images/prdpt" />
       <recent name="$PROJECT_DIR$/_includes" />
-      <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
