@@ -5,134 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/bags/pinkbag_snerf_0016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse/greenhouse_ours_0110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse/greenhouse_snerf_0110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/greenchair_ours_0110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/greenchair_snerf_0110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/modernchair_snerf_0110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/guitars/flyingv_snerf_0110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/overview/bags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/overview/birdhouses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/overview/greenchair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/overview/guitars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/overview/modernchair.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/overview/shoes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/overview/tools.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/shoes/boots_snerf_0110.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/tools/hammer_snerf_0016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/birdhouse.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/boots.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/hammer.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/modernchair.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/pinkbag.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/subsite.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/subsite.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/birdhouse_source.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/birdhouse_target.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/boots_ST_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/boots_WCT_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/boots_dia_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/boots_ours_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/boots_src_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/boots_trg_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/flyingv_ST_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/flyingv_WCT_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/flyingv_dia_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/flyingv_ours_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/flyingv_src_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/flyingv_trg_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenchair_ST_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenchair_WCT_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenchair_dia_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenchair_ours_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenchair_src_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenchair_trg_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenhouse_ST_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenhouse_WCT_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenhouse_ours_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenhouse_src_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/greenhouse_trg_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/hammer_ST_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/hammer_WCT_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/hammer_dia_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/hammer_ours_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/hammer_src_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/hammer_trg_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/modernchair_ST_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/modernchair_WCT_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/modernchair_dia_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/modernchair_ours_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/modernchair_src_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/modernchair_trg_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/pinkbag_ST_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/pinkbag_WCT_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/pinkbag_dia_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/pinkbag_ours_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/pinkbag_src_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/pinkbag_trg_0016.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/images/nerf_analogies/yellowhouse_dia_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/dia_new2.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/dia_new2.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/dia_new22.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/nerf_analogies/dia_new2.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/nerf_analogies/dia_video.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/nerf_analogies/ours_video.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/nerf_analogies/output.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/nerf_analogies/snerf_video.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/nerf_analogies/st_video.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/videos/nerf_analogies/wct_video.webm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/subsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/subsite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse_source.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse_target.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/boots_ST_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/shoes/boots_ST_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/boots_WCT_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/shoes/boots_WCT_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/boots_dia_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/shoes/boots_dia_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/boots_ours_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/shoes/boots_ours_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/boots_src_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/shoes/boots_src_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/boots_trg_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/shoes/boots_trg_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/flyingv_ST_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/guitars/flyingv_ST_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/flyingv_WCT_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/guitars/flyingv_WCT_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/flyingv_dia_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/guitars/flyingv_dia_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/flyingv_ours_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/guitars/flyingv_ours_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/flyingv_src_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/guitars/flyingv_src_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/flyingv_trg_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/guitars/flyingv_trg_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenchair_ST_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/greenchair_ST_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenchair_WCT_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/greenchair_WCT_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenchair_dia_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/greenchair_dia_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenchair_ours_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenchair_src_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/greenchair_src_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenchair_trg_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/greenchair_trg_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenhouse_ST_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse/greenhouse_ST_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenhouse_WCT_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse/greenhouse_WCT_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenhouse_ours_0110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenhouse_src_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse/greenhouse_src_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/greenhouse_trg_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse/greenhouse_trg_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/hammer_ST_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/tools/hammer_ST_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/hammer_WCT_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/tools/hammer_WCT_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/hammer_dia_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/tools/hammer_dia_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/hammer_ours_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/tools/hammer_ours_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/hammer_src_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/tools/hammer_src_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/hammer_trg_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/tools/hammer_trg_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/modernchair_ST_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/modernchair_ST_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/modernchair_WCT_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/modernchair_WCT_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/modernchair_dia_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/modernchair_dia_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/modernchair_ours_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/modernchair_ours_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/modernchair_src_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/modernchair_src_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/modernchair_trg_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/chairs/modernchair_trg_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/pinkbag_ST_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/bags/pinkbag_ST_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/pinkbag_WCT_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/bags/pinkbag_WCT_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/pinkbag_dia_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/bags/pinkbag_dia_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/pinkbag_ours_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/bags/pinkbag_ours_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/pinkbag_src_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/bags/pinkbag_src_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/pinkbag_trg_0016.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/bags/pinkbag_trg_0016.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/nerf_analogies/yellowhouse_dia_0110.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse/greenhouse_dia_0110.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/dia_new2.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/dia_new2.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/dia_new22.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/nerf_analogies/dia_new2.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/nerf_analogies/dia_video.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/nerf_analogies/ours_video.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/nerf_analogies/output.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/nerf_analogies/snerf_video.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/nerf_analogies/st_video.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/videos/nerf_analogies/wct_video.webm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,16 +47,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets/images/nerf_analogies/birdhouse"
+    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets/videos/nerf_analogies/DIA"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA" />
+      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS" />
       <recent name="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse" />
       <recent name="$PROJECT_DIR$/assets/images/nerf_analogies/overview" />
       <recent name="$PROJECT_DIR$/assets/images/nerf_analogies/bags" />
-      <recent name="$PROJECT_DIR$/assets/images/nerf_analogies/chairs" />
-      <recent name="$PROJECT_DIR$/assets/images/nerf_analogies/tools" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
