@@ -5,7 +5,7 @@
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Neural Bounding</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
-          <a style="text-decoration:none; color:inherit;" href="https://www.linkedin.com/in/wenxin-liu-02623351/?originalSubdomain=uk">Wenxin Liu</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://wenxin-liu.github.io/">Wenxin Liu</a>,
           <b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.bbk.ac.uk/our-staff/profile/9207488/paul-yoo">Paul D. Yoo</a>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
@@ -13,6 +13,7 @@
       <span style="font-size: 15px;">arXiv preprint<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2310.06822">PDF</a>&nbsp;
+        <a class="mybutton" href="https://wenxin-liu.github.io/neural_bounding/">Project Page</a>
       </span> </p>
   </li>
 
