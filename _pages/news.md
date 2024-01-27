@@ -42,6 +42,23 @@ li {
 
 <ul>
 
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/hiviscomp.png">
+      <div class="item-text">
+        <p><b>02/24:</b> I will be giving a talk at <a href="https://www.hiviscomp.cz/">HiVisComp</a> in the Czech Republic. Come say hi if you're at the conference!</p>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/siggraph24.png">
+      <div class="item-text">
+        <p><b>01/24:</b> I produced the video for the <a href="https://research.siggraph.org/programs/thesisff-2024/">SIGGRAPH 2024 Thesis Fast-Foward</a>. Check it out <a href="https://www.youtube.com/watch?v=uNCL0mzbPD0">here</a>!</p>
+      </div>
+    </div>
+  </li>
   
   <li>
     <div class="item-wrapper">
