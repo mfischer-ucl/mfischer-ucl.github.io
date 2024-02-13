@@ -565,7 +565,7 @@ our method over several typical baselines.
       </div>
     </div>
 </div>
-
+<br/>
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -588,11 +588,19 @@ if (coll.length > 0) {
 }
 </script>
 
-
+<br/>
 <b>Citation</b><br>
 If you find our work useful and use parts or ideas of our paper or code, please cite: <br>
 <p class="cite-box" style="margin-top: 5px">
-  <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px;">
+  <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px; font-size: 80%">
+    @article{fischer2024nerfanalogies, <br>
+      &nbsp;&nbsp;title={NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs }, <br> 
+      &nbsp;&nbsp;author={Fischer, Michael and Li, Zhengqin and Nguyen-Phuoc, Thu and Bozic, Aljaz and Dong, Zhao and Marshall, Carl and Ritschel, Tobias}, <br>
+      &nbsp;&nbsp;year={2024}, <br>
+      &nbsp;&nbsp;eprint={todo}, <br>
+      &nbsp;&nbsp;archivePrefix={arXiv}, <br>
+      &nbsp;&nbsp;primaryClass={cs.CV} <br>
+    }
   </span>
 </p>
 
