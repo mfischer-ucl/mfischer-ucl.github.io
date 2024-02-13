@@ -5,51 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_pages/nerf_analogies.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/nerfanalogies_thumb1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/nerfanalogies_thumb2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/paperfront.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/garden.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/greenchair.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/kitchen.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/boots.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/garden.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/goldcat.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/greenchair.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/kitchen.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/leatherbag.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/modernchair.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/pinkbag.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/redchair.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/teddy.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/vans.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/whitechair.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/garden.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/kitchen.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_boots_target_sneakers.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_goldcat_target_teddy.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_pinkbag_target_leatherbag.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_redchair_target_modernchair.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_teddy_target_goldcat.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_whitechair_target_greenchair.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/SNERF/garden.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/SNERF/kitchen.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/ST/garden.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/ST/kitchen.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/WCT/garden.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/WCT/kitchen.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/publist.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/publist.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/stylefile.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/stylefile.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/prdpt.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/prdpt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/metappearance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/metappearance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/prdpt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/prdpt/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/subsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/subsite/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
