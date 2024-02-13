@@ -168,7 +168,7 @@ where a plateau (the grey image) is reached. Our method operates in smooth space
 
 <br>
 
-<b>BibTeX</b><br>
+<b>Citation</b><br>
 If you find our work useful and use parts or ideas of our paper or code, please cite: <br>
 <p class="cite-box" style="margin-top: 5px">
   <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px;">

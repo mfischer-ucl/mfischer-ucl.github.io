@@ -5,30 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/news/200x200/siggraph24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/nerf_analogies.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/nerfanalogies_thumb1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/nerfanalogies_thumb2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/nerf_analogies/paperfront.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/garden.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/greenchair.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA/kitchen.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/boots.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/garden.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/goldcat.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/greenchair.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/kitchen.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/leatherbag.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/modernchair.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/pinkbag.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/redchair.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/teddy.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/vans.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/GT/whitechair.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/garden.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/kitchen.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_boots_target_sneakers.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_goldcat_target_teddy.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_pinkbag_target_leatherbag.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_redchair_target_modernchair.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_teddy_target_goldcat.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS/src_whitechair_target_greenchair.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/SNERF/garden.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/SNERF/kitchen.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/ST/garden.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/ST/kitchen.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/WCT/garden.webm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/nerf_analogies/WCT/kitchen.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/news.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/news.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-chat/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-link/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-link/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-modified/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-modified/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-notice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-notice/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-quote/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-quote/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-standard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-standard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/publist.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/publist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/stylefile.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/stylefile.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/prdpt.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/prdpt.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/metappearance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/metappearance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/posts/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/prdpt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/prdpt/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/subsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/subsite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/teaching/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/test/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,27 +79,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/michael/private/mfischer-ucl.github.io&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets/videos/nerf_analogies/OURS"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/DIA" />
       <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS" />
-      <recent name="$PROJECT_DIR$/assets/images/nerf_analogies/birdhouse" />
-      <recent name="$PROJECT_DIR$/assets/images/nerf_analogies/overview" />
-      <recent name="$PROJECT_DIR$/assets/images/nerf_analogies/bags" />
+      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/GT" />
+      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/WCT" />
+      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/ST" />
+      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/SNERF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/nerf_analogies" />
       <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
       <recent name="$PROJECT_DIR$/assets/images/neuralbounding" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/images/prdpt" />
-      <recent name="$PROJECT_DIR$/assets/scripts" />
     </key>
   </component>
   <component name="RunManager">

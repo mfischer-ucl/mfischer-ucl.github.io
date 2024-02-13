@@ -318,7 +318,8 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <style>
+        
+<style>
 
 .mybutton {
   background-color: #fff;
@@ -353,11 +354,129 @@
   outline: 0;
 }
 
+.top-image-container {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-bottom: 0px; /* Spacing between the images and the video containers */
+    width: 100%; /* Ensuring the container takes full width */
+}
+
+.top-image-container img {
+    margin: 0 30px; /* Adjust space between the images */
+    max-width: 30%; /* Ensure images don't overflow their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+#NAvideoForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #F8F8F8;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.NAvideo-container {
+    margin: 3px;
+    text-align: center;
+    flex: 1; /* Allow each container to grow and shrink as needed */
+    max-width: 20%; /* Adjust this value based on your layout */
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.radio-buttons {
+    margin-top: 2px;
+}
+
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+
+.horizItem {
+    display: inline-block; 
+    margin-left: 3%; 
+    margin-right: 3%;
+}
+
+.grey-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+figure{
+display: inline-block;
+}
+
+.cite-box {
+  background-color: #f7f7f7; 
+  line-height: 110%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.vidcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.teaserbutton {
+  height: 80px;
+}
+
+.globaldiv {
+    font-size: 16px; 
+    margin-left: -25%;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .grey-box {
+        max-width: 100%;
+    }
+
+    .cite-box {
+        max-width: 100%;
+    }    
+
+    .vidcontainer {
+        max-width: 100%;
+    }
+
+    .globaldiv {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+}
+
 </style>
 
 <div style="text-align: justify; font-size: 90%;"> 
 
-Hi! I'm Michael, a third-year PhD student in AI and Computer Graphics in the <a href="http://vecg.cs.ucl.ac.uk/">VECG Group</a> at <a href="https://www.ucl.ac.uk">University College London</a>.
+Hi! I'm Michael, a fourth-year PhD student in AI and Computer Graphics in the <a href="http://vecg.cs.ucl.ac.uk/">VECG Group</a> at <a href="https://www.ucl.ac.uk">University College London</a>.
 
 I am working with <a href="http://www.homepages.ucl.ac.uk/~ucactri">Tobias Ritschel</a> and <a href="http://www0.cs.ucl.ac.uk/staff/n.mitra">Niloy Mitra</a>
 
@@ -365,10 +484,6 @@ to research deep and efficient representations of high-fidelity graphic assets.
 
 Currently, my research focuses on intelligent optimization, appearance decompositions and meta-learning.
 <br /> 
-<br />
-I'm currently working at <a href="https://about.meta.com/uk/realitylabs">Meta Reality Labs</a> in Redmond, Washington, where I've joined the Neural / Inverse Rendering team around Carl Marshall and <a href="http://www.flycooler.com/">Zhao Dong</a> as a summer intern. 
-Hit me up if you're in the area and want to do outdoorsy things or chat about research! <br /> 
-
 
 <br />
 
@@ -378,19 +493,45 @@ under the supervision of <a href="https://www.informatik.uni-wuerzburg.de/aerosp
 
 Subsequently, I completed my M.Sc. in Computer Science with focus on intelligent systems as a honors student and have 
 
-been working with <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a> and <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a>. 
+been working with <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a> and <a href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a>.
+Moreover, I spent a semester abroad at <a href="https://www.udg.mx">UDG</a> in Guadalajara, Mexico.
+<br />
 
-I spent a summer at <a href="https://www.mbda-deutschland.de">MBDA Germany</a>, where I worked on reinforcement-learning 
-based swarm control, and a semester abroad at <a href="https://www.udg.mx">UDG</a> in Guadalajara, Mexico.
-My hobbies include travelling, climbing, cooking and making music! Feel free to check out my social media - links are provided to the left of this page. <br />
+<br />
+
+I spent a summer working at <a href="https://about.meta.com/uk/realitylabs">Meta Reality Labs</a> in Redmond, Washington, where I joined the Neural / Inverse Rendering team around Carl Marshall and <a href="http://www.flycooler.com/">Zhao Dong</a> as a summer intern. 
+I've also interned at <a href="https://www.mbda-deutschland.de">MBDA Germany</a>, where I worked on reinforcement-learning 
+based swarm control.
+
+My hobbies include travelling, climbing, cooking, diving and making music! Feel free to check out my social media - links are provided to the left of this page. <br />
 </div>
 
 <p><br /></p>
 <p style="font-size: 35px; font-weight: 700;">Publications</p>
 
 <ul>
-    
-  <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
+  
+<li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
+    <img src="/assets/images/nerf_analogies/nerfanalogies_thumb1.png" style="height: 140px; width: 220px;" />
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b> NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs </b></span>
+    <br style="display: block; margin-top: -3px" />
+    <span style="font-size: 15px;">
+          <b>Michael Fischer</b>,
+          <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=Nxc2RbQAAAAJ&amp;hl=en&amp;oi=ao">Zhengqin Li</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://www.monkeyoverflow.com/">Thu Nguyen-Phuoc</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://aljazbozic.github.io/">Aljaž Božič</a>,
+          <a style="text-decoration:none; color:inherit;" href="http://flycooler.com/">Zhao Dong</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=xWD7ZRkAAAAJ&amp;hl=en">Carl Marshall</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
+      </span> <br />
+      <span style="font-size: 15px;">arXiv preprint<br /></span>
+      <span style="font-size: 11px;">
+        <a class="mybutton" href="https://arxiv.org/abs/2310.06822">PDF</a>&nbsp;
+        <a class="mybutton" href="/nerf_analogies">Project Page</a>
+      </span> </p>
+  </li>  
+  
+  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src="/assets/images/neuralbounding/neuralbounding.png" style="height: 140px; width: 220px;" />
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Neural Bounding</b></span>
     <br style="display: block; margin-top: -3px" />

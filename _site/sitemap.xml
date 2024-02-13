@@ -41,6 +41,9 @@
 <loc>http://localhost:4000/metappearance/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/nerf_analogies/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/news/</loc>
 </url>
 <url>

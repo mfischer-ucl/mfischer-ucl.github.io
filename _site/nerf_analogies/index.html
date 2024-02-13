@@ -1,0 +1,1010 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Michael Fischer</title>
+<meta name="description" content="Michael Fischer, PhD Student in AI and Computer Graphics at University College London (UCL).">
+
+
+  <meta name="author" content="Michael Fischer">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Michael Fischer">
+<meta property="og:title" content="Michael Fischer">
+<meta property="og:url" content="http://localhost:4000/nerf_analogies/">
+
+
+  <meta property="og:description" content="Michael Fischer, PhD Student in AI and Computer Graphics at University College London (UCL).">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/nerf_analogies/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Michael Fischer Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Michael Fischer
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="/news/">News</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/">Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        
+<style>
+
+.mybutton {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 5px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", sans-serif;
+  font-size: 10.5px;
+  line-height: 18px;
+  padding: 0 10px 0 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: width: fit-content;
+}
+
+.mybutton:hover {
+  background-color: #f7fafa;
+}
+
+.mybutton:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.top-image-container {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-bottom: 0px; /* Spacing between the images and the video containers */
+    width: 100%; /* Ensuring the container takes full width */
+}
+
+.top-image-container img {
+    margin: 0 30px; /* Adjust space between the images */
+    max-width: 30%; /* Ensure images don't overflow their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+#NAvideoForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #F8F8F8;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.NAvideo-container {
+    margin: 3px;
+    text-align: center;
+    flex: 1; /* Allow each container to grow and shrink as needed */
+    max-width: 20%; /* Adjust this value based on your layout */
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.radio-buttons {
+    margin-top: 2px;
+}
+
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+
+.horizItem {
+    display: inline-block; 
+    margin-left: 3%; 
+    margin-right: 3%;
+}
+
+.grey-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+figure{
+display: inline-block;
+}
+
+.cite-box {
+  background-color: #f7f7f7; 
+  line-height: 110%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.vidcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.teaserbutton {
+  height: 80px;
+}
+
+.globaldiv {
+    font-size: 16px; 
+    margin-left: -25%;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .grey-box {
+        max-width: 100%;
+    }
+
+    .cite-box {
+        max-width: 100%;
+    }    
+
+    .vidcontainer {
+        max-width: 100%;
+    }
+
+    .globaldiv {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+}
+
+</style>
+
+<style>
+sup {
+    text-decoration: none; 
+    color: black;
+}
+
+.collapsible {
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.collapsible::before {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.active::before {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin-bottom: 33px;
+}
+
+.top-image-container {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-bottom: 0px; /* Spacing between the images and the video containers */
+    margin-top: 33px; /* Spacing between the images and the video containers */
+    width: 50%; /* Reducing the container's width to 50% */
+    margin-left: auto; /* Auto-adjusting left margin */
+    margin-right: auto; /* Auto-adjusting right margin */
+}
+
+.top-image-container img {
+    margin: 0 30px; /* Adjust space between the images */
+    max-width: 60%; /* Ensure images don't overflow their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+body {
+  background-color: #FFFFFF; /* Soft background color */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+}
+
+#NAvideoForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.videos-flex-container {
+display: flex;
+justify-content: center; /* Adjust this to change the alignment of videos */
+flex-wrap: wrap; /* Allows the items to wrap to the next line */
+margin-bottom: 10px;
+}
+
+.NAvideo-container {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    max-width: 20%;
+}
+
+.NAvideo-container video {
+    max-width: 100%;
+    height: auto;
+}
+
+.NARWvideo-container video {
+    margin-top: 50px;
+    max-height: 80%;
+    width: auto;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2, h3, h4 {
+  text-align: center;
+}
+
+.collapsible {
+  text-align: center;
+}
+
+.media-flex-container {
+    flex-basis: calc(48.0% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.parent-flex-container {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@media (max-width: 768px) {
+    .media-flex-container {
+        flex-basis: 100%;
+    }
+}
+
+.media-item {
+    margin: 0 10px;
+    text-align: center;
+    flex-basis: 33%;
+}
+
+.media-item img, .media-item video {
+    max-width: 100%;
+    height: auto;
+}
+
+hr.modern-gradient {
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #000000, transparent);
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+</style>
+
+<body>
+<div class="globaldiv">
+
+<div class="grey-box">
+<br />
+    <p style="margin: auto; text-align: center;">
+    <span style="font-size: 24px;"><b>NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs</b></span> <br /><br />
+    <span style="font-size: 17px; color: black">arXiv preprint</span><br /><br />
+    <span style="font-size: 17px;">
+    <a style="text-decoration:none; color:inherit;" href="https://mfischer-ucl.github.io/">Michael Fischer<sup>1</sup></a>,
+    <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=Nxc2RbQAAAAJ&amp;hl=en&amp;oi=ao">Zhengqin Li<sup>2</sup></a>,
+    <a style="text-decoration:none; color:inherit;" href="https://www.monkeyoverflow.com/">Thu Nguyen-Phuoc<sup>2</sup></a>,
+    <a style="text-decoration:none; color:inherit;" href="https://aljazbozic.github.io/">Aljaž Božič<sup>2</sup></a>,
+    <a style="text-decoration:none; color:inherit;" href="http://flycooler.com/">Zhao Dong<sup>2</sup></a>,
+    <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=xWD7ZRkAAAAJ&amp;hl=en">Carl Marshall<sup>2</sup></a>,
+    <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel<sup>1</sup></a>
+    </span>
+    <br />
+    <br />
+    <a style="font-size: 14px;" href="https://www.ucl.ac.uk/"><sup>1</sup>University College London</a>,
+    <a style="font-size: 14px;" href="https://about.meta.com/uk/realitylabs/"><sup>2</sup>Meta Reality Labs Research</a>, 
+</p>
+<br />
+</div>
+
+<!--<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%">
+  <img src="/assets/images/prdpt/teaserImg1.png" style="width: 100%">
+</div>-->
+
+<div class="row" style="margin: 50px 0 50px 0">
+    <div style="display: inline">
+        <ul style="list-style: none; text-align: center">
+            <li class="horizItem">
+                <a href="https://arxiv.org/abs/2211.17263">
+                <img class="teaserbutton" src="/assets/images/nerf_analogies/paperfront.png" /><br />
+                    <h4><strong>Paper (coming soon)</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
+                <img class="teaserbutton" src="/assets/images/youtube_icon_red.png" /><br />
+                    <h4><strong>Video (coming soon)</strong></h4>
+            </li>
+            <li class="horizItem">
+                <img class="teaserbutton" src="/assets/images/gh_icon.png" /><br />
+                    <h4><strong>Code (coming soon)</strong></h4>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<b>TLDR:</b><br />
+<p style="text-align: justify">
+We investigate transferring the appearance from a source Neural Radiance Field (NeRF) to a target 3D geometry 
+in a semantically meaningful and multiview-consistent way by leveraging semantic correspondence from ViT features. 
+</p>
+
+<b>Abstract:</b><br />
+<p style="text-align: justify">
+A Neural Radiance Field (NeRF) encodes the specific relation of 3D geometry and appearance of a scene. We here ask the question whether we can transfer the appearance
+from a source NeRF onto a target 3D geometry in a semantically meaningful way, such that the resulting new NeRF retains the target geometry but has an appearance that is
+an analogy to the source NeRF. To this end, we generalize classic image analogies from 2D images to NeRFs. We leverage correspondence transfer along semantic affinity
+that is driven by semantic features from large, pre-trained 2D image models to achieve multi-view consistent appearance transfer. Our method allows exploring the mix-and-
+match product space of 3D geometry and appearance. We show that our method outperforms traditional stylization-based methods and that a large majority of users prefer
+our method over several typical baselines. 
+</p>
+
+<b>Results:</b><br />
+<button class="collapsible grey-box" style="margin-top: 8px; text-align: center;">Animated Transfer Results</button>
+<div class="content grey-box">
+    <div class="top-image-container">
+        <img src="/assets/images/nerf_analogies/overview/birdhouses.png" />
+    </div>
+    <div class="videos-flex-container">
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/DIA/birdhouse.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Deep Img. Analogies</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/ST/birdhouse.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Style Transfer</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/OURS/birdhouse.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/SNERF/birdhouse.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">SNeRF</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/WCT/birdhouse.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">WCT</div>
+        </div>
+    </div>
+    <div class="top-image-container">
+        <img src="/assets/images/nerf_analogies/overview/shoes.png" />
+    </div>
+    <div class="videos-flex-container"> 
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/DIA/boots.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Deep Img. Analogies</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/ST/boots.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Style Transfer</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/OURS/boots.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/SNERF/boots.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">SNeRF</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/WCT/boots.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">WCT</div>
+        </div>
+    </div>
+    <div class="top-image-container">
+        <img src="/assets/images/nerf_analogies/overview/modernchair.png" />
+    </div>
+    <div class="videos-flex-container"> 
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/DIA/modernchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Deep Img. Analogies</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/ST/modernchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Style Transfer</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/OURS/modernchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/SNERF/modernchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">SNeRF</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/WCT/modernchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">WCT</div>
+        </div>
+    </div>
+    <div class="top-image-container">
+        <img src="/assets/images/nerf_analogies/overview/bags.png" />
+    </div>
+    <div class="videos-flex-container"> 
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/DIA/pinkbag.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Deep Img. Analogies</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/ST/pinkbag.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Style Transfer</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/OURS/pinkbag.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/SNERF/pinkbag.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">SNeRF</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/WCT/pinkbag.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">WCT</div>
+        </div>
+    </div>
+    <div class="top-image-container">
+        <img src="/assets/images/nerf_analogies/overview/guitars.png" />
+    </div>
+    <div class="videos-flex-container"> 
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/DIA/flyingv.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Deep Img. Analogies</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/ST/flyingv.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Style Transfer</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/OURS/flyingv.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/SNERF/flyingv.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">SNeRF</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/WCT/flyingv.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">WCT</div>
+        </div>
+    </div>
+    <div class="top-image-container">
+        <img src="/assets/images/nerf_analogies/overview/tools.png" />
+    </div>
+    <div class="videos-flex-container"> 
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/DIA/hammer.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Deep Img. Analogies</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/ST/hammer.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Style Transfer</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/OURS/hammer.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/SNERF/hammer.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">SNeRF</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/WCT/hammer.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">WCT</div>
+        </div>
+    </div>
+    <div class="top-image-container">
+        <img src="/assets/images/nerf_analogies/overview/greenchair.png" />
+    </div>
+    <div class="videos-flex-container"> 
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/DIA/greenchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Deep Img. Analogies</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/ST/greenchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Style Transfer</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/OURS/greenchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/SNERF/greenchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">SNeRF</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/WCT/greenchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">WCT</div>
+        </div>
+    </div>
+</div>
+
+<button class="collapsible grey-box">Animated Results on Real-World scenes</button>
+<div class="content grey-box">
+     <div class="top-image-container">
+        <img src="/assets/images/nerf_analogies/overview/garden.png" />
+    </div>
+    <div class="videos-flex-container">
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/GT/garden.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Original</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/ST/garden.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Style Transfer</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/OURS/garden.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/DIA/garden.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Deep Img. Analogies</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/WCT/garden.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">WCT</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/SNERF/garden.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">SNeRF</div>
+        </div>
+    </div>
+    <div class="top-image-container">
+        <img src="/assets/images/nerf_analogies/overview/kitchen.png" />
+    </div>
+    <div class="videos-flex-container">
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/GT/kitchen.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Original</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/ST/kitchen.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Style Transfer</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/OURS/kitchen.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/DIA/kitchen.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Deep Img. Analogies</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/WCT/kitchen.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">WCT</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/nerf_analogies/SNERF/kitchen.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">SNeRF</div>
+        </div>
+    </div>
+</div>
+
+<button class="collapsible grey-box">Additional Synthetic Results</button>
+<div class="content grey-box">
+    <div class="parent-flex-container">
+      <div class="media-flex-container">
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/leatherbag.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">target (shape)</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/OURS/src_pinkbag_target_leatherbag.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/pinkbag.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">source (appearance)</div>
+          </div>
+      </div>
+       <div class="media-flex-container">
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/vans.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">target (shape)</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/OURS/src_boots_target_sneakers.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/boots.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">source (appearance)</div>
+          </div>
+      </div>
+    </div>
+    <div class="parent-flex-container">
+      <div class="media-flex-container">
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/greenchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">target (shape)</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/OURS/src_whitechair_target_greenchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/whitechair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">source (appearance)</div>
+          </div>
+      </div>
+       <div class="media-flex-container">
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/modernchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">target (shape)</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/OURS/src_redchair_target_modernchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/redchair.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">source (appearance)</div>
+          </div>
+      </div>
+    </div>
+    <div class="parent-flex-container">
+      <div class="media-flex-container">
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/goldcat.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">target (shape)</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/OURS/src_teddy_target_goldcat.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/teddy.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">source (appearance)</div>
+          </div>
+      </div>
+       <div class="media-flex-container">
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/teddy.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">target (shape)</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/OURS/src_goldcat_target_teddy.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">Ours</div>
+          </div>
+          <div class="media-item">
+            <video src="/assets/videos/nerf_analogies/GT/goldcat.webm" autoplay="" muted="" loop=""></video>
+            <div class="caption">source (appearance)</div>
+          </div>
+      </div>
+    </div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+
+if (coll.length > 0) {
+  coll[0].click();
+}
+
+}
+</script>
+
+
+<b>Citation</b><br />
+If you find our work useful and use parts or ideas of our paper or code, please cite: <br />
+<p class="cite-box" style="margin-top: 5px">
+  <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px;">
+  </span>
+</p>
+
+<b>Acknowledgements</b><br />
+This research was conducted during an internship at Meta Reality Labs Research. 
+We extend our gratitude to the anonymous reviewers for their insightful feedback and to 
+Meta Reality Labs for their continuous support. 
+Additionally, we are thankful for the support provided by the Rabin Ezra Scholarship Trust.
+
+
+</div>
+</body>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Michael Fischer. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
