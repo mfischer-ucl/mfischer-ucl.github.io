@@ -197,9 +197,9 @@ video {
     <div style="display: inline">
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
-                <a href="https://arxiv.org/abs/2211.17263">
+                <a href="https://arxiv.org/abs/2402.08622">
                 <img class="teaserbutton" src="/assets/images/nerf_analogies/paperfront.png" ><br>
-                    <h4><strong>Paper (coming soon)</strong></h4>
+                    <h4><strong>Paper</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
@@ -580,26 +580,26 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "block";
     }
   });
-
-if (coll.length > 0) {
-  coll[0].click();
 }
+//if (coll.length > 0) {
+//  coll[0].click();
+//}
 
-}
+
 </script>
 
 <br/>
 <b>Citation</b><br>
 If you find our work useful and use parts or ideas of our paper or code, please cite: <br>
 <p class="cite-box" style="margin-top: 5px">
-  <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px; font-size: 80%">
-    @article{fischer2024nerfanalogies, <br>
-      &nbsp;&nbsp;title={NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs }, <br> 
-      &nbsp;&nbsp;author={Fischer, Michael and Li, Zhengqin and Nguyen-Phuoc, Thu and Bozic, Aljaz and Dong, Zhao and Marshall, Carl and Ritschel, Tobias}, <br>
-      &nbsp;&nbsp;year={2024}, <br>
-      &nbsp;&nbsp;eprint={todo}, <br>
-      &nbsp;&nbsp;archivePrefix={arXiv}, <br>
-      &nbsp;&nbsp;primaryClass={cs.CV} <br>
+  <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px; font-size: 85%">
+    @misc{fischer2024nerf, <br>
+          &nbsp;&nbsp;title={NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs}, <br> 
+          &nbsp;&nbsp;author={Michael Fischer and Zhengqin Li and Thu Nguyen-Phuoc and Aljaz Bozic and Zhao Dong and Carl Marshall and Tobias Ritschel}, <br>
+          &nbsp;&nbsp;year={2024}, <br>
+          &nbsp;&nbsp;eprint={2402.08622}, <br>
+          &nbsp;&nbsp;archivePrefix={arXiv}, <br>
+          &nbsp;&nbsp;primaryClass={cs.CV} <br>
     }
   </span>
 </p>

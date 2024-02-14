@@ -44,6 +44,15 @@ li {
 
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
+      <div class="item-text">
+        <p><b>10/23:</b> Our work on <a href="/nerf_analogies">NeRF Analogies</a> for 3D-consistent semantic appearance transfer is now available as <a href="https://arxiv.org/abs/2402.08622">arXiv preprint</a>.</p>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/hiviscomp.png">
       <div class="item-text">
         <p><b>02/24:</b> I will be giving a talk at <a href="https://www.hiviscomp.cz/">HiVisComp</a> in the Czech Republic. Come say hi if you're at the conference!</p>

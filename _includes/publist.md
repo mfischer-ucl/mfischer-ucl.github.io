@@ -15,7 +15,7 @@
       </span> <br>
       <span style="font-size: 15px;">arXiv preprint<br></span>
       <span style="font-size: 11px;">
-        <a class="mybutton" href="https://arxiv.org/abs/2310.06822">PDF</a>&nbsp;
+        <a class="mybutton" href="https://arxiv.org/abs/2402.08622">PDF</a>&nbsp;
         <a class="mybutton" href="/nerf_analogies">Project Page</a>
       </span> </p>
   </li>  
