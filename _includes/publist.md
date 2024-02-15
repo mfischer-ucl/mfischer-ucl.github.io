@@ -2,7 +2,7 @@
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
     <img src='/assets/images/nerf_analogies/nerfanalogies_thumb1.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b> NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs </b></span>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b> NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs </b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
           <b>Michael Fischer</b>,
@@ -22,7 +22,7 @@
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/neuralbounding/neuralbounding.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Neural Bounding</b></span>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Neural Bounding</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
           <a style="text-decoration:none; color:inherit;" href="https://wenxin-liu.github.io/">Wenxin Liu</a>,
@@ -39,7 +39,7 @@
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/zerograds/thumbnail3.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Zero Grads Ever Given: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Zero Grads Ever Given: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;"><b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
@@ -52,7 +52,7 @@
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/prdpt/thumbnail.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Plateau-Reduced Differentiable Path Tracing</b></span> <br>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Plateau-Reduced Differentiable Path Tracing</b></span> <br>
       <span style="font-size: 15px;"><b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
       </span> <br>
@@ -70,7 +70,7 @@
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/learning2learn/thumbnail.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Learning to Learn and Sample BRDFs</b></span> <br>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Learning to Learn and Sample BRDFs</b></span> <br>
       <span style="font-size: 15px;"><a style="text-decoration:none; color:inherit;" href="https://ryushinn.github.io/">Chen Liu</a>, <b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
       </span> <br>
@@ -87,7 +87,7 @@
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
       <img src='/assets/images/metappearance/thumbnail.png' style="height: 140px; width: 220px;"/>
-      <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Metappearance: Meta-Learning for Visual Appearance Reproduction</b></span> <br>
+      <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Metappearance: Meta-Learning for Visual Appearance Reproduction</b></span> <br>
         <span style="font-size: 15px;"><b>Michael Fischer</b>,
             <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
         </span> <br>
@@ -103,7 +103,7 @@
   </li>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/nicer_thumb2.png' style=""/>
+    <img src='/assets/images/nicer_thumb2.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>NICER: Aesthetic Image Enhancement with Humans in the Loop</b></span> <br>
       <span style="font-size: 15px;"><b>Michael Fischer</b>,
         <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>,
@@ -120,8 +120,8 @@
   </li>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/thumb_msc2.png' style=""/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; line-height: .4em; white-space:nowrap"><b>Using Neural Networks as a Metric Towards Optimal Automated Image Enhancement</b></span> <br>
+    <img src='/assets/images/thumb_msc2.png' style="height: 140px; width: 220px;"/>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Using Neural Networks as a Metric Towards Optimal Automated Image Enhancement</b></span>
     <span style="font-size: 15px;"><b>Michael Fischer</b>,
       <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>,
       <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/hotho">Andreas Hotho</a>,
@@ -135,7 +135,7 @@
   </li>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/thumb_bsc.png' style=""/>
+    <img src='/assets/images/thumb_bsc.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>COSMOPALS: Component Simulation Model for Pulse-Shape Analysis in Positron Annihilation Lifetime Spectroscopy</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;"><b>Michael Fischer</b>,

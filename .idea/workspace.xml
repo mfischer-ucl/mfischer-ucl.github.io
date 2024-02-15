@@ -7,12 +7,8 @@
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/publist.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/publist.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/nerf_analogies.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/nerf_analogies.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/news.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/news.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/nerf_analogies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/nerf_analogies/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,13 +39,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets/videos/nerf_analogies/OURS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/michael/private/mfischer-ucl.github.io/assets/videos/nerf_analogies/OURS&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS" />
