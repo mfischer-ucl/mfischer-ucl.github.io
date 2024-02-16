@@ -593,13 +593,11 @@ for (i = 0; i < coll.length; i++) {
 If you find our work useful and use parts or ideas of our paper or code, please cite: <br>
 <p class="cite-box" style="margin-top: 5px">
   <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px; font-size: 85%">
-    @misc{fischer2024nerf, <br>
-          &nbsp;&nbsp;title={NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs}, <br> 
-          &nbsp;&nbsp;author={Michael Fischer and Zhengqin Li and Thu Nguyen-Phuoc and Aljaz Bozic and Zhao Dong and Carl Marshall and Tobias Ritschel}, <br>
-          &nbsp;&nbsp;year={2024}, <br>
-          &nbsp;&nbsp;eprint={2402.08622}, <br>
-          &nbsp;&nbsp;archivePrefix={arXiv}, <br>
-          &nbsp;&nbsp;primaryClass={cs.CV} <br>
+    @article{fischer2024nerf, <br>
+      &nbsp;&nbsp;title={NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs}, <br>
+      &nbsp;&nbsp;author={Fischer, Michael and Li, Zhengqin and Nguyen-Phuoc, Thu and Bozic, Aljaz and Dong, Zhao and Marshall, Carl and Ritschel, Tobias}, <br>
+      &nbsp;&nbsp;journal={arXiv preprint arXiv:2402.08622}, <br>
+      &nbsp;&nbsp;year={2024} <br>
     }
   </span>
 </p>
