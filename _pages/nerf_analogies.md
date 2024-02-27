@@ -171,7 +171,7 @@ video {
 <br>
     <p style="margin: auto; text-align: center;">
     <span style="font-size: 24px;"><b>NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs</b></span> <br><br>
-    <span style="font-size: 17px; color: black">arXiv preprint</span><br><br>
+    <span style="font-size: 17px; color: black">CVPR 2024</span><br><br>
     <span style="font-size: 17px;">
     <a style="text-decoration:none; color:inherit;" href="https://mfischer-ucl.github.io/">Michael Fischer<sup>1</sup></a>,
     <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=Nxc2RbQAAAAJ&hl=en&oi=ao">Zhengqin Li<sup>2</sup></a>,

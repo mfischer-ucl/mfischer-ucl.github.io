@@ -13,9 +13,10 @@
           <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=xWD7ZRkAAAAJ&hl=en">Carl Marshall</a>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
       </span> <br>
-      <span style="font-size: 15px;">arXiv preprint<br></span>
+      <span style="font-size: 15px;">CVPR 2024<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2402.08622">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2402.08622&btnG=">Cite</a>
         <a class="mybutton" href="/nerf_analogies">Project Page</a>
       </span> </p>
   </li>  
@@ -33,6 +34,7 @@
       <span style="font-size: 15px;">arXiv preprint<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2310.06822">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2310.06822&btnG=">Cite</a>
         <a class="mybutton" href="https://wenxin-liu.github.io/neural_bounding/">Project Page</a>
       </span> </p>
   </li>
@@ -47,6 +49,7 @@
       <span style="font-size: 15px;">arXiv preprint<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2308.05739">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2308.05739&btnG=">Cite</a>&nbsp;
       </span> </p>
   </li>
 
