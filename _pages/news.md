@@ -44,9 +44,9 @@ li {
 
   <li>
     <div class="item-wrapper">
-      <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
+      <img class="bulletptimg" src="/assets/images/news/200x200/cvpr2024.png">
       <div class="item-text">
-        <p><b>10/23:</b> Our work on <a href="/nerf_analogies">NeRF Analogies</a> for 3D-consistent semantic appearance transfer is now available as <a href="https://arxiv.org/abs/2402.08622">arXiv preprint</a>.</p>
+        <p><b>02/24:</b> Our work on <a href="/nerf_analogies">NeRF Analogies</a> for 3D-consistent semantic appearance transfer was accepted to CVPR 2024!</p>
       </div>
     </div>
   </li>
