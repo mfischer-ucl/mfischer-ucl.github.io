@@ -43,6 +43,15 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/eg24.png">
+      <div class="item-text">
+        <p><b>04/24:</b> I will present my research at the <a href="https://eg2024.cyens.org.cy/doctoral-consortium/">Doctoral Consortium</a> at Eurographics 2024.</p>
+      </div>
+    </div>
+  </li>    
+
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/rabinezra.png">
       <div class="item-text">
         <p><b>02/24:</b> I was awared a scholarship by the <a href="https://rabinezrascholarship.org/">Rabin Ezra Scholarship Trust</a>.</p>

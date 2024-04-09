@@ -33,26 +33,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/michael/private/mfischer-ucl.github.io/assets/videos/nerf_analogies/OURS&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets/images/news/200x200"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
       <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS" />
       <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/GT" />
       <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/WCT" />
       <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/ST" />
-      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/SNERF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
       <recent name="$PROJECT_DIR$/assets/images/nerf_analogies" />
       <recent name="$PROJECT_DIR$/assets/images/neuralbounding" />
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/images/prdpt" />
     </key>
   </component>
