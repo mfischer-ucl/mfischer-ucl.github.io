@@ -68,6 +68,10 @@
 <loc>http://localhost:4000/posts/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/EG24_DCSubmission.pdf</loc>
+<lastmod>2024-04-09T16:22:30+01:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/assets/CV.pdf</loc>
 <lastmod>2022-12-15T10:49:11+00:00</lastmod>
 </url>
@@ -102,5 +106,13 @@
 <url>
 <loc>http://localhost:4000/assets/prdpt_suppl.pdf</loc>
 <lastmod>2023-03-24T11:07:30+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/google52760bf980a698c6.html</loc>
+<lastmod>2024-04-30T13:53:11+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/mypublications.html</loc>
+<lastmod>2024-04-30T13:48:20+01:00</lastmod>
 </url>
 </urlset>

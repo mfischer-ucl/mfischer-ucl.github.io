@@ -1,6 +1,21 @@
 <ul>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
+    <img src='/assets/images/zerograds/thumbnail2.png' style="height: 140px; width: 220px;"/>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Zero Grads: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span>
+    <br style="display: block; margin-top: -3px">
+    <span style="font-size: 15px;"><b>Michael Fischer</b>,
+          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
+      </span> <br>
+      <span style="font-size: 15px;">SIGGRAPH 2024<br></span>
+      <span style="font-size: 11px;">
+        <a class="mybutton" href="https://arxiv.org/abs/2308.05739">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2308.05739&btnG=">Cite</a>&nbsp;
+        <a class="mybutton" href="/">Project Page</a>
+      </span> </p>
+  </li>
+
+  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/news/200x200/egdc24.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Advanced Optimization for Machine Learning in Computer Graphics</b></span>
     <br style="display: block; margin-top: -3px">
@@ -49,20 +64,6 @@
         <a class="mybutton" href="https://arxiv.org/abs/2310.06822">PDF</a>&nbsp;
         <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2310.06822&btnG=">Cite</a>
         <a class="mybutton" href="https://wenxin-liu.github.io/neural_bounding/">Project Page</a>
-      </span> </p>
-  </li>
-
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/zerograds/thumbnail3.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Zero Grads Ever Given: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span>
-    <br style="display: block; margin-top: -3px">
-    <span style="font-size: 15px;"><b>Michael Fischer</b>,
-          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
-      </span> <br>
-      <span style="font-size: 15px;">arXiv preprint<br></span>
-      <span style="font-size: 11px;">
-        <a class="mybutton" href="https://arxiv.org/abs/2308.05739">PDF</a>&nbsp;
-        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2308.05739&btnG=">Cite</a>&nbsp;
       </span> </p>
   </li>
 

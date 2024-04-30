@@ -4,7 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="" />
+    <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EG24_DCSubmission.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zerograds/thumbail4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/zerograds/thumbnail5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google52760bf980a698c6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mypublications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/publist.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/publist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/main.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-chat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-link/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-link/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-modified/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-modified/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-notice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-notice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-quote/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-quote/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-standard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-standard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/metappearance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/metappearance/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/nerf_analogies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/nerf_analogies/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/posts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/prdpt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/prdpt/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/subsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/subsite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/teaching/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/test/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,23 +70,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets/images/news/200x200"
+    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
       <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/OURS" />
       <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/GT" />
-      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/WCT" />
-      <recent name="$PROJECT_DIR$/assets/videos/nerf_analogies/ST" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/images/zerograds" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
       <recent name="$PROJECT_DIR$/assets/images/nerf_analogies" />
-      <recent name="$PROJECT_DIR$/assets/images/neuralbounding" />
-      <recent name="$PROJECT_DIR$/assets/images/prdpt" />
     </key>
   </component>
   <component name="RunManager">
@@ -163,7 +196,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
