@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://mfischer-ucl.github.io/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/news/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/publications/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/contact/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/assets/EG24_DCSubmission.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/nerf_analogies/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/assets/prdpt_poster.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/prdpt/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/metappearance/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/assets/msc_thesis.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/assets/bsc_thesis.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/assets/CV.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/assets/prdpt_main.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/assets/prdpt_suppl.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/assets/metappearance_main.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mfischer-ucl.github.io/assets/metappearance_suppl.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
