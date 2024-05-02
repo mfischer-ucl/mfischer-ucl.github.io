@@ -1,118 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>http://localhost:4000/blog/post-modified/</loc>
-<lastmod>2016-03-09T21:20:02+00:00</lastmod>
+  <loc>https://mfischer-ucl.github.io/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>http://localhost:4000/blog/post-standard/</loc>
-<lastmod>2010-01-07T00:00:00+00:00</lastmod>
+  <loc>https://mfischer-ucl.github.io/news/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/blog/post-chat/</loc>
-<lastmod>2010-01-08T00:00:00+00:00</lastmod>
+  <loc>https://mfischer-ucl.github.io/publications/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/blog/post-notice/</loc>
-<lastmod>2010-02-05T00:00:00+00:00</lastmod>
+  <loc>https://mfischer-ucl.github.io/contact/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/blog/post-quote/</loc>
-<lastmod>2010-02-05T00:00:00+00:00</lastmod>
+  <loc>https://mfischer-ucl.github.io/assets/EG24_DCSubmission.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/blog/post-link/</loc>
-<lastmod>2010-03-07T00:00:00+00:00</lastmod>
+  <loc>https://mfischer-ucl.github.io/nerf_analogies/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/blog/welcome-to-jekyll/</loc>
-<lastmod>2019-04-18T20:34:30+01:00</lastmod>
+  <loc>https://mfischer-ucl.github.io/assets/prdpt_poster.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+  <loc>https://mfischer-ucl.github.io/prdpt/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/categories/</loc>
+  <loc>https://mfischer-ucl.github.io/metappearance/</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/contact/</loc>
+  <loc>https://mfischer-ucl.github.io/assets/msc_thesis.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/metappearance/</loc>
+  <loc>https://mfischer-ucl.github.io/assets/bsc_thesis.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>http://localhost:4000/nerf_analogies/</loc>
+  <loc>https://mfischer-ucl.github.io/assets/CV.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/news/</loc>
+  <loc>https://mfischer-ucl.github.io/assets/prdpt_main.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/prdpt/</loc>
+  <loc>https://mfischer-ucl.github.io/assets/prdpt_suppl.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/publications/</loc>
+  <loc>https://mfischer-ucl.github.io/assets/metappearance_main.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>http://localhost:4000/subsite/</loc>
+  <loc>https://mfischer-ucl.github.io/assets/metappearance_suppl.pdf</loc>
+  <lastmod>2024-04-30T12:57:32+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
-<url>
-<loc>http://localhost:4000/tags/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/teaching/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/test/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/posts/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/EG24_DCSubmission.pdf</loc>
-<lastmod>2024-04-09T16:22:30+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/CV.pdf</loc>
-<lastmod>2022-12-15T10:49:11+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/EG24_DCSubmission.pdf</loc>
-<lastmod>2024-04-09T16:22:30+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/bsc_thesis.pdf</loc>
-<lastmod>2022-08-05T14:59:09+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/metappearance_main.pdf</loc>
-<lastmod>2022-09-16T13:59:31+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/metappearance_suppl.pdf</loc>
-<lastmod>2022-09-16T11:04:57+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/msc_thesis.pdf</loc>
-<lastmod>2022-08-05T14:59:09+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/prdpt_main.pdf</loc>
-<lastmod>2023-03-24T11:03:22+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/prdpt_poster.pdf</loc>
-<lastmod>2023-05-31T18:30:01+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/assets/prdpt_suppl.pdf</loc>
-<lastmod>2023-03-24T11:07:30+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/google52760bf980a698c6.html</loc>
-<lastmod>2024-04-30T13:53:11+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/mypublications.html</loc>
-<lastmod>2024-04-30T13:48:20+01:00</lastmod>
-</url>
+
+
 </urlset>
