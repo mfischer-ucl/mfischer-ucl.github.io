@@ -11,7 +11,7 @@
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2308.05739">PDF</a>&nbsp;
         <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2308.05739&btnG=">Cite</a>&nbsp;
-        <a class="mybutton" href="/">Project Page</a>
+        <a class="mybutton" href="/zerograds">Project Page</a>
       </span> </p>
   </li>
 
