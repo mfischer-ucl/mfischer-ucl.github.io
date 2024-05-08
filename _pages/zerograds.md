@@ -21,7 +21,7 @@ author_profile: false
     }
 
     .caption {
-        font-size: 16px;
+        font-size: 0.9em;
         color: #666;
     }
 
@@ -176,10 +176,20 @@ previously published gradient estimator <a href="/prdpt">PRDPT</a>, here denoted
 <br>
 <br>
 
+<div class="image-section">
+    <img src="/assets/images/zerograds/vae_schematic.png">
+</div>
+<p>Finally, in this example, we train a <b>generative model</b> on a <b>non-differentiable task</b>. Specifically, we use
+   a VAE that learns to encode digits from the MNIST dataset. However, instead of simply decoding the latents to pixel 
+   values, the VAE produces spline-support-points, which are then rendered with a non-differentiable spline renderer (see the figure on the right for a schematic). 
+   We use a weighted mixture of MSE and KLD as the trainig loss and backpropagate this loss through the non-diff. spline
+   renderer (i.e., from the rendered spline to the VAE weights) using our proposed method ZeroGrads. The below digits 
+   are samples from the latent space of the trained VAE, in a variety of styles, which are easily applicable in post-processing 
+   thanks to the spline formulation. 
+</p>
 <div class="container">
     <img class="containerimg" src="/assets/images/zerograds/vae.png">
-    <div class="caption">Finally, in this example, we train a <em>generative model</em> on a <em>non-differentiable task</em> by training a VAE 
-    that produces spline support points, which, when rendered with a non-differentiable spline renderer, reproduce digits from the MNIST dataset.</div>
+    <div class="caption"></div>
 </div>
 
 <br>
