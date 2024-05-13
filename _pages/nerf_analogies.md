@@ -184,7 +184,7 @@ video {
     <br/>
     <br/>
     <a style="font-size: 14px;" href="https://www.ucl.ac.uk/"><sup>1</sup>University College London</a>,
-    <a style="font-size: 14px;" href="https://about.meta.com/uk/realitylabs/"><sup>2</sup>Meta Reality Labs Research</a>, 
+    <a style="font-size: 14px;" href="https://about.meta.com/uk/realitylabs/"><sup>2</sup>Meta Reality Labs Research</a>
 </p>
 <br>
 </div>
