@@ -70,9 +70,9 @@ ol > li::marker {
                     <h4><strong>Video (coming soon)</strong></h4>
             </li>
             <li class="horizItem">
-                <a href="/zerograds">
+                <a href="https://colab.research.google.com/drive/1GNd6DdRGRHQjKyG3rIfJ9519lo9VuAq4?usp=sharing">
                 <img class="teaserbutton" src="/assets/images/colablogo.png"><br>
-                    <h4><strong>Colab (coming soon)</strong></h4>
+                    <h4><strong>Colab</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
@@ -134,7 +134,7 @@ therefore can "focus on what matters" at the current optimization step. In simpl
   <li>Compute the gradient of the MLP w.r.t. the optimization parameters, and use this gradient to perform an (Adam-) gradient descent step.</li>
 </ol>  
 
-We provide a <a href="/zerograds">Colab Notebook</a> that shows a simple example and how ZeroGrads outperforms its competitors. 
+We provide a <a href="https://colab.research.google.com/drive/1GNd6DdRGRHQjKyG3rIfJ9519lo9VuAq4?usp=sharing">Colab Notebook</a> that shows a simple example and how ZeroGrads outperforms its competitors. 
 
 <br>
 <br>
@@ -185,14 +185,14 @@ previously published gradient estimator <a href="/prdpt">PRDPT</a>, here denoted
    We use a weighted mixture of MSE and KLD as the trainig loss and backpropagate this loss through the non-diff. spline
    renderer (i.e., from the rendered spline to the VAE weights) using our proposed method ZeroGrads. The below digits 
    are samples from the latent space of the trained VAE, in a variety of styles, which are easily applicable in post-processing 
-   thanks to the spline formulation. 
+   thanks to the spline formulation.<br>    
 </p>
+
 <div class="container">
     <img class="containerimg" src="/assets/images/zerograds/vae.png">
     <div class="caption"></div>
 </div>
 
-<br>
 <br>
 
 The magic that makes our approach scale to high dimensions is the surrogate's hysteresis, which reduces the gradient 
