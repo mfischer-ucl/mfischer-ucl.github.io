@@ -220,6 +220,10 @@ We investigate transferring the appearance from a source Neural Radiance Field (
 in a semantically meaningful and multiview-consistent way by leveraging semantic correspondence from ViT features. 
 </p>
 
+<p align="center">
+ <img src="/assets/images/nerf_analogies/thumb_github.png" width="40%" height="37.5%" />
+</p>
+
 <b>Abstract:</b><br>
 <p style="text-align: justify">
 A Neural Radiance Field (NeRF) encodes the specific relation of 3D geometry and appearance of a scene. We here ask the question whether we can transfer the appearance
