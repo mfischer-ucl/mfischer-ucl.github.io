@@ -43,8 +43,8 @@
           <a style="text-decoration:none; color:inherit;" href="https://www.monkeyoverflow.com/">Thu Nguyen-Phuoc</a>,
           <a style="text-decoration:none; color:inherit;" href="https://aljazbozic.github.io/">Aljaž Božič</a>,
           <a style="text-decoration:none; color:inherit;" href="http://flycooler.com/">Zhao Dong</a>,
-          <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=xWD7ZRkAAAAJ&hl=en">Carl Marshall</a>,
-          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
+          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=xWD7ZRkAAAAJ&hl=en">Carl Marshall</a>
       </span> <br>
       <span style="font-size: 15px;">CVPR 2024<br></span>
       <span style="font-size: 11px;">

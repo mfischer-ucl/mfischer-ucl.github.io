@@ -178,8 +178,8 @@ video {
     <a style="text-decoration:none; color:inherit;" href="https://www.monkeyoverflow.com/">Thu Nguyen-Phuoc<sup>2</sup></a>,
     <a style="text-decoration:none; color:inherit;" href="https://aljazbozic.github.io/">Aljaž Božič<sup>2</sup></a>,
     <a style="text-decoration:none; color:inherit;" href="http://flycooler.com/">Zhao Dong<sup>2</sup></a>,
-    <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=xWD7ZRkAAAAJ&hl=en">Carl Marshall<sup>2</sup></a>,
-    <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel<sup>1</sup></a>
+    <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel<sup>1</sup></a>,
+    <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=xWD7ZRkAAAAJ&hl=en">Carl Marshall<sup>2</sup></a>
     </span>
     <br/>
     <br/>
