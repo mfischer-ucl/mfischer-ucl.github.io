@@ -54,6 +54,12 @@ author_profile: false
                 </a>
             </li>
             <li class="horizItem">
+                <a href="/assets/prdpt_poster.pdf" download="PRDPT_poster.pdf">
+                <img class="teaserbutton" src="/assets/images/poster.png"><br>
+                    <h4><strong>Poster</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
                 <a href="/assets/prdpt_suppl.pdf" download="plateaureduced_diff_pt_suppl.pdf">
                 <img class="teaserbutton" src="/assets/images/paperclip.png" ><br>
                     <h4><strong>Supplemental</strong></h4>

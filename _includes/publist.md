@@ -51,6 +51,7 @@
         <a class="mybutton" href="https://arxiv.org/abs/2402.08622">PDF</a>&nbsp;
         <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2402.08622&btnG=">Cite</a>
         <a class="mybutton" href="https://youtu.be/Yghst5lrBeQ">Video</a>
+        <a class="mybutton" href="/assets/nerfanalogies_poster.pdf" download="NerfAnalogies_poster.pdf">Poster</a>
         <a class="mybutton" href="/nerf_analogies">Project Page</a>
       </span> </p>
   </li>
@@ -80,7 +81,7 @@
         <a class="mybutton" href="https://github.com/mfischer-ucl/prdpt">Code</a>&nbsp;
         <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2211.17263&btnG=">Cite</a>&nbsp;
         <a class="mybutton" href="https://youtu.be/KJlJbqJ4wwY">Video</a>
-        <a class="mybutton" href="/assets/prdpt_poster.pdf">Poster</a>
+        <a class="mybutton" href="/assets/prdpt_poster.pdf" download="PRDPT_poster.pdf">Poster</a>
         <a class="mybutton" href="/prdpt">Project Page</a>
       </span>
     </p>

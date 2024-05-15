@@ -213,8 +213,14 @@ video {
                     <h4><strong>Code (coming soon)</strong></h4>
             </li>
             <li class="horizItem">
+                <a href="/assets/nerfanalogies_poster.pdf" download="NeRFAnalogies_poster.pdf">
+                <img class="teaserbutton" src="/assets/images/poster.png"><br>
+                    <h4><strong>Poster</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
                 <a href="/assets/nerfanalogies_supplemental.pdf" download="NeRFAnalogies_supplemental.pdf">
-                <img src="/assets/images/paperclip.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/paperclip.png"><br>
                     <h4><strong>Supplemental</strong></h4>
                 </a>
             </li>

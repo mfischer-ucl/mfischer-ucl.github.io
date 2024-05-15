@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/poster.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/publist.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/publist.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/nerf_analogies.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/nerf_analogies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/prdpt.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/prdpt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/images/paperclip.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/images/paperclip.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/metappearance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/metappearance/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/nerf_analogies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/nerf_analogies/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/prdpt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/prdpt/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/subsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/subsite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/zerograds/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/zerograds/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/paperclip.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/paperclip.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +65,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/images/zerograds" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
-      <recent name="$PROJECT_DIR$/assets/images/nerf_analogies" />
     </key>
   </component>
   <component name="RunManager">
