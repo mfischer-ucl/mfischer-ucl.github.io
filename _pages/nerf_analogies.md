@@ -203,12 +203,20 @@ video {
                 </a>
             </li>
             <li class="horizItem">
+                <a href="https://youtu.be/Yghst5lrBeQ">
                 <img class="teaserbutton" src="/assets/images/youtube_icon_red.png" ><br>
-                    <h4><strong>Video (coming soon)</strong></h4>
+                    <h4><strong>Video</strong></h4>
+                </a>
             </li>
             <li class="horizItem">
                 <img class="teaserbutton" src="/assets/images/gh_icon.png" ><br>
                     <h4><strong>Code (coming soon)</strong></h4>
+            </li>
+            <li class="horizItem">
+                <a href="/assets/nerfanalogies_supplemental.pdf" download="NeRFAnalogies_supplemental.pdf">
+                <img src="/assets/images/paperclip.png" style="height: 100px"><br>
+                    <h4><strong>Supplemental</strong></h4>
+                </a>
             </li>
         </ul>
     </div>
@@ -233,6 +241,15 @@ that is driven by semantic features from large, pre-trained 2D image models to a
 match product space of 3D geometry and appearance. We show that our method outperforms traditional stylization-based methods and that a large majority of users prefer
 our method over several typical baselines. 
 </p>
+
+<p style="display: block; margin-left: auto; margin-right: auto; max-width: 75%">
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/Yghst5lrBeQ?si=CWcMxXLKc9QCCri-" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</p>
+
 
 <b>Results:</b><br>
 <button class="collapsible grey-box" style="margin-top: 8px; text-align: center;">Animated Transfer Results</button>

@@ -28,25 +28,25 @@ author_profile: false
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
                 <a href="/assets/metappearance_main.pdf" download="Metappearance_main.pdf">
-                <img src="/assets/images/metappearance/paperfront.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/metappearance/paperfront.png"><br>
                     <h4><strong>Paper</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="https://youtu.be/6wTf9vAbfTM">
-                <img src="/assets/images/youtube_icon.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/youtube_icon_red.png"><br>
                     <h4><strong>Video</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="https://github.com/mfischer-ucl/metappearance">
-                <img src="/assets/images/gh_icon.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/gh_icon.png"><br>
                     <h4><strong>Code</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="/assets/metappearance_suppl.pdf" download="Metappearance_supplemental.pdf">
-                <img src="/assets/images/paperclip.png" style="height: 100px"><br>
+                <img class="teaserbutton" src="/assets/images/paperclip.png"><br>
                     <h4><strong>Supplemental</strong></h4>
                 </a>
             </li>
@@ -59,7 +59,7 @@ author_profile: false
 Our work has been featured in the <a href="https://link.growkudos.com/1pxz4w4nuv4">ACM Showcase</a>.  
 </p>
 
-<b>TL;DR:</b><br>
+<b>TLDR:</b><br>
 <p style="text-align: justify">
 We use meta-learning to encode visual appearance. Metappearance can be trained in less than a second, while providing 
 similar quality to conventionally trained networks that train orders of magnitude longer. We show results on a wide  
