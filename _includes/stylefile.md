@@ -32,11 +32,6 @@
   margin-bottom: 33px;
 }
 
-.caption {
-    text-align: center;
-    margin-top: 5px;
-}
-
 .collapsible {
   background-color: #f1f1f1;
   color: #444;
@@ -122,6 +117,17 @@ margin-bottom: 10px;
     max-width: 20%; /* Adjust this value based on your layout */
     box-sizing: border-box; /* Ensure padding and borders are included */
     padding: 0; /* Remove any default padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 5px;
+    max-width: 100%; /* Ensure the caption does not exceed the container width */
+    word-wrap: break-word; /* Ensure long captions wrap within the container */
 }
 
 .NAvideo-container video {
