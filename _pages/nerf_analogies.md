@@ -183,8 +183,8 @@ video {
     </span>
     <br/>
     <br/>
-    <a style="font-size: 14px;" href="https://www.ucl.ac.uk/"><sup>1</sup>University College London</a>,
-    <a style="font-size: 14px;" href="https://about.meta.com/uk/realitylabs/"><sup>2</sup>Meta Reality Labs Research</a>
+    <a style="font-size: 15px;" href="https://www.ucl.ac.uk/"><sup>1</sup>University College London</a>,
+    <a style="font-size: 15px;" href="https://about.meta.com/uk/realitylabs/"><sup>2</sup>Meta Reality Labs Research</a>
 </p>
 <br>
 </div>
@@ -194,7 +194,7 @@ video {
 </div>-->
 
 <div class="row" style="margin: 50px 0 50px 0">
-    <div style="display: inline">
+    <div style="display: inline;">
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
                 <a href="https://arxiv.org/abs/2402.08622">

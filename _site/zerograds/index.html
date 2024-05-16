@@ -309,7 +309,22 @@ display: inline-block;
 }
 
 .teaserbutton {
-  height: 80px;
+    height: 80px; /* Default height for larger screens */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .teaserbutton {
+        height: 60px; /* Smaller height for tablets */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .teaserbutton {
+        height: 40px; /* Even smaller height for mobile devices */
+    }
 }
 
 .globaldiv {
