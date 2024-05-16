@@ -160,6 +160,7 @@ hr.modern-gradient {
 video {
     max-width: 100%;
     height: auto;
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
 }
 
 </style>
@@ -228,7 +229,7 @@ video {
     </div>
 </div>
 
-<b>TLDR:</b><br>
+<b>TL,DR:</b><br>
 <p style="text-align: justify">
 We investigate transferring the appearance from a source Neural Radiance Field (NeRF) to a target 3D geometry 
 in a semantically meaningful and multiview-consistent way by leveraging semantic correspondence from ViT features. 
