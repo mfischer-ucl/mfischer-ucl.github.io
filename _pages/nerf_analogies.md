@@ -68,7 +68,7 @@ author_profile: false
     </div>
 </div>
 
-<b>TLDR:</b><br>
+<b>TL;DR:</b><br>
 <p style="text-align: justify">
 We investigate transferring the appearance from a source Neural Radiance Field (NeRF) to a target 3D geometry 
 in a semantically meaningful and multiview-consistent way by leveraging semantic correspondence from ViT features. 

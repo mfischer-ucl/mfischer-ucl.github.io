@@ -113,7 +113,7 @@ sup {
 .NAvideo-container {
     margin: 3px;
     text-align: center;
-    flex: 1; /* Allow each container to grow and shrink as needed */
+    flex: 0 0 20%; /* Allow each container to grow and shrink as needed */
     max-width: 20%; /* Adjust this value based on your layout */
     box-sizing: border-box; /* Ensure padding and borders are included */
     padding: 0; /* Remove any default padding */
@@ -134,9 +134,10 @@ sup {
     text-align: center;
     margin-top: 5px;
     max-width: 100%;
-    word-wrap: break-word; /* Ensure long captions wrap within the container */
+    overflow: hidden; /* Hide any overflowed caption text */
+    text-overflow: ellipsis; /* Add an ellipsis for long captions */
+    white-space: nowrap; /* Prevent captions from wrapping to the next line */
 }
-
 
 .media-flex-container {
     flex-basis: calc(48.0% - 20px);
@@ -270,7 +271,7 @@ display: inline-block;
     }
 
     .caption {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .globaldiv {
