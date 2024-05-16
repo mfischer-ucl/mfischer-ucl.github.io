@@ -91,6 +91,7 @@ margin-bottom: 10px;
     text-align: center;
     flex: 1;
     max-width: 20%;
+    box-sizing: border-box; /* Ensure padding and borders are included */
 }
 
 .NAvideo-container video {
@@ -102,6 +103,9 @@ margin-bottom: 10px;
     margin-top: 50px;
     max-height: 80%;
     width: auto;
+    box-sizing: border-box; /* Ensure padding and borders are included */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
 }
 
 .caption {
@@ -151,12 +155,6 @@ h2, h3, h4 {
     height: auto;
 }
 
-hr.modern-gradient {
-  border: none;
-  height: 2px;
-  background-image: linear-gradient(to right, transparent, #000000, transparent);
-}
-
 video {
     max-width: 100%;
     height: auto;
@@ -189,10 +187,6 @@ video {
 </p>
 <br>
 </div>
-
-<!--<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%">
-  <img src="/assets/images/prdpt/teaserImg1.png" style="width: 100%">
-</div>-->
 
 <div class="row" style="margin: 50px 0 50px 0">
     <div style="display: inline;">
@@ -229,7 +223,7 @@ video {
     </div>
 </div>
 
-<b>TL,DR:</b><br>
+<b>TLDR:</b><br>
 <p style="text-align: justify">
 We investigate transferring the appearance from a source Neural Radiance Field (NeRF) to a target 3D geometry 
 in a semantically meaningful and multiview-consistent way by leveraging semantic correspondence from ViT features. 
