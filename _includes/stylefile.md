@@ -24,6 +24,49 @@
   width: width: fit-content;
 }
 
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin-bottom: 33px;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.collapsible {
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.collapsible::before {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.active::before {
+  content: "\2212";
+}
+
+sup {
+    text-decoration: none; 
+    color: black;
+}
+
 .mybutton:hover {
   background-color: #f7fafa;
 }
@@ -39,15 +82,24 @@
     justify-content: center; /* Center the images horizontally */
     align-items: center; /* Center the images vertically */
     margin-bottom: 0px; /* Spacing between the images and the video containers */
-    width: 100%; /* Ensuring the container takes full width */
+    margin-top: 33px; /* Spacing between the images and the video containers */
+    width: 50%; /* Reducing the container's width to 50% */
+    margin-left: auto; /* Auto-adjusting left margin */
+    margin-right: auto; /* Auto-adjusting right margin */
 }
 
 .top-image-container img {
     margin: 0 30px; /* Adjust space between the images */
-    max-width: 30%; /* Ensure images don't overflow their container */
+    max-width: 60%; /* Ensure images don't overflow their container */
     height: auto; /* Maintain aspect ratio */
 }
 
+.videos-flex-container {
+display: flex;
+justify-content: center; /* Adjust this to change the alignment of videos */
+flex-wrap: wrap; /* Allows the items to wrap to the next line */
+margin-bottom: 10px;
+}
 
 #NAvideoForm {
     display: flex;
@@ -68,11 +120,54 @@
     text-align: center;
     flex: 1; /* Allow each container to grow and shrink as needed */
     max-width: 20%; /* Adjust this value based on your layout */
+    box-sizing: border-box; /* Ensure padding and borders are included */
+    padding: 0; /* Remove any default padding */
+}
+
+.NAvideo-container video {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box; /* Ensure padding and borders are included */
+}
+
+.media-flex-container {
+    flex-basis: calc(48.0% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.parent-flex-container {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@media (max-width: 768px) {
+    .media-flex-container {
+        flex-basis: 100%;
+    }
+}
+
+.media-item {
+    margin: 0 10px;
+    text-align: center;
+    flex-basis: 33%;
+}
+
+.media-item img, .media-item video {
+    max-width: 100%;
+    height: auto;
 }
 
 video {
     max-width: 100%;
     height: auto;
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
 }
 
 .radio-buttons {
@@ -83,6 +178,10 @@ video {
 .row {
   margin-left: -15px;
   margin-right: -15px;
+}
+
+h2, h3, h4 {
+  text-align: center;
 }
 
 h4, .h4, h5, .h5, h6, .h6 {
