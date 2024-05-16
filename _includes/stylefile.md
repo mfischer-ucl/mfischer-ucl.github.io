@@ -113,7 +113,7 @@ sup {
 .NAvideo-container {
     margin: 3px;
     text-align: center;
-    flex: 0 0 20%; /* Allow each container to grow and shrink as needed */
+    flex: 1; /* Allow each container to grow and shrink as needed */
     max-width: 20%; /* Adjust this value based on your layout */
     box-sizing: border-box; /* Ensure padding and borders are included */
     padding: 0; /* Remove any default padding */
@@ -125,15 +125,13 @@ sup {
 
 .NAvideo-container video {
     max-width: 100%;
-    max-height: 100%;
     height: auto;
-    object-fit: contain;
 }
 
 .caption {
     text-align: center;
     margin-top: 5px;
-    max-width: 100%;
+    max-width: 95%;
     overflow: hidden; /* Hide any overflowed caption text */
     text-overflow: ellipsis; /* Add an ellipsis for long captions */
     white-space: nowrap; /* Prevent captions from wrapping to the next line */
@@ -144,7 +142,18 @@ sup {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    
+}
+
+.media-item {
+    margin: 0 10px 0 0;
+    text-align: center;
+    flex-basis: 33%;
+}
+
+.media-item img, .media-item video {
+    max-width: 100%;
+    height: auto;
 }
 
 .parent-flex-container {
@@ -219,17 +228,6 @@ display: inline-block;
     width: auto; /* Maintain aspect ratio */
 }
 
-
-.media-item {
-    margin: 0 10px;
-    text-align: center;
-    flex-basis: 33%;
-}
-
-.media-item img, .media-item video {
-    max-width: 100%;
-    height: auto;
-}
 
 /* Media query for tablets */
 @media (max-width: 768px) {

@@ -98,6 +98,9 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
 
 
 <b>Results:</b><br>
+In the video captions, DIA is short for Deep Image Analogies, ST is short for Style Transfer, WCT is short for 
+Whitening and Coloring Transform, the algorithm introduced in the paper "Universal Style Transfer via Feature Transforms",
+SNeRF is the method by Nguyen-Phuoc et al., and Ours is our NeRF Analogy. <br> 
 <button class="collapsible grey-box" style="margin-top: 8px; text-align: center;">Animated Transfer Results</button>
 <div class="content grey-box">
     <div class="top-image-container">
@@ -106,11 +109,11 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
     <div class="videos-flex-container">
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/DIA/birdhouse.webm" autoplay muted loop ></video>
-            <div class="caption">Deep Img. Analogies</div>
+            <div class="caption">DIA</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/ST/birdhouse.webm" autoplay muted loop ></video>
-            <div class="caption">Style Transfer</div>
+            <div class="caption">ST</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/OURS/birdhouse.webm" autoplay muted loop ></video>
@@ -131,11 +134,11 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
     <div class="videos-flex-container"> 
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/DIA/boots.webm" autoplay muted loop ></video>
-            <div class="caption">Deep Img. Analogies</div>
+            <div class="caption">DIA</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/ST/boots.webm" autoplay muted loop ></video>
-            <div class="caption">Style Transfer</div>
+            <div class="caption">ST</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/OURS/boots.webm" autoplay muted loop ></video>
@@ -156,11 +159,11 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
     <div class="videos-flex-container"> 
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/DIA/modernchair.webm" autoplay muted loop ></video>
-            <div class="caption">Deep Img. Analogies</div>
+            <div class="caption">DIA</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/ST/modernchair.webm" autoplay muted loop ></video>
-            <div class="caption">Style Transfer</div>
+            <div class="caption">ST</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/OURS/modernchair.webm" autoplay muted loop ></video>
@@ -181,11 +184,11 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
     <div class="videos-flex-container"> 
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/DIA/pinkbag.webm" autoplay muted loop ></video>
-            <div class="caption">Deep Img. Analogies</div>
+            <div class="caption">DIA</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/ST/pinkbag.webm" autoplay muted loop ></video>
-            <div class="caption">Style Transfer</div>
+            <div class="caption">ST</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/OURS/pinkbag.webm" autoplay muted loop ></video>
@@ -206,11 +209,11 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
     <div class="videos-flex-container"> 
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/DIA/flyingv.webm" autoplay muted loop ></video>
-            <div class="caption">Deep Img. Analogies</div>
+            <div class="caption">DIA</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/ST/flyingv.webm" autoplay muted loop ></video>
-            <div class="caption">Style Transfer</div>
+            <div class="caption">ST</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/OURS/flyingv.webm" autoplay muted loop ></video>
@@ -231,11 +234,11 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
     <div class="videos-flex-container"> 
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/DIA/hammer.webm" autoplay muted loop ></video>
-            <div class="caption">Deep Img. Analogies</div>
+            <div class="caption">DIA</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/ST/hammer.webm" autoplay muted loop ></video>
-            <div class="caption">Style Transfer</div>
+            <div class="caption">ST</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/OURS/hammer.webm" autoplay muted loop ></video>
@@ -256,11 +259,11 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
     <div class="videos-flex-container"> 
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/DIA/greenchair.webm" autoplay muted loop ></video>
-            <div class="caption">Deep Img. Analogies</div>
+            <div class="caption">DIA</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/ST/greenchair.webm" autoplay muted loop ></video>
-            <div class="caption">Style Transfer</div>
+            <div class="caption">ST</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/OURS/greenchair.webm" autoplay muted loop ></video>
@@ -289,7 +292,7 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/ST/garden.webm" autoplay muted loop ></video>
-            <div class="caption">Style Transfer</div>
+            <div class="caption">ST</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/OURS/garden.webm" autoplay muted loop ></video>
@@ -297,7 +300,7 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/DIA/garden.webm" autoplay muted loop ></video>
-            <div class="caption">Deep Img. Analogies</div>
+            <div class="caption">DIA</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/WCT/garden.webm" autoplay muted loop ></video>
@@ -318,7 +321,7 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/ST/kitchen.webm" autoplay muted loop ></video>
-            <div class="caption">Style Transfer</div>
+            <div class="caption">ST</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/OURS/kitchen.webm" autoplay muted loop ></video>
@@ -326,7 +329,7 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/DIA/kitchen.webm" autoplay muted loop ></video>
-            <div class="caption">Deep Img. Analogies</div>
+            <div class="caption">DIA</div>
         </div>
         <div class="NAvideo-container">
             <video src="/assets/videos/nerf_analogies/WCT/kitchen.webm" autoplay muted loop ></video>
@@ -345,29 +348,29 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
       <div class="media-flex-container">
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/leatherbag.webm" autoplay muted loop></video>
-            <div class="caption">target (shape)</div>
+            <div class="caption">Target <br>(Shape)</div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/OURS/src_pinkbag_target_leatherbag.webm" autoplay muted loop></video>
-            <div class="caption">Ours</div>
+            <div class="caption">Ours <br><span style="color:#f2f2f2">tmp</span></div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/pinkbag.webm" autoplay muted loop></video>
-            <div class="caption">source (appearance)</div>
+            <div class="caption">Source <br>(Appearance)</div>
           </div>
       </div>
        <div class="media-flex-container">
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/vans.webm" autoplay muted loop></video>
-            <div class="caption">target (shape)</div>
+            <div class="caption">Target <br>(Shape)</div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/OURS/src_boots_target_sneakers.webm" autoplay muted loop></video>
-            <div class="caption">Ours</div>
+            <div class="caption">Ours <br><span style="color:#f2f2f2">tmp</span></div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/boots.webm" autoplay muted loop></video>
-            <div class="caption">source (appearance)</div>
+            <div class="caption">Source <br>(Appearance)</div>
           </div>
       </div>
     </div>
@@ -375,29 +378,29 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
       <div class="media-flex-container">
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/greenchair.webm" autoplay muted loop></video>
-            <div class="caption">target (shape)</div>
+            <div class="caption">target<br>(Shape)</div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/OURS/src_whitechair_target_greenchair.webm" autoplay muted loop></video>
-            <div class="caption">Ours</div>
+            <div class="caption">Ours <br><span style="color:#f2f2f2">tmp</span></div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/whitechair.webm" autoplay muted loop></video>
-            <div class="caption">source (appearance)</div>
+            <div class="caption">Source<br>(Appearance)</div>
           </div>
       </div>
        <div class="media-flex-container">
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/modernchair.webm" autoplay muted loop></video>
-            <div class="caption">target (shape)</div>
+            <div class="caption">target<br>(Shape)</div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/OURS/src_redchair_target_modernchair.webm" autoplay muted loop></video>
-            <div class="caption">Ours</div>
+            <div class="caption">Ours <br><span style="color:#f2f2f2">tmp</span></div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/redchair.webm" autoplay muted loop></video>
-            <div class="caption">source (appearance)</div>
+            <div class="caption">Source<br>(Appearance)</div>
           </div>
       </div>
     </div>
@@ -405,29 +408,29 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
       <div class="media-flex-container">
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/goldcat.webm" autoplay muted loop></video>
-            <div class="caption">target (shape)</div>
+            <div class="caption">target<br>(Shape)</div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/OURS/src_teddy_target_goldcat.webm" autoplay muted loop></video>
-            <div class="caption">Ours</div>
+            <div class="caption">Ours <br><span style="color:#f2f2f2">tmp</span></div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/teddy.webm" autoplay muted loop></video>
-            <div class="caption">source (appearance)</div>
+            <div class="caption">Source<br>(Appearance)</div>
           </div>
       </div>
        <div class="media-flex-container">
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/teddy.webm" autoplay muted loop></video>
-            <div class="caption">target (shape)</div>
+            <div class="caption">target<br>(Shape)</div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/OURS/src_goldcat_target_teddy.webm" autoplay muted loop></video>
-            <div class="caption">Ours</div>
+            <div class="caption">Ours <br><span style="color:#f2f2f2">tmp</span></div>
           </div>
           <div class="media-item">
             <video src="/assets/videos/nerf_analogies/GT/goldcat.webm" autoplay muted loop></video>
-            <div class="caption">source (appearance)</div>
+            <div class="caption">Source<br>(Appearance)</div>
           </div>
       </div>
     </div>
@@ -448,10 +451,6 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
-//if (coll.length > 0) {
-//  coll[0].click();
-//}
-
 
 </script>
 

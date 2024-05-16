@@ -463,25 +463,35 @@ sup {
 
 .NAvideo-container video {
     max-width: 100%;
-    max-height: 100%;
     height: auto;
-    object-fit: contain;
 }
 
 .caption {
     text-align: center;
     margin-top: 5px;
-    max-width: 100%;
-    word-wrap: break-word; /* Ensure long captions wrap within the container */
+    max-width: 95%;
+    overflow: hidden; /* Hide any overflowed caption text */
+    text-overflow: ellipsis; /* Add an ellipsis for long captions */
+    white-space: nowrap; /* Prevent captions from wrapping to the next line */
 }
-
 
 .media-flex-container {
     flex-basis: calc(48.0% - 20px);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    
+}
+
+.media-item {
+    margin: 0 10px 0 0;
+    text-align: center;
+    flex-basis: 33%;
+}
+
+.media-item img, .media-item video {
+    max-width: 100%;
+    height: auto;
 }
 
 .parent-flex-container {
@@ -557,17 +567,6 @@ display: inline-block;
 }
 
 
-.media-item {
-    margin: 0 10px;
-    text-align: center;
-    flex-basis: 33%;
-}
-
-.media-item img, .media-item video {
-    max-width: 100%;
-    height: auto;
-}
-
 /* Media query for tablets */
 @media (max-width: 768px) {
     .teaserbutton {
@@ -608,7 +607,7 @@ display: inline-block;
     }
 
     .caption {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     .globaldiv {
