@@ -465,6 +465,12 @@ display: inline-block;
 
 </style>
 
+<style>
+ol > li::marker {
+  font-weight: bold;
+}
+</style>
+
 <body>
 <div class="globaldiv">
 
@@ -551,11 +557,28 @@ gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cro
 </iframe>
 </p>
 
+<b>Method Overview:</b><br />
+To create a NeRF Analogy, we perform the following three steps: 
+<ol style="text-align: justify">
+    <li>We first render out a set of images from both the source-
+        and target NeRFs. We then precompute DiNO-ViT features on these images which serve as dense, semantic image descriptors. </li>
+    <li>In the second step, we sample random pixels (and their position and normal) on the target and compute the correspondence
+        between to the source images by comparing the DiNO-features' cosine similarity. We can then query the source
+        appearance at the maximum similarity, allowing us to create training tuples which combine source- and target information.</li>
+    <li>Finally, we transfer the appearance from the source to the target by optimizing the target NeRF's appearance to 
+        match the source appearance in the training tuples and refine the results with an additional edge-loss.</li>
+</ol>
+<p align="center">
+ <img src="/assets/images/nerf_analogies/methodfigure_website.png" width="100%" margin-top="50px" />
+</p>
+
 
 <b>Results:</b><br />
+<p style="text-align: justify">
 In the video captions, DIA is short for Deep Image Analogies, ST is short for Style Transfer, WCT is short for 
 Whitening and Coloring Transform, the algorithm introduced in the paper "Universal Style Transfer via Feature Transforms",
-SNeRF is the method by Nguyen-Phuoc et al., and Ours is our NeRF Analogy. <br /> 
+SNeRF is the method by Nguyen-Phuoc et al., and Ours is our NeRF Analogy. 
+</p>
 <button class="collapsible grey-box" style="margin-top: 8px; text-align: center;">Animated Transfer Results</button>
 <div class="content grey-box">
     <div class="top-image-container">
