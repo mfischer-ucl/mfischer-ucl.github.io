@@ -207,11 +207,15 @@ We plan to explore this further in future research.
 If you find our work useful and use parts or ideas of our paper or code, please cite: <br>
 <p class="cite-box" style="margin-top: 5px">
   <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px; font-size: 85%">
-    @article{fischer2023zero, <br>
-      &nbsp;&nbsp;title={Zero Grads: Learning Local Surrogate Losses for Non-Differentiable Graphics}, <br>
+    @article{fischer2024zerograds, <br>
+      &nbsp;&nbsp;title={ZeroGrads: Learning Local Surrogates for Non-Differentiable Graphics}, <br>
       &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br>
-      &nbsp;&nbsp;journal={arXiv preprint arXiv:2308.05739}, <br>
-      &nbsp;&nbsp;year={2023} <br>
+      &nbsp;&nbsp;journal={ACM Transactions on Graphics (TOG)}, <br>
+      &nbsp;&nbsp;volume={43}, <br>
+      &nbsp;&nbsp;number={4}, <br>
+      &nbsp;&nbsp;pages={1--15}, <br>
+      &nbsp;&nbsp;year={2024}, <br>
+      &nbsp;&nbsp;publisher={ACM New York, NY, USA} <br>
     }
   </span>
 </p>
