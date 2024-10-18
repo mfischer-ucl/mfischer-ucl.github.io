@@ -129,15 +129,18 @@ If you find our work useful and use parts or ideas of our paper or code, please 
 <p class="cite-box" style="margin-top: 5px">
     <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px;">
         @article{fischer2022metappearance, <br>
-            &nbsp;&nbsp;title={Metappearance: Meta-Learning for Visual Appearance Reproduction}, <br> 
-            &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br>
-            &nbsp;&nbsp;journal={ACM Trans Graph (Proc. SIGGRAPH Asia)}, <br>
-            &nbsp;&nbsp;year={2022}, <br>
-            &nbsp;&nbsp;volume={41}, <br>
-            &nbsp;&nbsp;number={4} <br>
+          &nbsp;&nbsp;title={Metappearance: Meta-learning for visual appearance reproduction}, <br>
+          &nbsp;&nbsp;author={Fischer, Michael and Ritschel, Tobias}, <br>
+          &nbsp;&nbsp;journal={ACM Transactions on Graphics (TOG)}, <br>
+          &nbsp;&nbsp;volume={41}, <br>
+          &nbsp;&nbsp;number={6}, <br>
+          &nbsp;&nbsp;pages={1--13}, <br>
+          &nbsp;&nbsp;year={2022}, <br>
+          &nbsp;&nbsp;publisher={ACM New York, NY, USA} <br>
         }
      </span>
 </p> <br>
+
 
 <b>Acknowledgements</b><br>
 We thank the reviewers for their constructive comments. We also thank Philipp Henzler, Alejandro Sztrajman, 

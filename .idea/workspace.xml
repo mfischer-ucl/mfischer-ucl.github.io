@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/main.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-chat/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-link/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-link/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-modified/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-modified/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-notice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-notice/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-quote/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-quote/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/post-standard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-standard/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/metappearance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/metappearance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/nerf_analogies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/nerf_analogies/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/posts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/prdpt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/prdpt/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/subsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/subsite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tags/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/teaching/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/zerograds/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/zerograds/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/michael/research/neuralProxies"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/michael/research/neuralProxies&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />

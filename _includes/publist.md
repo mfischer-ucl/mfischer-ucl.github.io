@@ -9,8 +9,9 @@
       </span> <br>
       <span style="font-size: 15px;">SIGGRAPH 2024<br></span>
       <span style="font-size: 11px;">
-        <a class="mybutton" href="https://arxiv.org/abs/2308.05739">PDF</a>&nbsp;
-        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2308.05739&btnG=">Cite</a>&nbsp;
+        <a class="mybutton" href="https://dl.acm.org/doi/10.1145/3658173">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.googleusercontent.com/scholar.bib?q=info:z0yMrTiYKH0J:scholar.google.com/&output=citation&scisdr=ClEweelTEJrS_aWRUHc:AFWwaeYAAAAAZxKXSHct8sQaDv0L2PWNKEYH004&scisig=AFWwaeYAAAAAZxKXSEGS4nyKC1vJZqYVJj_EBys&scisf=4&ct=citation&cd=-1&hl=en">Cite</a>&nbsp;
+        <a class="mybutton" href="/assets/zerograds_poster.pdf" download="ZeroGrads_poster.pdf">Poster</a>
         <a class="mybutton" href="/zerograds">Project Page</a>
       </span> </p>
   </li>
@@ -28,6 +29,7 @@
       <span style="font-size: 15px;">SIGGRAPH 2024<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2310.06822">PDF</a>&nbsp;
+        <a class="mybutton" href="https://github.com/wenxin-liu/neural_bounding">Code</a>&nbsp;
         <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2310.06822&btnG=">Cite</a>
         <a class="mybutton" href="https://wenxin-liu.github.io/neural_bounding/">Project Page</a>
       </span> </p>
