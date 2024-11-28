@@ -399,7 +399,8 @@ If you find our work useful and use parts or ideas of our paper or code, please 
 </p>
 
 <b>Acknowledgements</b><br>
-Michael is honored to be a recipient of the Rabin Ezra Scholarship and deeply appreciates the support of the trust.  
+This research was conducted during an internship at Adobe Research London. 
+I am honored to be a recipient of the Rabin Ezra Scholarship and deeply appreciate the support of the trust. 
 
 </div>
 
