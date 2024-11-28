@@ -223,7 +223,7 @@ video {
     <span style="font-size: 17px; color: black">arXiv preprint</span><br><br>
     <span style="font-size: 17px;">
         <a style="text-decoration:none; color:inherit;" href="https://mfischer-ucl.github.io/">Michael Fischer</a><sup>1,2</sup>,
-        <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Ilyian Georgiev<sup>2</sup></a>,
+        <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Iliyan Georgiev<sup>2</sup></a>,
         <a style="text-decoration:none; color:inherit;" href="https://imagine.enpc.fr/~groueixt/">Thibault Groueix<sup>2</sup></a>,
         <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/vladimir-kim/">Vladimir G. Kim<sup>2</sup></a>,
         <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel<sup>1</sup></a>,
