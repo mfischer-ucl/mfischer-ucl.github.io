@@ -161,10 +161,6 @@ margin-bottom: 10px;
     margin-top: 5px;
 }
 
-h2, h3, h4 {
-  text-align: center;
-}
-
 .collapsible {
   text-align: center;
 }
