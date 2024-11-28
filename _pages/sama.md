@@ -264,7 +264,8 @@ video {
 <p style="text-align: justify">
 We fine-tune SAM2 for material selection in 3D representations. We exploit that, as a video model, it is by design multiview-consistent
 and leverage this property to create a 3D-consistent material-similarity representation in the form of a point cloud, 
-which can be efficiently queried from novel views in just a few milliseconds. 
+which can be efficiently queried from novel views in just a few milliseconds. Our method works on arbitrary 3D assets (NeRFs, 3D Gaussians, meshes) and does 
+not require any pre-processing, leading to a click-to-selection time of around 2 seconds. 
 </p>
 
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 2%; gap: 10px;">
