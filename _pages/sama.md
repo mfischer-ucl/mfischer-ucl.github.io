@@ -241,7 +241,7 @@ video {
     <div style="display: inline">
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
-                <a href="https://arxiv.org/abs/2308.05739">
+                <a href="/assets/sama_main.pdf" download="sama_main.pdf">
                 <img class="teaserbutton" src="/assets/images/sama/paperfront.png" ><br>
                     <h4><strong>Paper</strong></h4>
                 </a>
