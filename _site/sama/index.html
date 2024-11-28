@@ -1,0 +1,964 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Michael Fischer</title>
+<meta name="description" content="Michael Fischer, PhD Student in AI and Computer Graphics at University College London (UCL).">
+
+
+  <meta name="author" content="Michael Fischer">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Michael Fischer">
+<meta property="og:title" content="Michael Fischer">
+<meta property="og:url" content="http://localhost:4000/sama/">
+
+
+  <meta property="og:description" content="Michael Fischer, PhD Student in AI and Computer Graphics at University College London (UCL).">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/sama/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Michael Fischer Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Michael Fischer
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/"
+                
+                
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/news/"
+                
+                
+              >News</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/publications/"
+                
+                
+              >Publications</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/contact/"
+                
+                
+              >Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        
+<style>
+
+.mybutton {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 5px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember", sans-serif;
+  font-size: 10.5px;
+  line-height: 18px;
+  padding: 0 10px 0 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: width: fit-content;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  margin-bottom: 33px;
+}
+
+.collapsible {
+  background-color: #f1f1f1;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.collapsible::before {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.active::before {
+  content: "\2212";
+}
+
+sup {
+    text-decoration: none; 
+    color: black;
+}
+
+.mybutton:hover {
+  background-color: #f7fafa;
+}
+
+.mybutton:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+.top-image-container {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically */
+    margin-bottom: 0px; /* Spacing between the images and the video containers */
+    margin-top: 33px; /* Spacing between the images and the video containers */
+    width: 50%; /* Reducing the container's width to 50% */
+    margin-left: auto; /* Auto-adjusting left margin */
+    margin-right: auto; /* Auto-adjusting right margin */
+}
+
+.top-image-container img {
+    margin: 0 30px; /* Adjust space between the images */
+    max-width: 60%; /* Ensure images don't overflow their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.videos-flex-container {
+    display: flex;
+    justify-content: center; /* Adjust this to change the alignment of videos */
+    flex-wrap: wrap; /* Allows the items to wrap to the next line */
+    margin-bottom: 10px;
+}
+
+#NAvideoForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    background-color: #F8F8F8;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.NAvideo-container {
+    margin: 3px;
+    text-align: center;
+    flex: 1; /* Allow each container to grow and shrink as needed */
+    max-width: 20%; /* Adjust this value based on your layout */
+    box-sizing: border-box; /* Ensure padding and borders are included */
+    padding: 0; /* Remove any default padding */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.NAvideo-container video {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 5px;
+    max-width: 95%;
+    overflow: hidden; /* Hide any overflowed caption text */
+    text-overflow: ellipsis; /* Add an ellipsis for long captions */
+    white-space: nowrap; /* Prevent captions from wrapping to the next line */
+}
+
+.media-flex-container {
+    flex-basis: calc(48.0% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.media-item {
+    margin: 0 10px 0 0;
+    text-align: center;
+    flex-basis: 33%;
+}
+
+.media-item img, .media-item video {
+    max-width: 100%;
+    height: auto;
+}
+
+.parent-flex-container {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box; /* Ensure padding and borders are included in the element's total width and height */
+}
+
+.radio-buttons {
+    margin-top: 2px;
+}
+
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+h2, h3, h4 {
+  text-align: center;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+}
+
+.horizItem {
+    display: inline-block; 
+    margin-left: 3%; 
+    margin-right: 3%;
+}
+
+.grey-box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+figure{
+display: inline-block;
+}
+
+.cite-box {
+  background-color: #f7f7f7; 
+  line-height: 110%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.vidcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.teaserbutton {
+    height: 80px; /* Default height for larger screens */
+    width: auto; /* Maintain aspect ratio */
+}
+
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .teaserbutton {
+        height: 60px; /* Smaller height for tablets */
+    }
+  .media-flex-container {
+        flex-basis: 100%;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .teaserbutton {
+        height: 40px; /* Even smaller height for mobile devices */
+    }
+  .media-flex-container {
+        flex-basis: 100%;
+    }
+}
+
+.globaldiv {
+    font-size: 16px; 
+    margin-left: -25%;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .grey-box {
+        max-width: 100%;
+    }
+
+    .cite-box {
+        max-width: 100%;
+    }    
+
+    .vidcontainer {
+        max-width: 100%;
+    }
+
+    .caption {
+        max-width: 100%;
+    }
+
+    .globaldiv {
+        max-width: 100%;
+        margin-left: 0%;
+    }
+}
+
+</style>
+
+<style>
+    .container {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .containerimg {
+        width: 90%;
+        margin: auto;
+    }
+
+    .caption {
+        font-size: 0.9em;
+        color: #666;
+    }
+
+    .image-section img {
+            float: right; /* Image floats to the right */
+            width: 45%; /* Image takes up 50% of the linewidth */
+            margin-left: 20px; /* Adds space between the text and the image */
+            margin-bottom: 5px; /* Adds space between the text and the image */
+    }
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+.collapsible {
+  background-color: transparent; 
+  background-image: linear-gradient(to right, transparent, #9d9d9d5c, transparent);
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  position: relative;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.collapsible:hover {
+  background-color: #f1f1f1;
+  color: #919191;
+}
+
+.collapsible::before {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.active::before {
+  content: "\2212";
+}
+
+.content {
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  transition: visibility 0.3s, height 0.3s ease, margin 0.3s ease; 
+}
+
+.content.open {
+  visibility: visible;
+  height: auto; 
+  margin-bottom: 33px; 
+  overflow: visible;
+}
+
+.NARWvideo-container {
+    margin: 20px 0; /* Add vertical spacing between videos */
+    text-align: center;
+    width: 90%; /* Make videos fit within the screen width */
+    max-width: 1600px; /* Set a maximum width for larger screens */
+}
+
+.NARWvideo-container video {
+    width: 100%; /* Scale video to the container's width */
+    height: auto; /* Maintain aspect ratio */
+    
+}
+
+.NARWvideo-container2D {
+    margin: 20px 0; /* Add vertical spacing between videos */
+    text-align: center;
+    width: 90%; /* Make videos fit within the screen width */
+    max-width: 1000px; /* Set a maximum width for larger screens */
+}
+
+.NARWvideo-container2D video {
+    width: 100%; /* Scale video to the container's width */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc; /* Optional: Add a subtle border */
+    border-radius: 2px; /* Optional: Add rounded corners */
+}
+
+body {
+  background-color: #FFFFFF; /* Soft background color */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  overflow-y: scroll;
+}
+
+html {
+  scrollbar-width: thin; /* Optional: Make the scrollbar less obtrusive (for Firefox) */
+}
+
+body::-webkit-scrollbar {
+  width: 8px; /* Optional: Set scrollbar width (for WebKit browsers) */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888; /* Optional: Customize scrollbar color */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.videos-flex-container {
+display: flex;
+justify-content: center; /* Adjust this to change the alignment of videos */
+flex-wrap: wrap; /* Allows the items to wrap to the next line */
+margin-bottom: 10px;
+}
+
+.NAvideo-container {
+    margin: 3px;
+    text-align: center;
+    flex: 1;
+    max-width: 20%;
+}
+
+.NAvideo-container video {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    text-align: center;
+    margin-top: 5px;
+}
+
+h2, h3, h4 {
+  text-align: center;
+}
+
+.collapsible {
+  text-align: center;
+}
+
+.media-flex-container {
+    flex-basis: calc(40.0% - 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.parent-flex-container {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@media (max-width: 768px) {
+    .media-flex-container {
+        flex-basis: 100%;
+    }
+}
+
+.media-item {
+    margin: 0 10px;
+    text-align: center;
+    flex-basis: 33%;
+}
+
+.media-item img, .media-item video {
+    max-width: 100%;
+    height: auto;
+}
+
+hr.modern-gradient {
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #000000, transparent);
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+</style>
+
+<body>
+<div class="globaldiv">
+
+<div class="grey-box">
+<br />
+<p style="margin: auto; text-align: center;">
+    <span style="font-size: 24px;"><b>SAMa: Material-aware 3D Selection and Segmentation</b></span> <br /><br />
+    <span style="font-size: 17px; color: black">arXiv preprint</span><br /><br />
+    <span style="font-size: 17px;">
+        <a style="text-decoration:none; color:inherit;" href="https://mfischer-ucl.github.io/">Michael Fischer</a><sup>1</sup>,
+        <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Ilyian Georgiev<sup>2</sup></a>,
+        <a style="text-decoration:none; color:inherit;" href="https://imagine.enpc.fr/~groueixt/">Thibault Groueix<sup>2</sup></a>,
+        <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/vladimir-kim/">Vladimir G. Kim<sup>2</sup></a>,
+        <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel<sup>1</sup></a>,
+        <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre<sup>2</sup></a>
+    </span>
+    <br />
+    <br />
+    <sup>1</sup><a style="font-size: 14px;" href="https://www.ucl.ac.uk/">University College London</a>,
+    <sup>2</sup><a style="font-size: 14px;" href="https://research.adobe.com/">Adobe Research</a>
+</p>
+<br />
+</div>
+
+<div class="row" style="margin: 50px 0 50px 0">
+    <div style="display: inline">
+        <ul style="list-style: none; text-align: center">
+            <li class="horizItem">
+                <a href="https://arxiv.org/abs/2308.05739">
+                <img class="teaserbutton" src="/assets/images/sama/paperfront.png" /><br />
+                    <h4><strong>Paper</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
+                <img class="teaserbutton" src="/assets/images/youtube_icon_red.png" /><br />
+                    <h4><strong>Video (coming soon)</strong></h4>
+            </li>
+            <li class="horizItem">
+                <a href="/assets/sama_supplemental.pdf" download="sama_supplemental.pdf">
+                <img class="teaserbutton" src="/assets/images/paperclip.png" /><br />
+                    <h4><strong>Supplemental</strong></h4>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<b>TLDR:</b><br />
+<p style="text-align: justify">
+We fine-tune SAM2 for material selection in 3D representations. We exploit that, as a video model, it is by design multiview-consistent
+and leverage this property to create a 3D-consistent material-similarity representation in the form of a point cloud, 
+which can be efficiently queried from novel views in just a few milliseconds. 
+</p>
+
+<div style="display: flex; justify-content: center; align-items: center; margin-top: 2%; gap: 10px;">
+    <video src="/assets/videos/sama/cropped_lego.mp4" style="width: 18%;" autoplay="" muted="" loop=""></video>
+    <video src="/assets/videos/sama/cropped_hotdog.mp4" style="width: 18%;" autoplay="" muted="" loop=""></video>
+    <video src="/assets/videos/sama/cropped_chair.mp4" style="width: 18%;" autoplay="" muted="" loop=""></video>
+    <video src="/assets/videos/sama/cropped_bike.mp4" style="width: 18%;" autoplay="" muted="" loop=""></video>
+</div>
+<br />
+
+<b>Abstract:</b><br />
+<p style="text-align: justify">
+Decomposing 3D assets into material parts is a common task for artists and creators, yet remains a highly manual process. 
+In this work, we introduce <b>S</b>elect <b>A</b>ny <b>Ma</b>terial (<b>SAMa</b>), a material selection approach for various 3D representations. 
+Building on the recently introduced SAM2 video selection model, we extend its capabilities to the material domain. 
+We leverage the model's cross-view consistency to create a 3D-consistent intermediate material-similarity representation
+in the form of a point cloud from a sparse set of views. 
+Nearest-neighbor lookups in this similarity cloud allow us to efficiently reconstruct accurate continuous selection 
+masks over objects' surfaces that can be inspected from any view.
+Our method is multiview-consistent by design, alleviating the need for contrastive learning or feature-field 
+pre-processing, and performs optimization-free selection in seconds. Our approach works on arbitrary 3D representations 
+and outperforms several strong baselines in terms of selection accuracy and multiview consistency.
+It enables several compelling applications, such as replacing the diffuse-textured materials on a text-to-3D output
+with PBR materials, or selecting and editing materials on NeRFs and 3D-Gaussians.
+</p>
+
+<b>Method Overview:</b><br />
+Once a user clicks on a material, we perform the following steps:  
+<ol style="text-align: justify">
+    <li>Render a sparse set of RGB and depth images of the object (or use pre-rendered images and cached depth) and process these with SAMa, conditioned on the user's click.</li>
+    <li>Back-project the resulting per-pixel similarity values to 3D to obtain a 3D material-similarity point cloud.</li>
+    <li>We can now infer the selection results for any novel view by using kNN-lookups into this pointcloud. This is very efficient and 
+        takes only a few milliseconds (see GUI video below).</li>
+</ol>
+<br />
+<p align="center">
+ <img src="/assets/images/sama/overview.png" width="70%" margin-top="50px" />
+</p>
+
+<b>Results:</b>
+<br />
+<br />
+
+
+<button class="collapsible" style="text-align: center;">3D Selection Results</button>
+<div class="content">
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/chair_wood.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/chair_gold.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/hotdog_sauce.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/hotdog_mustard.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/lego_floor.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/lego_excavator.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/plant_leaves.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/plant_pot.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/bike_frame.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/bike_handles.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/hamburger_cheese.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/hamburger_patty.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/whitechair_feet.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/whitechair_base.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+      <video src="/assets/videos/sama/3D_selection/hut.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+      <video src="/assets/videos/sama/3D_selection/body_postbox.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container">
+      <video src="/assets/videos/sama/3D_selection/label_postbox.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+      <div class="NARWvideo-container">
+        <video src="/assets/videos/sama/3D_selection/wood_chest.mp4" autoplay="" controls="" muted="" loop=""></video>
+      </div>
+    <div class="NARWvideo-container">
+      <video src="/assets/videos/sama/3D_selection/metal_chest.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+</div>
+
+<button class="collapsible">GUI Screen-Recordings</button>
+<div class="content">
+    <div class="NARWvideo-container2D">
+        <video src="/assets/videos/sama/gui/screengrab_lego.mp4" autoplay="" controls="" muted="" loop=""></video>
+    </div>
+    <div class="NARWvideo-container2D">
+      <video src="/assets/videos/sama/gui/screengrab_chair.mp4" autoplay="" controls="" muted="" loop=""></video>
+  </div>
+  <div class="NARWvideo-container2D">
+    <video src="/assets/videos/sama/gui/screengrab_hamburger.mp4" autoplay="" controls="" muted="" loop=""></video>
+  </div>
+</div>
+
+<br />
+
+<b>Citation</b><br />
+If you find our work useful and use parts or ideas of our paper or code, please cite: <br />
+<p class="cite-box" style="margin-top: 5px">
+  <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px; font-size: 85%">
+    @article{fischer2024sama, <br />
+        &nbsp;&nbsp;title={SAMa: Material-aware 3D Selection and Segmentation}, <br /> 
+        &nbsp;&nbsp;author={Fischer, Michael and Georgiev, Iliyan and Groueix, Thibault and Kim, Vladimir and Ritschel, Tobias and Deschaintre, Valentin}, <br />
+        &nbsp;&nbsp;journal={arXiv preprint arXiv:2012.01778}, <br /> 
+        &nbsp;&nbsp;year={2024} <br />
+    }
+  </span>
+</p>
+
+<b>Acknowledgements</b><br />
+Michael is honored to be a recipient of the Rabin Ezra Scholarship and deeply appreciates the support of the trust.  
+
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.classList.contains("open")) {
+      content.classList.remove("open");
+    } else {
+      content.classList.add("open");
+    }
+  });
+}
+</script>
+
+</body>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Michael Fischer</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

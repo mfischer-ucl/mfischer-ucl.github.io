@@ -4,7 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="" />
+    <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_pages/sama.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sama/overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/bike_frame.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/bike_handles.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/body_postbox.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/chair_gold.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/chair_wood.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/hamburger_cheese.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/hamburger_patty.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/hotdog_mustard.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/hotdog_sauce.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/hut.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/label_postbox.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/lego_excavator.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/lego_floor.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/metal_chest.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/plant_leaves.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/plant_pot.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/whitechair_base.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/whitechair_feet.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/3D_selection/wood_chest.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/cropped_bike.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/cropped_chair.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/cropped_hotdog.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/cropped_lego.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/cropped_plant.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/dataset/flyover_video0.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/dataset/flyover_video1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/dataset/flyover_video2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/dataset/turntable_video0.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/dataset/turntable_video1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/dataset/zoomin_video0.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/dataset/zoomin_video1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/dataset/zoomout_video0.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/dataset/zoomout_video1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/gui/screengrab_chair.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/gui/screengrab_hamburger.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/videos/sama/gui/screengrab_lego.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/publist.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/publist.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/nerf_analogies.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/nerf_analogies.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/CV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/CV.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-chat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-link/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-link/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-modified/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-modified/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-notice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-notice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-quote/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-quote/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/post-standard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/post-standard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/welcome-to-jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/contact/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/metappearance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/metappearance/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/nerf_analogies/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/nerf_analogies/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/prdpt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/prdpt/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/subsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/subsite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/teaching/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/zerograds/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/zerograds/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,21 +96,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/michael/research/neuralProxies&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/michael/private/mfischer-ucl.github.io/assets/videos/sama/gui"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
-      <recent name="$PROJECT_DIR$/assets/images/nerf_analogies" />
-      <recent name="$PROJECT_DIR$/assets/images/zerograds" />
-      <recent name="$PROJECT_DIR$/assets/images/news/200x200" />
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/videos/sama/gui" />
+      <recent name="$PROJECT_DIR$/assets/videos/sama/dataset" />
+      <recent name="$PROJECT_DIR$/assets/videos/sama/3D_selection" />
+      <recent name="$PROJECT_DIR$/assets/images/sama" />
+      <recent name="$PROJECT_DIR$/assets/videos/sama" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/nerf_analogies" />
@@ -164,7 +227,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
       </set>
     </attachedChunks>
   </component>

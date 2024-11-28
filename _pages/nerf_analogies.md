@@ -33,8 +33,8 @@ ol > li::marker {
     </span>
     <br/>
     <br/>
-    <a style="font-size: 15px;" href="https://www.ucl.ac.uk/"><sup>1</sup>University College London</a>,
-    <a style="font-size: 15px;" href="https://about.meta.com/uk/realitylabs/"><sup>2</sup>Meta Reality Labs Research</a>
+    <sup>1</sup><a style="font-size: 15px;" href="https://www.ucl.ac.uk/">University College London</a>,
+    <sup>2</sup><a style="font-size: 15px;" href="https://about.meta.com/uk/realitylabs/">Meta Reality Labs Research</a>
 </p>
 <br>
 </div>

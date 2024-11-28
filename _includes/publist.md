@@ -1,6 +1,25 @@
 <ul>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
+    <img src='/assets/images/sama/thumbnail.png' style="height: 140px; width: 220px;"/>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>SAMa: Material-aware 3D Selection and Segmentation</b></span>
+    <br style="display: block; margin-top: -3px">
+    <span style="font-size: 15px;"><b>Michael Fischer</b>,
+          <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Ilyian Georgiev</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://imagine.enpc.fr/~groueixt/">Thibault Groeuix</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/vladimir-kim/">Vova Kim</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>
+      </span> <br>
+      <span style="font-size: 15px;">arXiv preprint<br></span>
+      <span style="font-size: 11px;">
+        <a class="mybutton" href="/sama">PDF</a>&nbsp;
+        <a class="mybutton" href="/sama">Project Page</a>
+      </span>
+    </p>
+  </li>
+
+  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/zerograds/thumbnail2.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Zero Grads: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span>
     <br style="display: block; margin-top: -3px">
