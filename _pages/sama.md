@@ -222,7 +222,7 @@ video {
     <span style="font-size: 24px;"><b>SAMa: Material-aware 3D Selection and Segmentation</b></span> <br><br>
     <span style="font-size: 17px; color: black">arXiv preprint</span><br><br>
     <span style="font-size: 17px;">
-        <a style="text-decoration:none; color:inherit;" href="https://mfischer-ucl.github.io/">Michael Fischer</a><sup>1</sup>,
+        <a style="text-decoration:none; color:inherit;" href="https://mfischer-ucl.github.io/">Michael Fischer</a><sup>1,2</sup>,
         <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Ilyian Georgiev<sup>2</sup></a>,
         <a style="text-decoration:none; color:inherit;" href="https://imagine.enpc.fr/~groueixt/">Thibault Groueix<sup>2</sup></a>,
         <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/vladimir-kim/">Vladimir G. Kim<sup>2</sup></a>,
@@ -296,7 +296,7 @@ Once a user clicks on a material, we perform the following steps:
 <ol style="text-align: justify">
     <li>Render a sparse set of RGB and depth images of the object (or use pre-rendered images and cached depth) and process these with SAMa, conditioned on the user's click.</li>
     <li>Back-project the resulting per-pixel similarity values to 3D to obtain a 3D material-similarity point cloud.</li>
-    <li>We can now infer the selection results for any novel view by using kNN-lookups into this pointcloud. This is very efficient and 
+    <li>Due to SAMa's multiview-consistent predictions, we do not need any pre-processing or 3D consolidation and can now directly infer the selection results for any novel view by simply using kNN-lookups into this pointcloud. This is very efficient and 
         takes only a few milliseconds (see GUI video below).</li>
 </ol>
 <br>
