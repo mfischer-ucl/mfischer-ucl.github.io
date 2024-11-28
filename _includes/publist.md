@@ -5,9 +5,9 @@
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>SAMa: Material-aware 3D Selection and Segmentation</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;"><b>Michael Fischer</b>,
-          <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Ilyian Georgiev</a>,
-          <a style="text-decoration:none; color:inherit;" href="https://imagine.enpc.fr/~groueixt/">Thibault Groeuix</a>,
-          <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/vladimir-kim/">Vova Kim</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Iliyan Georgiev</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://imagine.enpc.fr/~groueixt/">Thibault Groueix</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/vladimir-kim/">Vladimir G. Kim</a>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>,
           <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>
       </span> <br>
