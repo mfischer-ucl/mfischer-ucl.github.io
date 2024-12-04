@@ -682,17 +682,17 @@ video {
     <span style="font-size: 24px;"><b>SAMa: Material-aware 3D Selection and Segmentation</b></span> <br /><br />
     <span style="font-size: 17px; color: black">arXiv preprint</span><br /><br />
     <span style="font-size: 17px;">
-        <a style="text-decoration:none; color:inherit;" href="https://mfischer-ucl.github.io/">Michael Fischer</a><sup>1</sup>,
-        <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Ilyian Georgiev<sup>2</sup></a>,
-        <a style="text-decoration:none; color:inherit;" href="https://imagine.enpc.fr/~groueixt/">Thibault Groueix<sup>2</sup></a>,
-        <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/vladimir-kim/">Vladimir G. Kim<sup>2</sup></a>,
-        <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel<sup>1</sup></a>,
-        <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre<sup>2</sup></a>
+        <a style="text-decoration:none; color:inherit;" href="https://mfischer-ucl.github.io/">Michael Fischer</a><sup>1,2</sup>,
+        <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Iliyan Georgiev<sup>1</sup></a>,
+        <a style="text-decoration:none; color:inherit;" href="https://imagine.enpc.fr/~groueixt/">Thibault Groueix<sup>1</sup></a>,
+        <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/vladimir-kim/">Vladimir G. Kim<sup>1</sup></a>,
+        <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel<sup>2</sup></a>,
+        <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre<sup>1</sup></a>
     </span>
     <br />
     <br />
-    <sup>1</sup><a style="font-size: 14px;" href="https://www.ucl.ac.uk/">University College London</a>,
-    <sup>2</sup><a style="font-size: 14px;" href="https://research.adobe.com/">Adobe Research</a>
+    <sup>1</sup><a style="font-size: 14px;" href="https://research.adobe.com/">Adobe Research</a>,
+    <sup>2</sup><a style="font-size: 14px;" href="https://www.ucl.ac.uk/">University College London</a>
 </p>
 <br />
 </div>
@@ -701,7 +701,7 @@ video {
     <div style="display: inline">
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
-                <a href="https://arxiv.org/abs/2308.05739">
+                <a href="/assets/sama_main.pdf" download="sama_main.pdf">
                 <img class="teaserbutton" src="/assets/images/sama/paperfront.png" /><br />
                     <h4><strong>Paper</strong></h4>
                 </a>
@@ -724,7 +724,8 @@ video {
 <p style="text-align: justify">
 We fine-tune SAM2 for material selection in 3D representations. We exploit that, as a video model, it is by design multiview-consistent
 and leverage this property to create a 3D-consistent material-similarity representation in the form of a point cloud, 
-which can be efficiently queried from novel views in just a few milliseconds. 
+which can be efficiently queried from novel views in just a few milliseconds. Our method works on arbitrary 3D assets (NeRFs, 3D Gaussians, meshes) and does 
+not require any pre-processing, leading to a click-to-selection time of around 2 seconds. 
 </p>
 
 <div style="display: flex; justify-content: center; align-items: center; margin-top: 2%; gap: 10px;">
@@ -756,7 +757,7 @@ Once a user clicks on a material, we perform the following steps:
 <ol style="text-align: justify">
     <li>Render a sparse set of RGB and depth images of the object (or use pre-rendered images and cached depth) and process these with SAMa, conditioned on the user's click.</li>
     <li>Back-project the resulting per-pixel similarity values to 3D to obtain a 3D material-similarity point cloud.</li>
-    <li>We can now infer the selection results for any novel view by using kNN-lookups into this pointcloud. This is very efficient and 
+    <li>Due to SAMa's multiview-consistent predictions, we do not need any pre-processing or 3D consolidation and can now directly infer the selection results for any novel view by simply using kNN-lookups into this pointcloud. This is very efficient and 
         takes only a few milliseconds (see GUI video below).</li>
 </ol>
 <br />
@@ -852,14 +853,15 @@ If you find our work useful and use parts or ideas of our paper or code, please 
     @article{fischer2024sama, <br />
         &nbsp;&nbsp;title={SAMa: Material-aware 3D Selection and Segmentation}, <br /> 
         &nbsp;&nbsp;author={Fischer, Michael and Georgiev, Iliyan and Groueix, Thibault and Kim, Vladimir and Ritschel, Tobias and Deschaintre, Valentin}, <br />
-        &nbsp;&nbsp;journal={arXiv preprint arXiv:2012.01778}, <br /> 
+        &nbsp;&nbsp;journal={arXiv preprint arXiv:2411.19322}, <br /> 
         &nbsp;&nbsp;year={2024} <br />
     }
   </span>
 </p>
 
 <b>Acknowledgements</b><br />
-Michael is honored to be a recipient of the Rabin Ezra Scholarship and deeply appreciates the support of the trust.  
+This research was conducted during an internship at Adobe Research London. 
+I am honored to be a recipient of the Rabin Ezra Scholarship and deeply appreciate the support of the trust. 
 
 </div>
 

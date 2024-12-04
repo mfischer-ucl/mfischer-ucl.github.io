@@ -13,7 +13,7 @@
       </span> <br>
       <span style="font-size: 15px;">arXiv preprint<br></span>
       <span style="font-size: 11px;">
-        <a class="mybutton" href="/sama">PDF</a>&nbsp;
+        <a class="mybutton" href="https://arxiv.org/abs/2411.19322">PDF</a>&nbsp;
         <a class="mybutton" href="/sama">Project Page</a>
       </span>
     </p>
