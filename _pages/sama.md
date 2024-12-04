@@ -392,7 +392,7 @@ If you find our work useful and use parts or ideas of our paper or code, please 
   <span style="font-family: Lucida Console, Courier New, monospace; padding: 10px; font-size: 85%">
     @article{fischer2024sama, <br>
         &nbsp;&nbsp;title={SAMa: Material-aware 3D Selection and Segmentation}, <br> 
-        &nbsp;&nbsp;author={Fischer, Michael and Georgiev, Iliyan and Groueix, Thibault and Kim, Vladimir and Ritschel, Tobias and Deschaintre, Valentin}, <br>
+        &nbsp;&nbsp;author={Fischer, Michael and Georgiev, Iliyan and Groueix, Thibault and Kim, Vladimir G and Ritschel, Tobias and Deschaintre, Valentin}, <br>
         &nbsp;&nbsp;journal={arXiv preprint arXiv:2411.19322}, <br> 
         &nbsp;&nbsp;year={2024} <br>
     }
