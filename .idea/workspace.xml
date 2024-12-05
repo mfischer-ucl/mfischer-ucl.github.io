@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b2074f0-b27b-466c-b428-bf09562f4373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_site/assets/images/higherorder/thumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/higherorder/thumb.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/publist.md" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/publist.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/news.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/news.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/publications/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sama/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sama/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -25,7 +25,7 @@
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Higher-Order Differentiable Rendering</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
-          <a style="text-decoration:none; color:inherit;" href="">Zican (Robert) Wang,</a>
+          <a style="text-decoration:none; color:inherit;" href="https://wangzican.github.io">Zican (Robert) Wang,</a>
           <b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
       </span> <br>
