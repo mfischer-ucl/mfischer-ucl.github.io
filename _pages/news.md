@@ -46,7 +46,16 @@ li {
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
       <div class="item-text">
-        <p><b>11/24:</b> Our work on <a href="/sama">3D-aware material selection</a> is <a href="https://arxiv.org/abs/2411.19322">available on arXiv</a> now!.</p>
+        <p><b>11/24:</b> Our work on <a href="/sama">3D-consistent material selection</a> is <a href="https://arxiv.org/abs/2411.19322">available on arXiv</a> now!</p>
+      </div>
+    </div>
+  </li>
+
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
+      <div class="item-text">
+        <p><b>11/24:</b> Our work on higher-order gradient estimators for differentiable rendering is <a href="https://arxiv.org/abs/2412.03489">available on arXiv</a> now!</p>
       </div>
     </div>
   </li>

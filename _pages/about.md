@@ -34,8 +34,8 @@ Moreover, I spent a semester abroad at <a href="https://www.udg.mx">UDG</a> in G
 
 <br/>
 
-I am currently interning at <a href="https://research.adobe.com/">Adobe Research</a> London as a research scientist working on exciting material-research with <a href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>! 
-Last summer, I spent some time at <a href="https://about.meta.com/uk/realitylabs">Meta Reality Labs</a> in Redmond, Washington, where I joined the Neural / Inverse Rendering team around Carl Marshall and <a href="http://www.flycooler.com/">Zhao Dong</a> as a summer intern. 
+During the summer of 2024, I interned at <a href="https://research.adobe.com/">Adobe Research</a> London as a research scientist working on <a href="/sama">3D-consistent material-selection</a> with <a href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>! 
+Last summer, I spent some time at <a href="https://about.meta.com/uk/realitylabs">Meta Reality Labs</a> in Redmond, Washington, where I joined the Neural / Inverse Rendering team around Carl Marshall and <a href="http://www.flycooler.com/">Zhao Dong</a> as a summer intern to work on <a href="/nerf_analogies">NeRF Analogies</a>. 
 I've also interned at <a href="https://www.mbda-deutschland.de">MBDA Germany</a>, where I worked on reinforcement-learning 
 based swarm control.
 
