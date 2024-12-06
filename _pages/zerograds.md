@@ -66,18 +66,16 @@ ol > li::marker {
                 </a>
             </li>
             <li class="horizItem">
-                <img class="teaserbutton" src="/assets/images/youtube_icon_red.png" ><br>
-                    <h4><strong>Video (coming soon)</strong></h4>
-            </li>
-            <li class="horizItem">
                 <a href="https://colab.research.google.com/drive/1GNd6DdRGRHQjKyG3rIfJ9519lo9VuAq4?usp=sharing">
                 <img class="teaserbutton" src="/assets/images/colablogo.png"><br>
-                    <h4><strong>Colab</strong></h4>
+                    <h4><strong>Colab (simple example)</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
+                <a href="https://github.com/mfischer-ucl/zerograds">
                 <img class="teaserbutton" src="/assets/images/gh_icon.png" ><br>
-                    <h4><strong>Code (coming soon)</strong></h4>
+                    <h4><strong>Code</strong></h4>
+                </a>
             </li>
             <li class="horizItem">
                 <a href="/assets/zerograds_supplemental.pdf" download="zerograds_supplemental.pdf">
