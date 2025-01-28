@@ -44,6 +44,14 @@ li {
 
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/sigg25_ff.png">
+      <div class="item-text">
+        <p><b>11/24:</b> My PhD thesis has been featured in the <a href="https://youtu.be/8esFWCQ_46Y?si=lULROsSqev-wznwr">SIGGRAPH '25 Thesis Fast Foward</a> - check out the <a href="https://youtu.be/8esFWCQ_46Y?si=lULROsSqev-wznwr&t=379">video at the 6:20 minute mark!</a></p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
       <div class="item-text">
         <p><b>11/24:</b> Our work on <a href="/sama">3D-consistent material selection</a> is <a href="https://arxiv.org/abs/2411.19322">available on arXiv</a> now!</p>
