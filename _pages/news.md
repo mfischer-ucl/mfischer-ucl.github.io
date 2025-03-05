@@ -41,7 +41,15 @@ li {
 </style>
 
 <ul>
-
+  
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/adobe5.png">
+      <div class="item-text">
+        <p><b>03/25:</b> I'm super excited to announce that I've joined <a href="https://research.adobe.com/">Adobe Research</a> London as a research scientist!</p>
+      </div>
+    </div>
+  </li>
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/sigg25_ff.png">
@@ -63,7 +71,7 @@ li {
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
       <div class="item-text">
-        <p><b>11/24:</b> Our work on higher-order gradient estimators for differentiable rendering is <a href="https://arxiv.org/abs/2412.03489">available on arXiv</a> now!</p>
+        <p><b>11/24:</b> Our work on second-order stochastic gradient estimators that can be used for inverse rendering is <a href="https://arxiv.org/abs/2412.03489">available on arXiv</a> now!</p>
       </div>
     </div>
   </li>
@@ -72,7 +80,7 @@ li {
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/adobe5.png">
       <div class="item-text">
-        <p><b>06/24:</b> I joined <a href="https://research.adobe.com/">Adobe Research</a> London as a research scientist intern.</p>
+        <p><b>06/24:</b> I am starting an internship at <a href="https://research.adobe.com/">Adobe Research</a> London as a research scientist intern.</p>
       </div>
     </div>
   </li>
