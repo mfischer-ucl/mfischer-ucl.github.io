@@ -45,7 +45,7 @@ li {
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/ucl_genai.png">
       <div class="item-text">
-        <p><b>03/25:</b> I am co-organizing the <a href="https://londongenai.github.io/">London GenAI Forum 2025</a> on the 15th of April - hope to see many of you there!</p>
+        <p><b>04/25:</b> I am co-organizing the <a href="https://londongenai.github.io/">London GenAI Forum 2025</a> on the 15th of April - hope to see many of you there!</p>
       </div>
     </div>
   </li>
