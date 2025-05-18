@@ -43,9 +43,17 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/scholarhat.png">
+      <div class="item-text">
+        <p><b>05/25:</b> I am super excited to announce that I have successfully defended my PhD thesis, titled "Efficient and Accurate Optimization in Inverse Rendering and Computer Graphics" in front of my examiners <a href="https://homepages.inf.ed.ac.uk/ksubr/">Kartic Subr</a> and <a href="http://www0.cs.ucl.ac.uk/staff/G.Brostow/">Gabriel Brostow</a>!</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/eg25.png">
       <div class="item-text">
-        <p><b>04/25:</b> I have co-organized the technical papers fast forward at <a href="https://eg25.cs.ucl.ac.uk/main/home.html">Eurographics 2025</a>.</p>
+        <p><b>05/25:</b> I have co-organized the technical papers fast forward at <a href="https://eg25.cs.ucl.ac.uk/main/home.html">Eurographics 2025</a>.</p>
       </div>
     </div>
   </li>
