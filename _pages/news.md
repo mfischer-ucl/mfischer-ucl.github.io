@@ -43,6 +43,14 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/eg25.png">
+      <div class="item-text">
+        <p><b>04/25:</b> I have co-organized the technical papers fast forward at <a href="https://eg25.cs.ucl.ac.uk/main/home.html">Eurographics 2025</a>.</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/ucl_genai.png">
       <div class="item-text">
         <p><b>04/25:</b> I am co-organizing the <a href="https://londongenai.github.io/">London GenAI Forum 2025</a> on the 15th of April - hope to see many of you there!</p>
