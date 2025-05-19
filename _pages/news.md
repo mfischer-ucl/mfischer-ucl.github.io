@@ -43,6 +43,14 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/sa25.jpeg">
+      <div class="item-text">
+        <p><b>05/25:</b> I will be serving as a PC member for the Technical Communications and Posters at <a href="https://asia.siggraph.org/2025/">SIGGRAPH Asia 2025</a>. </p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/scholarhat.png">
       <div class="item-text">
         <p><b>05/25:</b> I am super excited to announce that I have successfully defended my PhD thesis, titled "Efficient and Accurate Optimization in Inverse Rendering and Computer Graphics" in front of my examiners <a href="https://homepages.inf.ed.ac.uk/ksubr/">Kartic Subr</a> and <a href="http://www0.cs.ucl.ac.uk/staff/G.Brostow/">Gabriel Brostow</a>!</p>
