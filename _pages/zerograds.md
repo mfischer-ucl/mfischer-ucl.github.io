@@ -44,7 +44,7 @@ ol > li::marker {
 <div class="grey-box">
 <br>
 <p style="margin: 0 auto; text-align: center;">
-<span style="font-size: 24px;"><b>Zero Grads: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span> <br><br>
+<span style="font-size: 24px;"><b>ZeroGrads: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span> <br><br>
 <span style="font-size: 17px; color: black">SIGGRAPH 2024</span><br><br>
 <span style="font-size: 17px;"><a href="https://mfischer-ucl.github.io/">Michael Fischer</a>, <a href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a></span><br>
 <a style="font-size: 14px;" href="https://www.ucl.ac.uk/">University College London</a>
