@@ -29,7 +29,7 @@
           <b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
       </span> <br>
-      <span style="font-size: 15px;">arXiv preprint<br></span>
+      <span style="font-size: 15px;">ICCV 2025<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/pdf/2412.03489">PDF</a>&nbsp;
       </span> </p>
