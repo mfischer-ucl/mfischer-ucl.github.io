@@ -25,13 +25,15 @@
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Higher-Order Differentiable Rendering</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
-          <a style="text-decoration:none; color:inherit;" href="https://wangzican.github.io">Zican (Robert) Wang,</a>
+          <a style="text-decoration:none; color:inherit;" href="https://wangzican.github.io">Zican Wang,</a>
           <b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
       </span> <br>
-      <span style="font-size: 15px;">ICCV 2025<br></span>
+      <span style="font-size: 15px;">ICCV 2025 <span style="color: #C41E3A; font-weight: 600;">(Highlight)</span><br></span>
       <span style="font-size: 11px;">
-        <a class="mybutton" href="https://arxiv.org/pdf/2412.03489">PDF</a>&nbsp;
+        <a class="mybutton" href="https://arxiv.org/abs/2412.03489">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2412.03489&btnG=">Cite</a>&nbsp;
+        <a class="mybutton" href="https://wangzican.github.io/publication/hodr">Project Page</a>&nbsp;
       </span> </p>
   </li>
 

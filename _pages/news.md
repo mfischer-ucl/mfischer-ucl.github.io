@@ -43,6 +43,30 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/eg26.png">
+      <div class="item-text">
+        <p><b>08/25:</b> I will be serving on the Technical Papers IPC for Eurographics 2026.</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/sigg25_2.png">
+      <div class="item-text">
+        <p><b>08/25:</b> I have presented my thesis at SIGGRAPH 2025 in Vancouver as part of the <a href="https://research.siggraph.org/programs/thesisff-2025/">Thesis Fast Forward</a>.</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/iccv25.png">
+      <div class="item-text">
+        <p><b>08/25:</b> Our work on <a href="https://wangzican.github.io/publication/hodr">stochastic higher-order gradient estimation</a> has been accepted as a highlight at ICCV 2025 - see you in Hawaii!</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/sa25.jpeg">
       <div class="item-text">
         <p><b>05/25:</b> I will be serving as a PC member for the Technical Communications and Posters at <a href="https://asia.siggraph.org/2025/">SIGGRAPH Asia 2025</a>. </p>
