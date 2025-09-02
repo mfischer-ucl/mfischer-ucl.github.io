@@ -22,7 +22,8 @@
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/higherorder/thumb.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Higher-Order Differentiable Rendering</b></span>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Stochastic Gradient Estimation for Higher-order Differentiable Rendering
+</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
           <a style="text-decoration:none; color:inherit;" href="https://wangzican.github.io">Zican Wang,</a>
