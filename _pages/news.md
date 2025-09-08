@@ -43,6 +43,14 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/sa25.jpeg">
+      <div class="item-text">
+        <p><b>08/25:</b> Our paper on <a href="https://arxiv.org/abs/2506.09023">fine-grained spatially-varying material selection in images</a> has been conditionally accepted at SIGGRAPH Asia 2025.</a>. </p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/eg26.png">
       <div class="item-text">
         <p><b>08/25:</b> I will be serving on the Technical Papers IPC for Eurographics 2026.</p>
