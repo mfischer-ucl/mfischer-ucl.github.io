@@ -1,6 +1,27 @@
 <ul>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
+    <img src='/assets/images/materialistic2/thumbnail2.png' style="height: 140px; width: 220px;"/>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Fine-Grained Spatially Varying Material Selection in Images</b></span>
+    <br style="display: block; margin-top: -3px">
+    <span style="font-size: 15px;">
+          <a style="text-decoration:none; color:inherit;" href="https://webdiis.unizar.es/~juliagv/">Julia Guerrero-Viu</a>,
+          <b>Michael Fischer</b>,
+          <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Iliyan Georgiev</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://elenagarces.es/">Elena Garces</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://giga.cps.unizar.es/~diegog/">Diego Gutierrez</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://webdiis.unizar.es/~bmasia/">Belen Masia</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>
+      </span> <br>
+      <span style="font-size: 15px;">SIGGRAPH Asia 2025 (conditional accept)<br></span>
+      <span style="font-size: 11px;">
+        <a class="mybutton" href="https://arxiv.org/abs/2506.09023">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Fine-Grained+Spatially+Varying+Material+Selection+in+Images&btnG=">Cite</a>&nbsp;
+      </span>
+    </p>
+  </li>
+  
+  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/sama/thumbnail.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>SAMa: Material-aware 3D Selection and Segmentation</b></span>
     <br style="display: block; margin-top: -3px">
