@@ -22,6 +22,24 @@
   </li>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/higherorder/thumb.png' style="height: 140px; width: 220px;"/>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Stochastic Gradient Estimation for Higher-order Differentiable Rendering
+</b></span>
+    <br style="display: block; margin-top: -3px">
+    <span style="font-size: 15px;">
+          <a style="text-decoration:none; color:inherit;" href="https://wangzican.github.io">Zican Wang,</a>
+          <b>Michael Fischer</b>,
+          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
+      </span> <br>
+      <span style="font-size: 15px;">ICCV 2025 <span style="color: #C41E3A; font-weight: 600;">(Highlight)</span><br></span>
+      <span style="font-size: 11px;">
+        <a class="mybutton" href="https://arxiv.org/abs/2412.03489">PDF</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2412.03489&btnG=">Cite</a>&nbsp;
+        <a class="mybutton" href="https://wangzican.github.io/publication/hodr">Project Page</a>&nbsp;
+      </span> </p>
+  </li>
+
+  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/ucl_logo2.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Efficient and Accurate Optimization in Inverse Rendering and Computer Graphics</b></span>
     <br style="display: block; margin-top: -3px">
@@ -44,31 +62,13 @@
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>,
           <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>
       </span> <br>
-      <span style="font-size: 15px;">arXiv preprint<br></span>
+      <span style="font-size: 15px;">arXiv preprint 2024<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2411.19322">PDF</a>&nbsp;
         <a class="mybutton" href="https://scholar.googleusercontent.com/scholar.bib?q=info:O7g-_GZ1mk0J:scholar.google.com/&output=citation&scisdr=ClEweelTEJrS_eZ9lUQ:AFWwaeYAAAAAZ1F7jUSENUPSeacG4Hzf9BaBL_s&scisig=AFWwaeYAAAAAZ1F7jQx3InKZi4hlgf1yDad4x3U&scisf=4&ct=citation&cd=-1&hl=en">Cite</a>&nbsp;
         <a class="mybutton" href="/sama">Project Page</a>
       </span>
     </p>
-  </li>
-
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/higherorder/thumb.png' style="height: 140px; width: 220px;"/>
-    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Stochastic Gradient Estimation for Higher-order Differentiable Rendering
-</b></span>
-    <br style="display: block; margin-top: -3px">
-    <span style="font-size: 15px;">
-          <a style="text-decoration:none; color:inherit;" href="https://wangzican.github.io">Zican Wang,</a>
-          <b>Michael Fischer</b>,
-          <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
-      </span> <br>
-      <span style="font-size: 15px;">ICCV 2025 <span style="color: #C41E3A; font-weight: 600;">(Highlight)</span><br></span>
-      <span style="font-size: 11px;">
-        <a class="mybutton" href="https://arxiv.org/abs/2412.03489">PDF</a>&nbsp;
-        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2412.03489&btnG=">Cite</a>&nbsp;
-        <a class="mybutton" href="https://wangzican.github.io/publication/hodr">Project Page</a>&nbsp;
-      </span> </p>
   </li>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
