@@ -43,12 +43,21 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/3dv.png">
+      <div class="item-text">
+        <p><b>12/25:</b> Our work <a href="/sama">SAMa: Material-aware 3D Selection and Segmentation</a> has been accepted to 3DV 2026!</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/ucl.png">
       <div class="item-text">
         <p><b>10/25:</b> I gave a talk at the <a href="https://www.eventbrite.co.uk/e/ucl-fashion-beauty-futures-tickets-1670757804569?aff=erelexpmlt">UCL Fashion + Beauty + Futures</a> show about Space of Design, a London high-fashion tech startup that I'm advising for.</p>
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/sa25.jpeg">
@@ -57,6 +66,7 @@ li {
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/eg26.png">
@@ -65,6 +75,7 @@ li {
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/sigg25_2.png">
@@ -73,6 +84,7 @@ li {
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/iccv25.png">
@@ -81,6 +93,7 @@ li {
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/sa25.jpeg">
@@ -89,6 +102,7 @@ li {
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/scholarhat.png">
@@ -97,6 +111,7 @@ li {
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/eg25.png">
@@ -105,6 +120,7 @@ li {
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/ucl_genai.png">
@@ -113,6 +129,7 @@ li {
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/adobe5.png">
@@ -121,28 +138,12 @@ li {
       </div>
     </div>
   </li>
+
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/sigg25_ff.png">
       <div class="item-text">
         <p><b>01/25:</b> My PhD thesis has been featured in the <a href="https://youtu.be/8esFWCQ_46Y?si=lULROsSqev-wznwr&t=379">SIGGRAPH '25 Thesis Fast Foward</a>.</p>
-      </div>
-    </div>
-  </li>
-  <li>
-    <div class="item-wrapper">
-      <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
-      <div class="item-text">
-        <p><b>11/24:</b> Our work on <a href="/sama">3D-consistent material selection</a> is <a href="https://arxiv.org/abs/2411.19322">available on arXiv</a> now!</p>
-      </div>
-    </div>
-  </li>
-
-  <li>
-    <div class="item-wrapper">
-      <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
-      <div class="item-text">
-        <p><b>11/24:</b> Our work on second-order stochastic gradient estimators that can be used for inverse rendering is <a href="https://arxiv.org/abs/2412.03489">available on arXiv</a> now!</p>
       </div>
     </div>
   </li>
@@ -230,15 +231,6 @@ li {
 
   <li>
     <div class="item-wrapper">
-      <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
-      <div class="item-text">
-        <p><b>10/23:</b> Our work on conservative <a href="https://arxiv.org/abs/2310.06822">Neural Bounding</a> networks is now available as <a href="https://arxiv.org/abs/2310.06822">arXiv preprint</a>.</p>
-      </div>
-    </div>
-  </li>
-
-  <li>
-    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/icml.png">
       <div class="item-text">
         <p><b>07/23:</b> I have been invited to present a short version of our work on <a href="/prdpt">plateau-reduced differentiable path tracing</a> at the <a href="https://differentiable.xyz/">Differentiable Almost Everything</a> workshop at <a href="https://icml.cc/Conferences/2023">ICML 2023</a> in Honolulu.</p>
@@ -272,16 +264,6 @@ li {
       </div>
     </div>
   </li>
-
-  <!--<li>
-    <div class="item-wrapper">
-      <img class="bulletptimg" src="/assets/images/news/200x200/arxiv.png">
-      <div class="item-text">
-        <p><b>03/23:</b> A preprint of our work on <a href="/">learning local surrogate losses for non-differentiable graphics</a> is now available on arXiv!</p>
-      </div>
-    </div>
-  </li>-->
-
 
   <li>
     <div class="item-wrapper">
