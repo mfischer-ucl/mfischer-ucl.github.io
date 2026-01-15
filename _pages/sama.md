@@ -220,7 +220,7 @@ video {
 <br>
 <p style="margin: auto; text-align: center;">
     <span style="font-size: 24px;"><b>SAMa: Material-aware 3D Selection and Segmentation</b></span> <br><br>
-    <span style="font-size: 17px; color: black">arXiv preprint</span><br><br>
+    <span style="font-size: 17px; color: black">3DV 2026</span><br><br>
     <span style="font-size: 17px;">
         <a style="text-decoration:none; color:inherit;" href="https://mfischer-ucl.github.io/">Michael Fischer</a><sup>1,2</sup>,
         <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Iliyan Georgiev<sup>1</sup></a>,
@@ -247,8 +247,16 @@ video {
                 </a>
             </li>
             <li class="horizItem">
-                <img class="teaserbutton" src="/assets/images/youtube_icon_red.png" ><br>
-                    <h4><strong>Video (coming soon)</strong></h4>
+                <a href="https://mfischer-ucl.github.io/sama">
+                <img class="teaserbutton" src="/assets/images/gh_icon.png" ><br>
+                    <h4><strong>Code (coming soon)</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
+                <a href="https://mfischer-ucl.github.io/sama">
+                <img class="teaserbutton" src="/assets/images/database_icon.png" ><br>
+                    <h4><strong>Data & Model (coming soon)</strong></h4>
+                </a>
             </li>
             <li class="horizItem">
                 <a href="/assets/sama_supplemental.pdf" download="sama_supplemental.pdf">
