@@ -2,8 +2,9 @@
 /* ========================================================================== Default skin ========================================================================== */
 /* Copyright comment */
 /*!
- * Minimal Mistakes Jekyll Theme 4.27.3 by Michael Rose
- * Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+ * Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+ * Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+ * Copyright 2024-2026 iBug - ibugone.com | @iBug
  * Free for personal and commercial use under the MIT license
  * https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
  */
@@ -872,31 +873,37 @@ body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .vi
 
 /* social icons*/
 .social-icons .fas, .social-icons .fab, .social-icons .far, .social-icons .fal { color: #3d4144; }
-.social-icons .fa-behance, .social-icons .fa-behance-square { color: #1769ff; }
+.social-icons .fa-behance, .social-icons .fa-behance-square, .social-icons .fa-square-behance { color: #1769ff; }
 .social-icons .fa-bitbucket { color: #205081; }
-.social-icons .fa-dribbble, .social-icons .fa-dribbble-square { color: #ea4c89; }
-.social-icons .fa-facebook, .social-icons .fa-facebook-square, .social-icons .fa-facebook-f { color: #3b5998; }
+.social-icons .fa-bluesky, .social-icons .fa-square-bluesky { color: #1083fe; }
+.social-icons .fa-discord { color: #5865f2; }
+.social-icons .fa-dribbble, .social-icons .fa-dribbble-square, .social-icons .fa-square-dribbble { color: #ea4c89; }
+.social-icons .fa-facebook, .social-icons .fa-facebook-square, .social-icons .fa-square-facebook, .social-icons .fa-facebook-f { color: #3b5998; }
 .social-icons .fa-flickr { color: #ff0084; }
 .social-icons .fa-foursquare { color: #0072b1; }
-.social-icons .fa-github, .social-icons .fa-github-alt, .social-icons .fa-github-square { color: #171516; }
+.social-icons .fa-github, .social-icons .fa-github-alt, .social-icons .fa-github-square, .social-icons .fa-square-github { color: #171516; }
 .social-icons .fa-gitlab { color: #e24329; }
-.social-icons .fa-instagram { color: #517fa4; }
+.social-icons .fa-instagram, .social-icons .fa-square-instagram { color: #cd3376; }
 .social-icons .fa-keybase { color: #ef7639; }
-.social-icons .fa-lastfm, .social-icons .fa-lastfm-square { color: #d51007; }
+.social-icons .fa-lastfm, .social-icons .fa-lastfm-square, .social-icons .fa-square-lastfm { color: #d51007; }
 .social-icons .fa-linkedin, .social-icons .fa-linkedin-in { color: #007bb6; }
-.social-icons .fa-mastodon, .social-icons .fa-mastodon-square { color: #2b90d9; }
-.social-icons .fa-pinterest, .social-icons .fa-pinterest-p, .social-icons .fa-pinterest-square { color: #cb2027; }
+.social-icons .fa-mastodon { color: #2b90d9; }
+.social-icons .fa-pinterest, .social-icons .fa-pinterest-p, .social-icons .fa-pinterest-square, .social-icons .fa-square-pinterest { color: #cb2027; }
 .social-icons .fa-reddit { color: #ff4500; }
-.social-icons .fa-rss, .social-icons .fa-rss-square { color: #fa9b39; }
+.social-icons .fa-rss, .social-icons .fa-rss-square, .social-icons .fa-square-rss { color: #fa9b39; }
+.social-icons .fa-signal-messenger { color: #3a76f0; }
 .social-icons .fa-soundcloud { color: #ff3300; }
 .social-icons .fa-stack-exchange, .social-icons .fa-stack-overflow { color: #fe7a15; }
-.social-icons .fa-tumblr, .social-icons .fa-tumblr-square { color: #32506d; }
+.social-icons .fa-telegram { color: #2aabee; }
+.social-icons .fa-tumblr, .social-icons .fa-tumblr-square, .social-icons .fa-square-tumblr { color: #32506d; }
 .social-icons .fa-twitter, .social-icons .fa-twitter-square { color: #55acee; }
 .social-icons .fa-x-twitter, .social-icons .fa-square-x-twitter { color: #0f1419; }
-.social-icons .fa-vimeo, .social-icons .fa-vimeo-square, .social-icons .fa-vimeo-v { color: #1ab7ea; }
+.social-icons .fa-vimeo, .social-icons .fa-vimeo-square, .social-icons .fa-square-vimeo, .social-icons .fa-vimeo-v { color: #1ab7ea; }
 .social-icons .fa-vine { color: #00bf8f; }
-.social-icons .fa-xing, .social-icons .fa-xing-square { color: #006567; }
+.social-icons .fa-whatsapp { color: #25d366; }
+.social-icons .fa-xing, .social-icons .fa-xing-square, .social-icons .fa-square-xing { color: #006567; }
 .social-icons .fa-youtube { color: #bb0000; }
+.social-icons .fa-threads, .social-icons .fa-square-threads, .social-icons .fa-tiktok { color: #000000; }
 
 /* Navicons ========================================================================== */
 .navicon { position: relative; width: 1.5rem; height: 0.25rem; background: #6f777d; margin: auto; -webkit-transition: 0.3s; transition: 0.3s; }
@@ -988,7 +995,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 
 .page__lead { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.25em; }
 
-.page__content { /* paragraph indents */ /* blockquote citations */ }
+.page__content { /* paragraph indents */ /* blockquote citations */ /* vertical alignment for first content */ }
 .page__content h2 { padding-bottom: 0.5em; border-bottom: 1px solid #f2f3f3; }
 .page__content h1 .header-link, .page__content h2 .header-link, .page__content h3 .header-link, .page__content h4 .header-link, .page__content h5 .header-link, .page__content h6 .header-link { position: relative; inset-inline-start: 0.5em; opacity: 0; font-size: 0.8em; -webkit-transition: opacity 0.2s ease-in-out 0.1s; -moz-transition: opacity 0.2s ease-in-out 0.1s; -o-transition: opacity 0.2s ease-in-out 0.1s; transition: opacity 0.2s ease-in-out 0.1s; }
 .page__content h1:hover .header-link, .page__content h2:hover .header-link, .page__content h3:hover .header-link, .page__content h4:hover .header-link, .page__content h5:hover .header-link, .page__content h6:hover .header-link { opacity: 1; }
@@ -1002,6 +1009,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .page__content dd { margin-inline-start: 1em; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; }
 .page__content .small { font-size: 0.75em; }
 .page__content blockquote + .small { margin-top: -1.5em; padding-inline-start: 1.25rem; }
+.page__content :first-child, .page__content aside + :nth-child(2) { margin-top: 0em; }
 
 .page__hero { position: relative; margin-bottom: 2em; clear: both; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; }
 .page__hero::after { clear: both; content: ""; display: table; }

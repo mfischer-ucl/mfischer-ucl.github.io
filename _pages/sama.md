@@ -241,25 +241,31 @@ video {
     <div style="display: inline">
         <ul style="list-style: none; text-align: center">
             <li class="horizItem">
-                <a href="/assets/sama_main.pdf" download="sama_main.pdf">
+                <a href="/assets/sama_main_camready.pdf" download="sama_main.pdf">
                 <img class="teaserbutton" src="/assets/images/sama/paperfront.png" ><br>
                     <h4><strong>Paper</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
                 <a href="https://mfischer-ucl.github.io/sama">
-                <img class="teaserbutton" src="/assets/images/gh_icon.png" ><br>
+                <img class="teaserbutton" src="/assets/images/gh_icon2.png" ><br>
                     <h4><strong>Code (coming soon)</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
-                <a href="https://mfischer-ucl.github.io/sama">
+                <a href="https://drive.google.com/drive/folders/1RgdWvpP8muvgdkJXW-d6mWtOt-zHbxR4?usp=sharing">
                 <img class="teaserbutton" src="/assets/images/database_icon.png" ><br>
-                    <h4><strong>Data & Model (coming soon)</strong></h4>
+                    <h4><strong>Data & Model</strong></h4>
                 </a>
             </li>
             <li class="horizItem">
-                <a href="/assets/sama_supplemental.pdf" download="sama_supplemental.pdf">
+                <a href="/assets/sama_poster.pdf" download="SAMA_poster.pdf">
+                <img class="teaserbutton" src="/assets/images/poster.png"><br>
+                    <h4><strong>Poster</strong></h4>
+                </a>
+            </li>
+            <li class="horizItem">
+                <a href="/assets/sama_suppl_camready.pdf" download="sama_supplemental.pdf">
                 <img class="teaserbutton" src="/assets/images/paperclip.png" ><br>
                     <h4><strong>Supplemental</strong></h4>
                 </a>
@@ -376,6 +382,62 @@ Once a user clicks on a material, we perform the following steps:
       </div>
     <div class="NARWvideo-container">
       <video src="/assets/videos/sama/3D_selection/metal_chest.mp4" autoplay controls  muted loop ></video>
+    </div>
+</div>
+
+<button class="collapsible">Dataset Examples</button>
+<div class="content">
+    <div class="videos-flex-container">
+        <div class="NAvideo-container">
+            <video src="/assets/videos/sama/dataset/flyover_video0.mp4" autoplay controls  muted loop ></video>
+            <div class="caption">Flyover</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/sama/dataset/flyover_video1.mp4" autoplay controls  muted loop ></video>
+            <div class="caption">Flyover</div>
+        </div>
+    </div>
+    <div class="videos-flex-container">
+        <div class="NAvideo-container">
+            <video src="/assets/videos/sama/dataset/zoomin_video0.mp4" autoplay controls  muted loop ></video>
+            <div class="caption">Zoom-In</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/sama/dataset/zoomin_video1.mp4" autoplay controls  muted loop ></video>
+            <div class="caption">Zoom-In</div>
+        </div>
+    </div>
+    <div class="videos-flex-container">
+        <div class="NAvideo-container">
+            <video src="/assets/videos/sama/dataset/zoomout_video0.mp4" autoplay controls  muted loop ></video>
+            <div class="caption">Zoom-Out</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/sama/dataset/zoomout_video1.mp4" autoplay controls  muted loop ></video>
+            <div class="caption">Zoom-Out</div>
+        </div>
+    </div>
+    <div class="videos-flex-container">
+        <div class="NAvideo-container">
+            <video src="/assets/videos/sama/dataset/turntable_video0.mp4" autoplay controls  muted loop ></video>
+            <div class="caption">TurnTable</div>
+        </div>
+        <div class="NAvideo-container">
+            <video src="/assets/videos/sama/dataset/turntable_video1.mp4" autoplay controls  muted loop ></video>
+            <div class="caption">TurnTable</div>
+        </div>
+    </div>
+    <div class="NARWvideo-container2D">
+      <video src="/assets/videos/sama/dataset/annotated1web.mp4" autoplay controls  muted loop style="width: 60%; height: auto;"></video>
+      <div class="caption">with material annotations</div>
+    </div>
+    <div class="NARWvideo-container2D">
+      <video src="/assets/videos/sama/dataset/annotated2web.mp4" autoplay controls  muted loop style="width: 60%; height: auto;"></video>
+      <div class="caption">with material annotations</div>
+    </div>
+    <div class="NARWvideo-container2D">
+      <video src="/assets/videos/sama/dataset/annotated3web.mp4" autoplay controls  muted loop style="width: 60%; height: auto;"></video>
+      <div class="caption">with material annotations</div>
     </div>
 </div>
 

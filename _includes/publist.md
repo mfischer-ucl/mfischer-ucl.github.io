@@ -14,7 +14,11 @@
       <span style="font-size: 15px;">3DV 2026<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2411.19322">PDF</a>&nbsp;
+        <a class="mybutton" href="https://github.com/mfischer-ucl/sama">Code</a>&nbsp;
+        <a class="mybutton" href="https://drive.google.com/drive/folders/1RgdWvpP8muvgdkJXW-d6mWtOt-zHbxR4?usp=sharing">Data & Weights</a>&nbsp;
         <a class="mybutton" href="https://scholar.googleusercontent.com/scholar.bib?q=info:O7g-_GZ1mk0J:scholar.google.com/&output=citation&scisdr=ClEweelTEJrS_eZ9lUQ:AFWwaeYAAAAAZ1F7jUSENUPSeacG4Hzf9BaBL_s&scisig=AFWwaeYAAAAAZ1F7jQx3InKZi4hlgf1yDad4x3U&scisf=4&ct=citation&cd=-1&hl=en">Cite</a>&nbsp;
+        
+        <a class="mybutton" href="/assets/sama_poster.pdf" download="SAMa_poster.pdf">Poster</a>
         <a class="mybutton" href="/sama">Project Page</a>
       </span>
     </p>
