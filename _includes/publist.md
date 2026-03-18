@@ -1,6 +1,28 @@
 <ul>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
+    <img src='/assets/images/unilight/thumbnail.jpg' style="height: 140px; width: 220px;"/>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>UniLight: A Unified Representation for Lighting</b></span>
+    <br style="display: block; margin-top: -3px">
+    <span style="font-size: 15px;">
+          <a style="text-decoration:none; color:inherit;" href="https://zzt76.github.io/">Zhitian Zhang</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Iliyan Georgiev</a>,
+          <b>Michael Fischer</b>,
+          <a style="text-decoration:none; color:inherit;" href="https://yannickhold.com/">Yannick Hold-Geoffroy</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://iid.ulaval.ca/en/members/jean-francois-lalonde/">Jean-François Lalonde</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>
+      </span> <br>
+      <span style="font-size: 15px;">CVPR 2026<br></span>
+      <span style="font-size: 11px;">
+        <a class="mybutton" href="https://arxiv.org/abs/2512.04267">PDF</a>&nbsp;
+        <a class="mybutton" href="https://github.com/lvsn/UniLight">Code</a>&nbsp;
+        <a class="mybutton" href="https://lvsn.github.io/UniLight/#BibTeX">Cite</a>&nbsp;
+        <a class="mybutton" href="https://lvsn.github.io/UniLight/">Project Page</a>
+      </span>
+    </p>
+  </li>
+
+  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/sama/thumbnail.png' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>SAMa: Material-aware 3D Selection and Segmentation</b></span>
     <br style="display: block; margin-top: -3px">
@@ -16,8 +38,7 @@
         <a class="mybutton" href="https://arxiv.org/abs/2411.19322">PDF</a>&nbsp;
         <a class="mybutton" href="https://github.com/mfischer-ucl/sama">Code</a>&nbsp;
         <a class="mybutton" href="https://drive.google.com/drive/folders/1RgdWvpP8muvgdkJXW-d6mWtOt-zHbxR4?usp=sharing">Data & Weights</a>&nbsp;
-        <a class="mybutton" href="https://scholar.googleusercontent.com/scholar.bib?q=info:O7g-_GZ1mk0J:scholar.google.com/&output=citation&scisdr=ClEweelTEJrS_eZ9lUQ:AFWwaeYAAAAAZ1F7jUSENUPSeacG4Hzf9BaBL_s&scisig=AFWwaeYAAAAAZ1F7jQx3InKZi4hlgf1yDad4x3U&scisf=4&ct=citation&cd=-1&hl=en">Cite</a>&nbsp;
-        
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2411.19322&btnG=">Cite</a>&nbsp;
         <a class="mybutton" href="/assets/sama_poster.pdf" download="SAMa_poster.pdf">Poster</a>
         <a class="mybutton" href="/sama">Project Page</a>
       </span>
@@ -40,7 +61,9 @@
       <span style="font-size: 15px;">SIGGRAPH Asia 2025<br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2506.09023">PDF</a>&nbsp;
-        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Fine-Grained+Spatially+Varying+Material+Selection+in+Images&btnG=">Cite</a>&nbsp;
+        <a class="mybutton" href="https://graphics.unizar.es/projects/MatSelection/#code">Code & Data</a>&nbsp;
+        <a class="mybutton" href="https://webdiis.unizar.es/~juliagv/assets/bib/matselection.bib">Cite</a>&nbsp;
+        <a class="mybutton" href="https://graphics.unizar.es/projects/MatSelection/">Project Page</a>&nbsp;
       </span>
     </p>
   </li>
@@ -58,7 +81,10 @@
       <span style="font-size: 15px;">ICCV 2025 <span style="color: #C41E3A; font-weight: 600;">(Highlight)</span><br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2412.03489">PDF</a>&nbsp;
-        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=https%3A%2F%2Farxiv.org%2Fabs%2F2412.03489&btnG=">Cite</a>&nbsp;
+        <a class="mybutton" href="https://github.com/wangzican/Stochastic-Gradient-Estimation-for-Higher-order-Differentiable-Rendering#">Code</a>&nbsp;
+        <a class="mybutton" href="https://www.youtube.com/watch?v=eIpfalxe2M8">Video</a>&nbsp;
+        <a class="mybutton" href="https://wangzican.github.io/files/hodr/v4.pdf">Poster</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar.bib?q=info:HZPrX2tx_GcJ:scholar.google.com/&output=citation&scisdr=Cl-J1CbLEKOh_wR6jWI:AFtJQiwAAAAAabp8lWJqJe_5P77dY70xgL7tuHw&scisig=AFtJQiwAAAAAabp8lZrbe_diGWTS0hMCYyY6rqE&scisf=4&ct=citation&cd=-1&hl=en">Cite</a>&nbsp;
         <a class="mybutton" href="https://wangzican.github.io/publication/hodr">Project Page</a>&nbsp;
       </span> </p>
   </li>
@@ -86,7 +112,7 @@
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://dl.acm.org/doi/10.1145/3658173">PDF</a>&nbsp;
         <a class="mybutton" href="https://github.com/mfischer-ucl/zerograds">Code</a>&nbsp;
-        <a class="mybutton" href="https://scholar.googleusercontent.com/scholar.bib?q=info:z0yMrTiYKH0J:scholar.google.com/&output=citation&scisdr=ClEweelTEJrS_aWRUHc:AFWwaeYAAAAAZxKXSHct8sQaDv0L2PWNKEYH004&scisig=AFWwaeYAAAAAZxKXSEGS4nyKC1vJZqYVJj_EBys&scisf=4&ct=citation&cd=-1&hl=en">Cite</a>&nbsp;
+        <a class="mybutton" href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Zerograds%3A+Learning+local+surrogates+for+non-differentiable+graphics&btnG=">Cite</a>&nbsp;
         <a class="mybutton" href="/assets/zerograds_poster.pdf" download="ZeroGrads_poster.pdf">Poster</a>
         <a class="mybutton" href="/zerograds">Project Page</a>
       </span> </p>

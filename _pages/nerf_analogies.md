@@ -54,10 +54,10 @@ ol > li::marker {
                     <h4><strong>Video</strong></h4>
                 </a>
             </li>
-            <li class="horizItem">
+            <!-- <li class="horizItem">
                 <img class="teaserbutton" src="/assets/images/gh_icon.png" ><br>
                     <h4><strong>Code (coming soon)</strong></h4>
-            </li>
+            </li> -->
             <li class="horizItem">
                 <a href="/assets/nerfanalogies_poster.pdf" download="NeRFAnalogies_poster.pdf">
                 <img class="teaserbutton" src="/assets/images/poster.png"><br>
