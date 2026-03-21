@@ -45,7 +45,7 @@ li {
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/travel.png">
       <div class="item-text">
-        <p><b>03/26:</b> I've concluded my sabbatical in Central America; we visited amazing places in Ecuador, Colombia, Panama, Nicaragua, Honduras, San Salvador, Guatemala, Belize and Mexico. Excited to be back to work!</p>
+        <p><b>03/26:</b> I've concluded my sabbatical in Central America; we visited amazing places in Ecuador, Colombia, Panama, Nicaragua, Honduras, El Salvador, Guatemala, Belize and Mexico. Excited to be back at work!</p>
       </div>
     </div>
   </li>
