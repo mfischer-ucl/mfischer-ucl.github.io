@@ -247,7 +247,7 @@ video {
                 </a>
             </li>
             <li class="horizItem">
-                <a href="https://github.com/mfischer-ucl/sama">
+                <a href="https://github.com/adobe-research/sama">
                 <img class="teaserbutton" src="/assets/images/gh_icon2.png" ><br>
                     <h4><strong>Code</strong></h4>
                 </a>
