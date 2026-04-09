@@ -43,12 +43,29 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/appx3.png">
+      <div class="item-text">
+        <p><b>04/26:</b> Adobe Research is organizing the <a href="https://appx-workshop.github.io/">Appearance Understanding and Generation (APPX) workshop</a> at CVPR 2026, featuring world-leading experts from industry and academia. Together with <a href="https://gvecchio.com/">Giuseppe Vecchio</a>, I'll be chairing the session - come say hi, and join the talks!</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/travel.png">
       <div class="item-text">
         <p><b>03/26:</b> I've concluded my sabbatical in Central America; we visited amazing places in Ecuador, Colombia, Panama, Nicaragua, Honduras, El Salvador, Guatemala, Belize and Mexico. Excited to be back at work!</p>
       </div>
     </div>
   </li>
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/cvpr26.png">
+      <div class="item-text">
+        <p><b>02/26:</b> Our paper <a href="https://lvsn.github.io/UniLight/">UniLight: A Unified Representation for Lighting</a> has been accepted as a <u>highlight</u> at CVPR 2026!</p>
+      </div>
+    </div>
+  </li>
+  <li>
   <li>
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/3dv.png">
@@ -97,7 +114,7 @@ li {
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/iccv25.png">
       <div class="item-text">
-        <p><b>08/25:</b> Our work on <a href="https://wangzican.github.io/publication/hodr">stochastic higher-order gradient estimation</a> has been accepted as a highlight at ICCV 2025 - see you in Hawaii!</p>
+        <p><b>08/25:</b> Our work on <a href="https://wangzican.github.io/publication/hodr">stochastic higher-order gradient estimation</a> has been accepted as a <u>highlight</u> at ICCV 2025 - see you in Hawaii!</p>
       </div>
     </div>
   </li>

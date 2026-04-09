@@ -12,7 +12,7 @@
           <a style="text-decoration:none; color:inherit;" href="https://iid.ulaval.ca/en/members/jean-francois-lalonde/">Jean-François Lalonde</a>,
           <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>
       </span> <br>
-      <span style="font-size: 15px;">CVPR 2026<br></span>
+      <span style="font-size: 15px;">CVPR 2026 <span style="color: #C41E3A; font-weight: 600;">(Highlight)</span><br></span>
       <span style="font-size: 11px;">
         <a class="mybutton" href="https://arxiv.org/abs/2512.04267">PDF</a>&nbsp;
         <a class="mybutton" href="https://github.com/lvsn/UniLight">Code</a>&nbsp;
