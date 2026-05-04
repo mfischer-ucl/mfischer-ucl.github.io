@@ -1,6 +1,30 @@
 <ul>
 
   <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
+    <img src='/assets/images/maoam/thumbnail.png' style="height: 140px; width: 220px;"/>
+    <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>MAOAM: Unified Object & Material Selection with Vision-Language Models</b></span>
+    <br style="display: block; margin-top: -3px">
+    <span style="font-size: 15px;">
+          <a style="text-decoration:none; color:inherit;" href="https://zzt76.github.io/">Jaden Park</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/jason-kuen/">Jason Kuen</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=F3F2qAkAAAAJ&hl=en">Kangning Liu</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://iliyan.com/">Iliyan Georgiev</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/krishna-kumar-singh/">Krishna Kumar Singh</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://pages.cs.wisc.edu/~yongjaelee/">Yong Jae Lee</a>,
+          <b>Michael Fischer</b>
+      </span> <br>
+      <span style="font-size: 15px;">SIGGRAPH 2026<br></span>
+      <span style="font-size: 11px;">
+        <a class="mybutton" href="hhttps://mfischer-ucl.github.io/">PDF</a>&nbsp;
+        <a class="mybutton" href="https://mfischer-ucl.github.io/">Code</a>&nbsp;
+        <a class="mybutton" href="https://mfischer-ucl.github.io/">Cite</a>&nbsp;
+        <a class="mybutton" href="https://mfischer-ucl.github.io/">Project Page</a>
+      </span>
+    </p>
+  </li>
+
+  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
     <img src='/assets/images/unilight/thumbnail.jpg' style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>UniLight: A Unified Representation for Lighting</b></span>
     <br style="display: block; margin-top: -3px">
