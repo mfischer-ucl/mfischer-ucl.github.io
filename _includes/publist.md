@@ -5,7 +5,7 @@
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>MAOAM: Unified Object & Material Selection with Vision-Language Models</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
-          <a style="text-decoration:none; color:inherit;" href="https://zzt76.github.io/">Jaden Park</a>,
+          <a style="text-decoration:none; color:inherit;" href="https://jadenpark0.github.io/">Jaden Park</a>,
           <a style="text-decoration:none; color:inherit;" href="https://valentin.deschaintre.fr/">Valentin Deschaintre</a>,
           <a style="text-decoration:none; color:inherit;" href="https://research.adobe.com/person/jason-kuen/">Jason Kuen</a>,
           <a style="text-decoration:none; color:inherit;" href="https://scholar.google.com/citations?user=F3F2qAkAAAAJ&hl=en">Kangning Liu</a>,
