@@ -43,6 +43,14 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/200x200/eg26.png">
+      <div class="item-text">
+        <p><b>05/26:</b> I'm beyond honored to announce that I have received the Eurographics PhD Award 2026 for my thesis on inverse rendering and optimization!</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/appx3.png">
       <div class="item-text">
         <p><b>04/26:</b> Adobe Research is organizing the <a href="https://appx-workshop.github.io/">Appearance Understanding and Generation (APPX) workshop</a> at CVPR 2026, featuring world-leading experts from industry and academia. Together with <a href="https://gvecchio.com/">Giuseppe Vecchio</a>, I'll be chairing the session - come say hi, and join the talks!</p>
