@@ -1,7 +1,7 @@
 <ul>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
-    <img src='/assets/images/maoam/thumbnail.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
+    <img src='/assets/images/maoam/thumbnail.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>MAOAM: Unified Object & Material Selection with Vision-Language Models</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
@@ -24,8 +24,8 @@
     </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/unilight/thumbnail.jpg' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/unilight/thumbnail.jpg' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>UniLight: A Unified Representation for Lighting</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
@@ -46,8 +46,8 @@
     </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/sama/thumbnail.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/sama/thumbnail.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>SAMa: Material-aware 3D Selection and Segmentation</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;"><b>Michael Fischer</b>,
@@ -69,8 +69,8 @@
     </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/materialistic2/thumbnail2.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/materialistic2/thumbnail2.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Fine-Grained Spatially Varying Material Selection in Images</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
@@ -92,8 +92,8 @@
     </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/higherorder/thumb.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/higherorder/thumb.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Stochastic Gradient Estimation for Higher-order Differentiable Rendering
 </b></span>
     <br style="display: block; margin-top: -3px">
@@ -113,8 +113,8 @@
       </span> </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/ucl_logo2.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/ucl_logo2.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Efficient and Accurate Optimization in Inverse Rendering and Computer Graphics</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;"><b>Michael Fischer</b></span> <br>
@@ -125,8 +125,8 @@
     </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/zerograds/thumbnail2.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/zerograds/thumbnail2.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Zero Grads: Learning Local Surrogate Losses for Non-Differentiable Graphics</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;"><b>Michael Fischer</b>,
@@ -142,8 +142,8 @@
       </span> </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/neuralbounding/thumbnail.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/neuralbounding/thumbnail.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Neural Bounding</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
@@ -161,8 +161,8 @@
       </span> </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/nerf_analogies/nerfanalogies_thumb1.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/nerf_analogies/nerfanalogies_thumb1.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b> NeRF Analogies: Example-Based Visual Attribute Transfer for NeRFs </b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
@@ -184,8 +184,8 @@
       </span> </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/news/200x200/egdc24.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/news/200x200/egdc24.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Advanced Optimization for Machine Learning in Computer Graphics</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;">
@@ -197,8 +197,8 @@
       </span> </p>
   </li>  
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/prdpt/thumbnail.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/prdpt/thumbnail.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Plateau-Reduced Differentiable Path Tracing</b></span> <br>
       <span style="font-size: 15px;"><b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
@@ -215,8 +215,8 @@
     </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/learning2learn/thumbnail.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/learning2learn/thumbnail.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Learning to Learn and Sample BRDFs</b></span> <br>
       <span style="font-size: 15px;"><a style="text-decoration:none; color:inherit;" href="https://ryushinn.github.io/">Chen Liu</a>, <b>Michael Fischer</b>,
           <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
@@ -232,8 +232,8 @@
     </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-      <img src='/assets/images/metappearance/thumbnail.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+      <img src='/assets/images/metappearance/thumbnail.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
       <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>Metappearance: Meta-Learning for Visual Appearance Reproduction</b></span> <br>
         <span style="font-size: 15px;"><b>Michael Fischer</b>,
             <a style="text-decoration:none; color:inherit;" href="https://www.homepages.ucl.ac.uk/~ucactri/">Tobias Ritschel</a>
@@ -249,8 +249,8 @@
       </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/nicer_thumb2.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/nicer_thumb2.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px;"><b>NICER: Aesthetic Image Enhancement with Humans in the Loop</b></span> <br>
       <span style="font-size: 15px;"><b>Michael Fischer</b>,
         <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>,
@@ -266,8 +266,8 @@
     </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/thumb_msc2.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/thumb_msc2.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>Using Neural Networks as a Metric Towards Optimal Automated Image Enhancement</b></span>
     <span style="font-size: 15px;"><b>Michael Fischer</b>,
       <a style="text-decoration:none; color:inherit;" href="https://www.informatik.uni-wuerzburg.de/datascience/staff/kobs">Konstantin Kobs</a>,
@@ -281,8 +281,8 @@
     </span> </p>
   </li>
 
-  <li style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
-    <img src='/assets/images/thumb_bsc.png' style="height: 140px; width: 220px;"/>
+  <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 40px 0 0 -38px;">
+    <img src='/assets/images/thumb_bsc.png' class="pub-thumb" style="height: 140px; width: 220px;"/>
     <p style="margin: 0 0 0 20px;"> <span style="font-size: 20px; display: block; margin-top: -10px; line-height: 22px"><b>COSMOPALS: Component Simulation Model for Pulse-Shape Analysis in Positron Annihilation Lifetime Spectroscopy</b></span>
     <br style="display: block; margin-top: -3px">
     <span style="font-size: 15px;"><b>Michael Fischer</b>,
