@@ -1,4 +1,4 @@
-<ul>
+<ul class="publist">
 
   <li class="pub-item" style="display: flex; justify-content: left; align-items: center; margin: 0 0 0 -38px;">
     <img src='/assets/images/maoam/thumbnail.png' class="pub-thumb" style="height: 140px; width: 220px;"/>

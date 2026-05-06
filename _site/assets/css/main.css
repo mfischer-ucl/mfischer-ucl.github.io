@@ -1322,6 +1322,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 /* Publication list: remove bullets, plus mobile stacking layout */
 .page__content ul li.pub-item { list-style: none; }
 
-@media (max-width: 600px) { .page__content ul li.pub-item { display: block !important; margin-left: 0 !important; }
+@media (max-width: 600px) { .page__content ul.publist { padding-left: 0 !important; }
+  .page__content ul li.pub-item { display: block !important; margin-left: 0 !important; }
   .page__content ul li.pub-item > img.pub-thumb { display: block !important; width: 100% !important; height: auto !important; max-width: 100% !important; }
   .page__content ul li.pub-item > p { margin: 12px 0 0 0 !important; } }

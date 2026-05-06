@@ -31,6 +31,10 @@ $base0f: #d33682 !default;
 }
 
 @media (max-width: 600px) {
+  .page__content ul.publist {
+    padding-left: 0 !important;
+  }
+
   .page__content ul li.pub-item {
     display: block !important;
     margin-left: 0 !important;
