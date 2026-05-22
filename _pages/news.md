@@ -61,7 +61,7 @@ li {
     <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/200x200/eg26.png">
       <div class="item-text">
-        <p><b>05/26:</b> I'm beyond honored to announce that I have received the Eurographics PhD Award 2026 for my thesis on inverse rendering and optimization!</p>
+        <p><b>05/26:</b> I'm beyond honored to announce that I have received the <a href="https://www.eg.org/wp/2026/05/06/eurographics-congratulates-the-2026-award-recipients/">Eurographics PhD Award 2026</a> for my thesis on inverse rendering and optimization!</p>
       </div>
     </div>
   </li>
