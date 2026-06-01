@@ -30,6 +30,16 @@ $base0f: #d33682 !default;
   list-style: none;
 }
 
+/* Pin the thumbnail to a fixed 220x140 box so flexbox can't shrink it down to
+   its min-content width (140px x natural aspect ratio). Without this, thumbnails
+   whose aspect ratio differs from 220:140 (e.g. UniLight's square-ish JPG) render
+   narrower and drag the adjacent text left. object-fit: cover crops instead of
+   stretching the source image. */
+.page__content ul li.pub-item > img.pub-thumb {
+  min-width: 220px;
+  object-fit: cover;
+}
+
 @media (max-width: 600px) {
   .page__content ul.publist {
     padding-left: 0 !important;
@@ -45,6 +55,7 @@ $base0f: #d33682 !default;
     width: 100% !important;
     height: auto !important;
     max-width: 100% !important;
+    min-width: 0 !important;
   }
 
   .page__content ul li.pub-item > p {

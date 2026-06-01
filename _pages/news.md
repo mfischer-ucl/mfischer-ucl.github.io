@@ -75,6 +75,14 @@ li {
   </li>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/siggraph26.png">
+      <div class="item-text">
+        <p><b>03/26:</b> <a href="https://jadenpark0.github.io/project_pages/maoam/">MAOAM</a>, our work on using VLMs to enable joint object- and material-selection from both click- and text-inputs, has been accepted to SIGGRAPH 2026!</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/travel.png">
       <div class="item-text">
         <p><b>03/26:</b> I've concluded my sabbatical in Central America; we visited amazing places in Ecuador, Colombia, Panama, Nicaragua, Honduras, El Salvador, Guatemala, Belize and Mexico. Excited to be back at work!</p>
