@@ -43,6 +43,39 @@ li {
 <ul>
   <li>
     <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/eg.png">
+      <div class="item-text">
+        <p><b>07/26:</b> Our work on precise, generative image editing - <a href="https://johnberg1.github.io/resedit">ResEdit</a> - is being presented by <a href="https://johnberg1.github.io/">Canberk</a> at <a href="https://egsr2026.inria.fr/">EGSR 2026</a> in Bordeaux!</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/graphicsandimaginglab.png">
+      <div class="item-text">
+        <p><b>06/26:</b> I gave an invited talk at the <a href="https://graphics.unizar.es/">Graphics and Imaging Lab</a> at the <a href="https://www.unizar.es/">Universidad de Zaragoza</a>.</p>
+      </div>
+    </div>
+  </li>
+  <li>
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/cvc.png">
+      <div class="item-text">
+        <p><b>06/26:</b> I gave an invited talk at the <a href="https://www.cvc.uab.es/">Computer Vision Group</a> of <a href="https://www.uab.cat/">Universitat Autònoma de Barcelona</a>.</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
+      <img class="bulletptimg" src="/assets/images/news/cvpr26.png">
+      <div class="item-text">
+        <p><b>06/26:</b> I have chaired the <a href="https://appx-workshop.github.io/">Appearance Understanding and Generation (APPX) workshop</a> at CVPR 2026 in Denver.</p>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="item-wrapper">
       <img class="bulletptimg" src="/assets/images/news/news_icon.png">
       <div class="item-text">
         <p><b>05/26:</b> My hometown's local newspaper, the Mittelschwäbische Nachrichten, ran a feature on my career and PhD <a href="https://www.augsburger-allgemeine.de/krumbach/ki-forscher-michael-fischer-gestaltet-bilderkennung-bei-adobe-in-london-114199599">here</a>!</p>
